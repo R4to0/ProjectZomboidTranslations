@@ -1,5 +1,5 @@
 Farming_PTBR = {
-    -- vegetables name (type of seed)
+    -- nome dos vegetais (tipo da semente)
     Farming_Carrots = "Cenouras",
     Farming_Broccoli = "Brócolis",
     Farming_Radishes = "Rabanetes",
@@ -7,7 +7,7 @@ Farming_PTBR = {
     Farming_Tomato_Vine = "Videira de tomate",
     Farming_Potatoes = "Batatas",
     Farming_Cabbages = "Repolhos",
-    -- growing phase
+    -- fase de crescimento
     Farming_Seedling = "Broto",
     Farming_Young = "Jovem",
     Farming_Ready_for_Harvest = "Pronto para a colheita",
@@ -16,8 +16,8 @@ Farming_PTBR = {
     Farming_Receding = "Secando",
     Farming_Rotten = "Podre",
     Farming_Destroyed = "Destruída",
-    -- farming info text
-    -- title
+    -- Informações agrícolas
+    -- título 
     Farming_Plant_Information = "Informações da planta",
     Farming_Current_growing_phase = "Fase atual",
     Farming_Next_growing_phase = "Próxima fase",
@@ -26,23 +26,23 @@ Farming_PTBR = {
     Farming_Health = "Saudável",
     Farming_Disease = "Doente",
     Farming_Water_levels = "Níveis de água",
-    -- water
+    -- água 
     Farming_Well_watered = "Bem hidratado",
     Farming_Fine = "Bem",
     Farming_Thirsty = "Sedento",
     Farming_Dry = "Murcho",
     Farming_Parched = "Ressecado",
-    -- growing phase
+    -- fase de crescimento
     Farming_Seedling = "Broto",
     Farming_Fully_grown = "Adulto",
     Farming_Ready_to_harvest = "Pronto",
-    -- disease
+    -- doença
     Farming_Mildew = "Míldeo",
     Farming_Pest_Flies = "Moscas",
     Farming_Devil_Water_Fungi = "Fungos",
-    -- hours
+    -- horas
     Farming_Hours = "Horas",
-    -- health
+    -- saúde 
     Farming_Flourishing = "Florescendo",
     Farming_Verdant = "Verdejante",
     Farming_Healthy = "Saudável",
