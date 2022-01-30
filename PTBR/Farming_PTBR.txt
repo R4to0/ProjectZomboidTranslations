@@ -16,7 +16,7 @@ Farming_PTBR = {
     Farming_Receding = "Secando",
     Farming_Rotten = "Podre",
     Farming_Destroyed = "Destruída",
-    -- Informações agrícolas
+    -- informações agrícolas
     -- título 
     Farming_Plant_Information = "Informações da planta",
     Farming_Current_growing_phase = "Fase atual",
