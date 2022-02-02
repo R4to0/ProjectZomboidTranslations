@@ -27,7 +27,7 @@ Farming_PTBR = {
     Farming_Last_time_watered = "Última vez regado",
     Farming_Fertilized = "Fertilizado",
     Farming_Health = "Saúde",
-    Farming_Disease = "Doença",
+    Farming_Disease = "Doente.",
     Farming_Water_levels = "Níveis de água",
     -- água 
     Farming_Well_watered = "Bem regada",
