@@ -1,8 +1,8 @@
 MakeUp_PTBR = {
-    MakeUpCategory_Eyes = "Eyes",
-    MakeUpCategory_EyesShadow = "Eyeshadow",
-    MakeUpCategory_FullFace = "Full Face",
-    MakeUpCategory_Lips = "Lips",
+    MakeUpCategory_Eyes = "Olhos",
+    MakeUpCategory_EyesShadow = "Sombra no Olho",
+    MakeUpCategory_FullFace = "Rosto Completo",
+    MakeUpCategory_Lips = "Lábios",
 
     MakeUpType_EyesCrow = "Crow",
     MakeUpType_EyesRedStripes1 = "Red Stripes 1",
