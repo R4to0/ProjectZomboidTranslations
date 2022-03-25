@@ -1,33 +1,33 @@
 GameSound_PTBR = {
-    GameSound_ButtonAdvanced = "Advanced",
-    GameSound_ButtonReload = "Reload",
-    GameSound_ButtonReload_tt = "Reload all sounds.txt files.",
-    GameSound_VolumeControlTooltip = "Volume: %1%<br>Master Volume: %2 %3%",
+    GameSound_ButtonAdvanced = "Avançado",
+    GameSound_ButtonReload = "Recarregar",
+    GameSound_ButtonReload_tt = "Recarregar todos os arquivos sounds.txt.",
+    GameSound_VolumeControlTooltip = "Volume: %1%<br>Volume Principal: %2 %3%",
 
-    /* These are the names of tabs in the ui. */
-    /* The AUTO category is for GameSounds that aren't defined in sounds.txt. */
+    /* Estes são os nomes das abas na ui. */
+    /* A categoria AUTO é para GameSounds que não são definidos em sounds.txt. */
     GameSound_Category_AUTO = "AUTO",
     GameSound_Category_Item = "Item",
     GameSound_Category_Meta = "Meta",
-    GameSound_Category_Music = "Music",
-    GameSound_Category_Object = "Object",
-    GameSound_Category_Player = "Player",
-    GameSound_Category_Vehicle = "Vehicle",
-    GameSound_Category_World = "World",
-    GameSound_Category_Zombie = "Zombie",
+    GameSound_Category_Music = "Música",
+    GameSound_Category_Object = "Objeto",
+    GameSound_Category_Player = "Jogador",
+    GameSound_Category_Vehicle = "Veículo",
+    GameSound_Category_World = "Mundo",
+    GameSound_Category_Zombie = "Zumbi",
 
-    /* You can provide translations for every GameSound if you want to, some might appear in the menu but not in this file */
+    /* Você pode fornecer traduções para cada GameSound se quiser, algumas podem aparecer no menu, mas não neste arquivo */
 
 /* Item */
-    GameSound_AlarmClockRingingLoop = "Ringing Alarm Clock",
-    GameSound_WatchAlarmLoop = "Watch Alarm",
-    GameSound_AssaultShot = "Assault Rifle Shot".
-    GameSound_BatHit = "Baseball Bat Hit",
-    GameSound_BladeHit = "Blade Hit",
-    GameSound_BatSwing  = "Bat Swing",
-    GameSound_BatOnFloor = "Bat Ground Attack",
-    GameSound_ChopDoor = "Chop Door",
-    GameSound_SledgehammerHitDoor = "Hit Door with Sledgehammer",
+    GameSound_AlarmClockRingingLoop = "Despertador de Relógio Anelar",
+    GameSound_WatchAlarmLoop = "Alarme de Vigilância",
+    GameSound_AssaultShot = "Tiro de Rifle de Assalto".
+    GameSound_BatHit = "Golpe do Taco de Beisebol",
+    GameSound_BladeHit = "Golpe de Lâmina",
+    GameSound_BatSwing  = "Balanço de Morcegos",
+    GameSound_BatOnFloor = "Ataque Terrestre de Morcegos",
+    GameSound_ChopDoor = "Cortar Porta",
+    GameSound_SledgehammerHitDoor = "Bater na Porta com Marreta",
     GameSound_ClothesRipping = "Clothes Ripping",
     GameSound_BlowTorch = "Propane Torch",
     GameSound_Hammering = "Hammering",
