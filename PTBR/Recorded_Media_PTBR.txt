@@ -2818,7 +2818,7 @@ RM_79b4f959-95d2-4ad0-b981-cbcb63f743a7 = "[img=music] Abrace coelhinhos! [img=m
 RM_6a301851-de5c-4236-93c3-4385c7d21c47 = "[img=music] Ao amanhecer, todos os dias! [img=music]"
 RM_3afd60e7-ea3e-4959-98b1-7b57bcf5eb4c = "Gravação VHS: FITA DA MAMÃE"
 RM_0e9ac542-f500-48e6-b0ff-e34264dd9ef5 = "FITA DA MAMÃE"
-RM_1d7d78c3-0d34-449e-a72c-b32339f9041e = "[img=music] No sol... fique... Dirija! [img=music]"
+RM_1d7d78c3-0d34-449e-a72c-b32339f9041e = "[img=music] Ao... entardecer... Dirija! [img=music]"
 RM_547fa10b-c88f-4af7-be9c-41fadfd7e2b1 = "Isso não é o que parece!"
 RM_a27cd4b8-3bd2-4cdc-9d22-cabafc19ac19 = "Oh, verdade Janine? Parece-me a escrita de meu pai!"
 RM_931a8c62-002e-4944-b71b-4bfc72431824 = "Isso é verdade? É o seu bebê?!!"
