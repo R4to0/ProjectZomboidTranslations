@@ -1,37 +1,37 @@
-[VERSION] 41 - Initial Beta Release
+[VERSION] 41 - Versão Beta Inicial
 [SECTION]
-[NODOT] <CENTRE><SIZE:large> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too,however, we anticipate a fairly long public beta while all the various issues presented to us by community testers are spotlit and remedied. <LINE> Some key features, primarily MP, are disabled in the beta build. <LINE> 
-<LEFT> New gameplay styles: Builder, Brawler and Survivor
-More deadly ‘Survivor’ (Survival) gameplay balance – player can be dragged down by horde and feasted upon etc. 
-New survivor abilities: sitting, sneaking, sprinting, jogging, racking, reloading, climbing, fence-jumping, collapsing and much much more. 
-New combat, new weapons, new difficulty balance. 
-New character creation – many, many different new clothing options both on spawn and discoverable in the world as loot or on zombies. 
-New zombie behaviour: feasting on recent corpses, lolling against walls, falling over fences etc. 
-Blood system that progressively bloodies bodies and clothing of survivors and zombies 
-New injury system – movement and combat visibly hampered when injured. Lacerations now possible, an injury state that lies between bites and scratches. 
-Improved gunplay: green/red aiming outline, new guns, improved racking and reloading, increased gun loot spawn. 
-Zombie Death Scenes – zombies discovered in the situations in which people died. Prayer meetings, sports-viewing parties, survivor zeds wearing backpacks etc. 
-Situational zombie type/clothing and inventories – cop zeds in police station, firemen zeds in burnt buildings, Chef zeds in restaurant kitchens, bride and groom zeds at a wedding ceremony in church etc. 
-Clothing protection: different clothing provides different levels of protection from zombie attacks. 
-Visibly ripped and damaged clothing. 
-New Sims-style cutaway vision system. 
-Vehicle handling improvements, resizing and appearance tweaks. 
-Updated, remastered and improved Kentucky-themed soundtrack. Original music still in rotation, and also accessible through game options. 
-New SFX: weaponry, zombie moans etc. 
-New water visuals – including visible flow direction. 
-New puddle system during heavy rain. 
-Broken glass and related injuries. 
-Garage doors may be opened / closed and shake when hit. 
-New Challenge maps: Film Studio and Kingsmouth Vacation Island 
-3D Store Mannequins – can be dressed however you like 
-Working washing machines and driers 
-New game cursor 
-New level-up sound, and tweaked levelling system.
-Faint isometric aiming cursor that shows where you’re aiming in iso space. 
-New loot balance and loot balance system: houses and stores now have loot in the containers you would expect from real life – and not in a jumble. 
-Two tiers of loot priority – allowing for more realistic ‘filler’ loot amidst the more valuable gameplay items. 
-Many, many general fixes including remedies for: floating cars, farming issues, inaudible house alarms, erosion shrubs blocking vehicles, desensitized survivors being panicked by crawlers and much more. 
-VISIBLE BACKPACKS!
+[NODOT] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
+<LEFT> Novos estilos de jogo: Construtor, Apocalipse e Sobrevivente.
+Estilo de jogo 'Survivor' (Sobrevivência) mais mortal - o jogador pode ser arrastado pela horda e degustado, etc.
+Novas habilidades de sobrevivente: sentar, esgueirar-se, correr, corrida mais rápida, empilhar, recarregar, escalar, pular cercas, desabar e muito mais.
+Novo combate, novas armas, novo estilo de dificuldade.
+Nova criação de personagem – muitas, muitas novas opções de roupas, tanto no spawn quanto no mundo como loot ou em zumbis.
+Novo comportamento de zumbi: comendo cadáveres recentes, rosnando contra as paredes, caindo sobre cercas, etc.
+Sistema de sangue que progressivamente ensanguenta corpos e roupas de sobreviventes e zumbis.
+Novo sistema de lesões – movimento e combate visivelmente prejudicados quando feridos. Lacerações agora possíveis, um estado de lesão que fica entre mordidas e arranhões.
+Jogabilidade com armas aprimorada: contorno de mira verde/vermelho, novas armas, armazenamento e recarga aprimorados, aumento das chances de spawp de armas.
+Zombie Death Scenes – zumbis descobertos nas situações em que as pessoas morreram. Reuniões de oração, festas de exibição de esportes, zumbis usando mochilas etc.
+Tipo/roupas e inventários de zumbis situacionais – zumbis policiais em delegacias, zumbis bombeiros em prédios queimados, zumbis chefes em cozinhas de restaurantes, zumbis noivos em uma cerimônia de casamento na igreja, etc.
+Proteção de roupas: diferentes roupas fornecem diferentes níveis de proteção contra ataques de zumbis.
+Roupas visivelmente rasgadas e danificadas.
+Novo sistema de visão em corte no estilo Sims.
+Melhorias de direção do veículo, redimensionamento e ajustes na aparência.
+Trilha sonora atualizada, remasterizada e melhorada com o tema do Kentucky. Música original ainda em funcionamento, e também acessível através das opções do jogo.
+Novo SFX: armamento, gemidos de zumbis etc.
+Novos visuais de água – incluindo direção de fluxo visível.
+Novo sistema de poça durante tempestades.
+Vidro quebrado e ferimentos relacionados.
+As portas da garagem podem ser abertas/fechadas e tremer ao serem atingidas.
+Novos mapas de desafios: Estúdio de Cinema e Ilha de Férias Kingsmouth.
+Manequins de loja 3D - podem ser vestidos como você quiser.
+Lavadoras e secadoras funcionando.
+Novo cursor de jogo.
+Novo sistema de volumes do som.
+Cursor de mira isométrica fraca que mostra onde você está mirando no espaço iso.
+Novo sistema de loots reais e loots personalizados: casas e lojas agora têm loots nos contêineres que você esperaria da vida real - e não em uma confusão. 
+Dois níveis de prioridade de loot - permitindo um loot mais realista 'filler' em meio aos itens de jogo mais valiosos.
+Muitas, muitas correções gerais incluindo consertos para: carros flutuantes, problemas agrícolas, alarmes inaudíveis de casas, arbustos de erosão bloqueando veículos, sobreviventes medrosos sendo assustados por rastejadores e muito mais.
+MOCHILAS VISÍVEIS!
 
 [VERSION] 41.13
 [SECTION]
