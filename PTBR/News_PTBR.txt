@@ -35,16 +35,16 @@ MOCHILAS VISÍVEIS!
 
 [VERSION] 41.13
 [SECTION]
-Rebuilt jassimp64.dll with statically-linked c++ library (removes dependency on msvcp140.dll).
-Fixed exception in MouseState with 2-button mouse.
-Fixed lua error with climb-through-window context-menu command.
-Fixed solidtrans objects next to windowframes-without-windows being solid.
-Removed 3D-models and 3D-corpses options to fix invisible zombie bodies.
-Removed AutoZombieManager.java which adjusted the number of 3D models based on performance.
-Fixed exception with “New Roof-Hiding” = No option that causes black screen outside.
-Fixed “welcome to build 41” being off-center.
-Possibly fixed rainbow-colored bodies on Mac OS.
-Possibly fixed failure to load bob/bob_idle animation on Windows using the Turkish (and potentially other) locales.
+Jassimp64.dll reconstruída com library c++ estaticamente vinculada (remove a dependência da msvcp140.dll).
+Corrigida exceção no MouseState com mouse de 2 botões.
+Corrigido o erro lua com o comando do menu de contexto subir pela janela.
+Corrigido objetos solidtrans próximos a molduras de janelas sem janelas sendo sólidas.
+Modelos 3D removidos e opções de cadáveres 3D para consertar corpos de zumbis invisíveis.
+Removido o AutoZombieManager.java que ajustava o número de modelos 3D com base no desempenho.
+Corrigida a exceção com “Nova Ocultação de Telhado” = Nenhuma opção que causa tela preta externa.
+Corrigido “bem-vindo à build 41” fora do centro.
+Possivelmente corpos cor de arco-íris corrigidos no Mac OS.
+Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows usando os locais Turcos (e potencialmente outros).
 
 [VERSION] 41.14
 [SECTION]
