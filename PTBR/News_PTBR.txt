@@ -48,48 +48,48 @@ Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows
 
 [VERSION] 41.14
 [SECTION]
-Various movement / rotation fixes, hopefully a final Turkish lanuguage issue fix, various other bug fixes and working Brawler and Builder modes
-[SECTION]ANIMS
-Now treats aiming/strafing as a zero-momentum state, like idle. 
-Turn180 now uses idleToRun180 instead of runToTurn180 when going from strafe -> run in the opposite direction of travel. 
-Only blends (with animations) to defaultWalk/Run/Sprint if isTurningAround==false
-Uses animation-less transitions otherwise. This prevents the transition anims from doubling up with the turn180s anims.
-ZNetFriends continues pinging in singleplayer, possible it's one source of FPS drop
-Run -> Strafe -> Run now keeps to a straight line of travel. No longer does the strange arc movement during transition
-Strafe -> Run transitions now only use transition anims if at not turning more than 90 degrees.
-Strafe -> movement transitions updated to correct targets when isTurning90/Around.
+Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais
+[SECTION]ANIMAÇÕES
+Agora trata a mira/metralhadora como um estado de momento zero, como ocioso.
+Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da viagem.
+Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurningAround==false
+Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80..
+ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS
+Run -> Strafe -> Correr agora mantém uma linha reta de viagem. O estranho movimento do arco não ocorre mais durante a transição
+Strafe -> Executar transições agora usa apenas animações de transição se não girar mais de 90 graus.
+Strafe -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
 
-[SECTION] BALANCE 
-Increase quality of Tires on cars to at least 20-30% in Survival mode
+[SECTION] BALANCIAMENTO
+Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Sobrevivente.
 
-[SECTION]FIXES
-Fixed Vehicle stopping immediately after its tire is burst
-Failed to Poll Device spam should be hidden, may be source of FPS drop for those with Blutooth or other wireless hardawre
-Fixed missing bob/bob_idle on Turkish systems.
-Fixed AnimationSet lookup bug with Turkish locale ("Idle" -> "idle").
-Fixed EmptyStackException in IsoSpriteInstance.get().
-Fixed player not starting without clothes in AReallyCDDAy.
-Fixed custom icons for clothing and containers being lost after reloading a game.
-Fixed exception cleaning blood with a Bath Towel.
-Fixed exception loading shotguns (or any gun without a magazine).
-GrabItemAction transfers multiple items at a time similar to InventoryTransferAction.
-Fixed transferring large stacks of items tanking FPS.
-Fixed losing ammo when creating a sawn-off shotgun.
-Fixed resize behavior of the Customize Character screen.
-Fixed combining InventoryTransferActions when the source and destination containers aren't the same.
-Changed "version 110" to "version 120" in some shaders that use functions in const expressions.
-Fixes to MainThread/GameThread crash handling.
-[NODOT]<INDENT:40> A crash in RenderThread no longer locks-up the game.
-[NODOT]<INDENT:40> - Uncaught Errors now get absorbed, logged, and an attempt is made to preserve save data.
-[NODOT]<INDENT:40> Added uncaught exception handlers to MainThread, GameThread, and any other internal threads I could find.
-[NODOT]<INDENT:40> Added default uncaught handler for any external threads.
-[NODOT]<INDENT:40> Added custom handler for MainThread, sets bGameThreadExited and signals the RenderThread.
-[NODOT]<INDENT:40> Added custom handler for RenderThread, sets m_isCloseRequested, zaps any waiting queues, and waits for MainThread to save and close.
+[SECTION] CORREÇÕES
+Corrigido o veículo parando imediatamente após o pneu estourar
+Corrigida a Falha ao Pesquisar Dispositivo, o spam do dispositivo deve estar oculto, pode ser a fonte de queda de FPS para aqueles com Blutooth ou outro hardware sem fio.
+Corrigido bob/bob_idle ausente em sistemas Turcos.
+Corrigido o bug de pesquisa do AnimationSet com localidade turca ("Idle" -> "idle").
+Corrigido EmptyStackException em IsoSpriteInstance.get().
+Corrigido o jogador não começar sem roupas em AReallyCDDAy.
+Corrigido ícones personalizados para roupas e recipientes perdidos após recarregar um jogo.
+Corrigida a exceção de limpeza de sangue com uma Toalha de Banho.
+Corrigida a exceção para o carregamento de espingardas (ou qualquer arma sem carregador).
+GrabItemAction transfere vários itens de uma vez, semelhante a InventoryTransferAction.
+Corrigida a transferência de grandes pilhas de itens que reduziam o FPS.
+Corrigida a perda de munição ao criar uma espingarda serrada.
+Corrigido o comportamento de redimensionamento da tela de Personalizar Personagem.
+Corrigido da combinação de InventoryTransferActions quando os contêineres de origem e destino não são os mesmos.
+Alterado "versão 110" para "versão 120" em alguns shaders que usam funções em expressões constantes.
+Correções para tratamento de falhas MainThread/GameThread.
+[NODOT]<INDENT:40> Uma falha no RenderThread não trava mais o jogo.
+[NODOT]<INDENT:40> - Erros não detectados agora são absorvidos, registrados, e uma tentativa é feita para preservar os dados salvos.
+[NODOT]<INDENT:40> Adicionado manipuladores de exceções não capturados para MainThread, GameThread e qualquer outro thread interno que eu pudesse encontrar.
+[NODOT]<INDENT:40> Adicionado manipulador padrão não capturado para qualquer thread externo.
+[NODOT]<INDENT:40> Adicionado manipulador personalizado para MainThread, define bGameThreadExited e sinaliza o RenderThread.
+[NODOT]<INDENT:40> Adicionado manipulador personalizado para RenderThread, define m_isCloseRequested, zapeia qualquer fila de espera e aguarda MainThread salvar e fechar.
 [NODOT]<INDENT:40> - DebugOptions
-[NODOT]<INDENT:40> Added testThreadCrash mechanism, used to fire a crash on-demand, remotely from AnimZed.
-Fixes to odd arc turns during transitioning from walk -> strafe
-Fixed Brawler and Builder playstyle options in menu to stop them launching Survivor by mistake
-Crash-fix for when getVectorFromDirection is given a null vector.
+[NODOT]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
+Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe
+Corrigidas as opções de estilo de jogo Apocalipse e Construtor no menu para impedi-los de lançar o Sobrevivente por engano
+Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSION] 41.15
 [SECTION]NEW
