@@ -49,7 +49,7 @@ Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows
 [VERSION] 41.14
 [SECTION]
 Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais
-[SECTION]ANIMAÇÕES
+[SECTION] ANIMAÇÕES
 Agora trata a mira/metralhadora como um estado de momento zero, como ocioso.
 Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da viagem.
 Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurningAround==false
