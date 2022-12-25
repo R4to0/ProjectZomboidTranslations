@@ -1,7 +1,7 @@
 [VERSION] 41 - Versão Beta Inicial
 [SECTION]
 [NODOT] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
-<LEFT> Novos estilos de jogo: Constructor, Brawler e Survivor.
+<LEFT> Novos estilos de jogo: Builder, Brawler e Survivor.
 Estilo de jogo "Survivor" (Sobrevivência) mais mortal - o jogador pode ser arrastado pela horda ser degustado e etc.
 Novas habilidades de sobrevivente: sentar, esgueirar-se, correr, corrida mais rápida, empilhar, recarregar, escalar, pular cercas, desabar e muito mais.
 Novo combate, novas armas, novo estilo de dificuldade.
@@ -89,7 +89,7 @@ Correções para tratamento de falhas MainThread/GameThread.
 [NODOT]<INDENT:40> - DebugOptions.
 [NODOT]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
 Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe.
-Corrigidas as opções de estilo de jogo Brawler e Construtor no menu para impedi-los de lançar o Survivor por engano.
+Corrigidas as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Survivor por engano.
 Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSION] 41.15
