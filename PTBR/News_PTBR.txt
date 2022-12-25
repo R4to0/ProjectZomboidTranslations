@@ -28,7 +28,7 @@ Lavadoras e secadoras funcionando.
 Novo cursor de jogo.
 Novo sistema de volumes do som.
 Cursor de mira isométrica fraca que mostra onde você está mirando no espaço iso.
-Novo sistema de loots reais e loots personalizados: casas e lojas agora têm loots nos contêineres que você esperaria da vida real - e não em uma confusão. 
+Novo sistema de loots reais e loots personalizados: casas e lojas agora têm loots nos contêineres que você esperaria da vida real - e não em uma confusão.
 Dois níveis de prioridade de loot - permitindo um loot mais realista 'filler' em meio aos itens de jogo mais valiosos.
 Muitas, muitas correções gerais incluindo consertos para: carros flutuantes, problemas agrícolas, alarmes inaudíveis de casas, arbustos de erosão bloqueando veículos, sobreviventes medrosos sendo assustados por rastejadores e muito mais.
 MOCHILAS VISÍVEIS!
@@ -48,12 +48,13 @@ Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows
 
 [VERSION] 41.14
 [SECTION]
-Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais
+Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais.
+
 [SECTION] ANIMAÇÕES
 Agora trata a mira/metralhadora como um estado de momento zero, como ocioso.
-Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da viagem.
+Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da direção inicial
 Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurningAround==false
-Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80..
+Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80
 ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS
 Run -> Strafe -> Correr agora mantém uma linha reta de viagem. O estranho movimento do arco não ocorre mais durante a transição
 Strafe -> Executar transições agora usa apenas animações de transição se não girar mais de 90 graus.
@@ -63,7 +64,7 @@ Strafe -> transições de movimento atualizadas para corrigir alvos quando está
 Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Survivor.
 
 [SECTION] CORREÇÕES
-Corrigido o veículo parando imediatamente após o pneu estourar
+Corrigido o veículo parando imediatamente após o pneu estourar.
 Corrigida a Falha ao Pesquisar Dispositivo, o spam do dispositivo deve estar oculto, pode ser a fonte de queda de FPS para aqueles com Blutooth ou outro hardware sem fio.
 Corrigido bob/bob_idle ausente em sistemas Turcos.
 Corrigido o bug de pesquisa do AnimationSet com localidade turca ("Idle" -> "idle").
@@ -85,7 +86,7 @@ Correções para tratamento de falhas MainThread/GameThread.
 [NODOT]<INDENT:40> Adicionado manipulador padrão não capturado para qualquer thread externo.
 [NODOT]<INDENT:40> Adicionado manipulador personalizado para MainThread, define bGameThreadExited e sinaliza o RenderThread.
 [NODOT]<INDENT:40> Adicionado manipulador personalizado para RenderThread, define m_isCloseRequested, zapeia qualquer fila de espera e aguarda MainThread salvar e fechar.
-[NODOT]<INDENT:40> - DebugOptions
+[NODOT]<INDENT:40> - DebugOptions.
 [NODOT]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
 Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe.
 Corrigidas as opções de estilo de jogo Brawler e Construtor no menu para impedi-los de lançar o Survivor por engano.
@@ -117,8 +118,8 @@ Definir gerador para ConditionMax = 100.
 Definir algumas peças de veículo para ConditionMax = 100.
 
 [SECTION] MUDANÇAS DE ANIMAÇÕES E MODELOS
-Ajustadas várias animações de turno
-Logotipo da van mccoy invertida
+Ajustadas várias animações de turno.
+Logotipo da van mccoy invertida.
 
 [SECTION]FIXES
 Fixed shoving the first zombie within range, rather than the closest zombie within range.
