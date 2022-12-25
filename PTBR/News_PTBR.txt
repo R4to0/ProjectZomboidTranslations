@@ -1,8 +1,8 @@
 [VERSION] 41 - Versão Beta Inicial
 [SECTION]
 [NODOT] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
-<LEFT> Novos estilos de jogo: Construtor, Apocalipse e Sobrevivente.
-Estilo de jogo "Sobrevivente" (Sobrevivência) mais mortal - o jogador pode ser arrastado pela horda ser degustado e etc.
+<LEFT> Novos estilos de jogo: Construtor, Brawler e Survivor.
+Estilo de jogo "Survivor" (Sobrevivência) mais mortal - o jogador pode ser arrastado pela horda ser degustado e etc.
 Novas habilidades de sobrevivente: sentar, esgueirar-se, correr, corrida mais rápida, empilhar, recarregar, escalar, pular cercas, desabar e muito mais.
 Novo combate, novas armas, novo estilo de dificuldade.
 Nova criação de personagem – muitas, muitas novas opções de roupas, tanto no spawn quanto no mundo como loot ou em zumbis.
@@ -60,7 +60,7 @@ Strafe -> Executar transições agora usa apenas animações de transição se n
 Strafe -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
 
 [SECTION] BALANCIAMENTO
-Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Sobrevivente.
+Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Survivor.
 
 [SECTION] CORREÇÕES
 Corrigido o veículo parando imediatamente após o pneu estourar
@@ -87,38 +87,38 @@ Correções para tratamento de falhas MainThread/GameThread.
 [NODOT]<INDENT:40> Adicionado manipulador personalizado para RenderThread, define m_isCloseRequested, zapeia qualquer fila de espera e aguarda MainThread salvar e fechar.
 [NODOT]<INDENT:40> - DebugOptions
 [NODOT]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
-Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe
-Corrigidas as opções de estilo de jogo Apocalipse e Construtor no menu para impedi-los de lançar o Sobrevivente por engano
+Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe.
+Corrigidas as opções de estilo de jogo Brawler e Construtor no menu para impedi-los de lançar o Survivor por engano.
 Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSION] 41.15
-[SECTION]NEW
-Renamed playstyles for clarity and to emphasise dev intent for how they should be played. Brawler becomes Survivor, Survivor becomes Apocalypse.
-Added anim-less transitions for sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, and sneakRunLow -> strafe
-[NODOT]<INDENT:40> - Eliminates the odd turning arc while transitioning to strafe.
-Removed strafeToWalk animation from strafeSneak -> walk/run/etc.
-[NODOT]<INDENT:40> - Reduces the amount the character jumps while transitioning from strafeSneak to said states.
-Implemented SFX for lower impact car collisions
-Added falling-zombie state.
-Added context-menu tooltip for opening/closing curtains to display keyboard and mouse shortcuts.
-Added VERSION=1 to keys.ini. Remap C to L when VERSION is not present or is less than 1.
-Added state transition from lunge to falling for zombies.
-Added climb over fence transition to falling (when there's no floor on the other side).
-Added Height map texture for puddles. This texture should increase performance when drawing puddles.
-Added Logs/ZombieSpawn.txt to record zombie spawns.  Should record zombies spawning inside of buildings, not so much outside.
+[SECTION] NOVO
+Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brawler se torna Survivor, Survivor se torna Apocalypse.
+Adicionadas transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
+[NODOT]<INDENT:40> - Elimina o estranho arco de giro durante a transição para o strafe.
+Removido a animação strafeToWalk do strafeSneak -> walk/run/etc.
+[NODOT]<INDENT:40> - Reduz a quantidade de saltos do personagem durante a transição de strafeSneak para os referidos estados.
+Implementado SFX para colisões de carros de menor impacto.
+Adicionado estado de zumbi caindo.
+Adicionada dica de ferramenta do menu de contexto para abrir/fechar cortinas para exibir atalhos de teclado e mouse.
+Adicionado VERSION=1 ao keys.ini. Remapear C para L quando VERSION não estiver presente ou for menor que 1.
+Adicionado transição de estado de estocada para queda de zumbis.
+Adicionado escalar a transição da cerca para cair (quando não há chão do outro lado).
+Adicionada textura de mapa de altura para poças. Essa textura deve aumentar o desempenho ao desenhar poças.
+Adicionado Logs/ZombieSpawn.txt para registrar spawns de zumbis. Deve gravar zumbis surgindo dentro de edifícios, não tanto fora.
 
-[SECTION]BALANCE
-Toned down zombies and zombie spawns a little in Survivor (formerly Brawler)
-Reduced the delay after climbing through a window or over a fence before the player can move.
-Temporarily disabled body temperature change to help people survive winter
-Made hit detection on body parts on downed zombies a little tad more generous
-Bare hands in multi hit can now shove up to 3 zombies - on Survivor mode (formerly Brawler)
-Set generator ConditionMax=100.
-Set some vehicle parts ConditionMax=100.
+[SECTION] BALANCIAMENTO
+Zumbis atenuados e spawns de zumbis diminuem em Survivor (anteriormente Brawler).
+Reduzido o atraso após escalar uma janela ou uma cerca antes que o jogador possa se mover.
+Mudança de temperatura corporal temporariamente desativada para ajudar as pessoas a sobreviver ao inverno.
+Tornou a detecção de acertos em partes do corpo de zumbis abatidos um pouco mais generosa.
+Mãos vazias em golpes múltiplos agora podem empurrar até 3 zumbis - no modo Survivor (anteriormente Brawler).
+Definir gerador para ConditionMax = 100.
+Definir algumas peças de veículo para ConditionMax = 100.
 
-[SECTION]ANIM AND MODEL CHANGES
-Tweaked several turn anims
-Reversed mccoy van logo
+[SECTION] MUDANÇAS DE ANIMAÇÕES E MODELOS
+Ajustadas várias animações de turno
+Logotipo da van mccoy invertida
 
 [SECTION]FIXES
 Fixed shoving the first zombie within range, rather than the closest zombie within range.
