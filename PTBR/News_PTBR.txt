@@ -121,36 +121,36 @@ Definir algumas peças de veículo para ConditionMax = 100.
 Ajustadas várias animações de turno.
 Logotipo da van mccoy invertida.
 
-[SECTION]FIXES
-Fixed shoving the first zombie within range, rather than the closest zombie within range.
-Fixed incorrect path to Ambient Piano
-Attempted fix for Mac issues via rebuilt Mac 'lighting' libLighting.dylib
-Fixed zombification from tree scratches.
-Fixed RenderThread jobs sometimes being reported as finished before they are invoked.
-Fixed "Random" button in the Customize Character screen resetting the player's profession.
-Fixed molotovs and broken weapons not being removed from the player's hands.
-Fixed item icons on the ground being twice normal size when "Double sized textures" = No.
-Fixed issues saving the player to the vehicles.db database.
-Fixed unicode filenames are not supported by animation/model importer.
-Fixed not being able to open/close windows via the context menu when the player is already standing at the exact center of the square.
-Stopped zombies dragging down a god-mode player to their death.
-Lowered outside passenger positions of SportsCar (fixes a camera glitch).
-Rip Clothing and Craft Sheet Rope work on all selected items (if they're valid).
-Removed PerformanceSettings.modelsEnabled and PerformanceSettings.support3D.
-Lowered the number of asset-loading threads from 4 to 2 on systems with 4 or fewer hardware threads. i.e dual-core with hyperthreading, or quad-core without hyperthreading.
-Fixed missing trait icons when using the Turkish locale. (Prone to Illness, Illiterate, etc).  Anything with a capital I.
-Double-clicking tutorial and playstyle labels in the new-game screen proceeds to the next screen.
-Fixed issues attacking while in a vehicle (infinite ammo, can't shove).
-Try to fix exceptions in ClimbThroughWindowState.  Don't store IsoWindow or IsoGridSquare in StateMachineParams since they may become invalid due to map scrolling (for zombies on the edge of the loaded area, not the player)
-Fixed lua error in DebugChunkStateUI
-Fixed displaying LMENU as LALT.  Display RMENU as RALT.
-Fixed clearing a keybind displays it with no name instead of NONE.
-Fixed some weirdness in the fastforward cancel when near zombies.
-Fixed items floating off the ground when dropped from inside a vehicle.
-Fixed multiplying generators after using "Equip in both hands".
-Fixed parenting the player's inventory to a zombie after a knife gets stuck in the zombie's head.
-Fixed Bare Hands not being counted as a favorite weapon, except when stomping.
-Fixed "Untie Hair" option being available for already-untied hair after loading a game.Fixed player not dying properly after falling.
+[SECTION] CONSERTOS
+Corrigido empurrando o primeiro zumbi dentro do alcance, em vez do zumbi mais próximo dentro do alcance.
+Corrigido o caminho incorreto para o Piano Ambiente.
+Tentativa de correção para problemas do Mac por meio de 'iluminação' reconstruída do Mac libLighting.dylib
+Corrigida a zumbificação de arranhões de árvores.
+Tarefas RenderThread corrigidas às vezes sendo relatadas como concluídas antes de serem invocadas.
+Corrigido o botão "Aleatório" na tela Personalização de Personagem, redefinindo a profissão do jogador.
+Corrigido molotovs e armas quebradas não sendo removidas das mãos do jogador.
+Corrigido ícones de itens no chão sendo o dobro do tamanho normal quando "Texturas de tamanho duplo" = Não.
+Corrigido problemas ao salvar o jogador no banco de dados vehicles.db.
+Corrigido os nomes de arquivos unicode não são suportados pelo importador de animação/modelo.
+Corrigido não ser capaz de abrir/fechar janelas através do menu de contexto quando o jogador já está exatamente no centro do quadrado.
+Corrigido zumbis parados arrastando um jogador no modo Deus para a morte.
+Corrigido posições externas de passageiros rebaixados do Carro Esportivo (corrige uma falha na câmera).
+Corrigido Pano Rasgado e Corda Improvisada funcionam em todos os itens selecionados (se forem válidos).
+Removido Performance Settings.modelsEnabled e Performance Settings.support 3D.
+Reduzido o número de threads de carregamento de ativos de 4 para 2 em sistemas com 4 ou menos threads de hardware. Ou seja, dual-core com hyperthreading ou quad-core sem hyperthreading.
+Corrigido ícones de traços ausentes ao usar o local turco. (Saúde Fraca, Analfabeto, etc.).  Qualquer coisa com um I maiúsculo.
+Clicar duas vezes nos rótulos de tutorial e estilo de jogo na tela do novo jogo avança para a próxima tela.
+Corrigido problemas ao atacar enquanto estiver em um veículo (munição infinita, não pode empurrar).
+Tentativa de corrigir exceções em ClimbThroughWindowState. Não armazene IsoWindow ou IsoGridSquare em StateMachineParams, pois eles podem se tornar inválidos devido à rolagem do mapa (para zumbis na borda da área carregada, não para o jogador)
+Corrigido erro de lua em DebugChunkStateUI
+Corrigida a exibição de LMENU como LALT. Exibir RMENU como RALT.
+Corrigida a limpeza de uma tecla de atalho do teclado, exibindo-o sem nome em vez de NENHUM.
+Corrigidas algumas estranhezas no cancelamento do avanço rápido quando perto de zumbis.
+Corrigido itens flutuando do chão quando largados de dentro de um veículo.
+Corrigido geradores de multiplicação após usar "Equipar nas Duas as Mãos".
+Corrigida a atribuição do inventário do jogador a um zumbi depois que uma faca fica presa na cabeça do zumbi.
+Corrigido Mãos Vazias não sendo contadas como uma arma favorita, exceto ao pisar.
+Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrados após o carregamento de um jogo. Corrigido jogador que não morria corretamente após cair.
 
 [VERSION] 41.16
 [SECTION]
