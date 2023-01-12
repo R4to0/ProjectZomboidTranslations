@@ -57,7 +57,7 @@ Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurni
 Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80.
 ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS.
 Correr -> Esgueirar -> Correr agora te mantém em uma linha reta. O estranho movimento do curva não ocorre mais durante a transição.
-Esgueirar -> Executar transições agora usa apenas animações de transição se não girar mais de 90 graus.
+Esgueirar -> Executa transições agora usa apenas animações de transição se não girar mais de 90 graus.
 Esgueirar -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
 
 [SEÇÃO] BALANCIAMENTO
