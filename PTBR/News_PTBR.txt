@@ -155,28 +155,28 @@ Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrado
 [VERSÃO] 41.16
 [SEÇÃO]
 - Maior alocação de memória para zomboid de 64 bits que poderia evitar falhas em alguns sistemas que carregam no jogo.
-Fixed shader issues with clothing overlays and holes which affect some GPUs (big source of hangs/crashes on game load / leaving spawn house and probably the same cause of some mac issues reported)
-Added options for transparency / visibility of iso cursor for combat.
-- Render thread will now throw out better error messages for diagnosing future problems.
-Fixed zombies playing their death sound sometimes when stabbed (but not jaw-stabbed).
-[OBS]<INDENT:40> This happened when bCloseKill=true but CriticalHit=false.
-A zombie dies as soon as it is jaw-stabbed, not after falling to the ground.
-[OBS]<INDENT:40> The KnifeDeath animation is played in the falldown state, not the hitreaction state.
-[OBS]<INDENT:40> The KnifeDeath hitreaction doesn't happen now because the zombie is dead before falling.
-Fixed zombie number issue on Survival
-Fixed pathfinding failing when moving on the same square when that square is blocked in all directions.
-[OBS]<INDENT:40> This worked before luautils.walkAdj() was changed to not call AdjacentFreeTileFinder.isTileOrAdjacent().
+Corrigidos problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
+Adicionadas opções de transparência / visibilidade do cursor iso para combate.
+- A linha de renderização agora emitirá mensagens de erro melhores para diagnosticar problemas futuros.
+Corrigidos zumbis tocando seu som de morte às vezes quando esfaqueados (mas não esfaqueados na mandíbula).
+[OBS]<INDENT:40> Isso aconteceu quando bCloseKill=true mas CriticalHit=false.
+Um zumbi morre assim que é esfaqueado no maxilar, não depois de cair no chão.
+[OBS]<INDENT:40> A animação KnifeDeath é reproduzida no estado de queda, não no estado de reação ao golpe.
+[OBS]<INDENT:40> A reação de golpe KnifeDeath não acontece agora porque o zumbi está morto antes de cair.
+Corrigido o problema do número de zumbis em Sobrevivência.
+Corrigida a falha de localização de caminho ao mover-se no mesmo quadrado quando esse quadrado está bloqueado em todas as direções.
+[OBS]<INDENT:40> Isso funcionava antes de luautils.walkAdj() ser alterado para não chamar AdjacentFreeTileFinder.isTileOrAdjacent().
 
 [VERSÃO] 41.17
-[SEÇÃO]NEW
-All characters now start with a belt - giving them a "Back" slot & two belt (left/right) belt slots.
-You can either right click a slot, or drag & drop a weapon to it.  Or, alternatively, click a weapon in your inventory to attach it to the hotbar.
-Weapons will be shown on the player. Pressing a hotkey (from 1 to 5) will auto equip the weapon assigned to each slot.
-Added holsters. Holsters have a chance to spawn on police/policestate zombies
-Rebuilt ProjectZomboid.exe as a gui application, no more console window. Should work with Steam remote play together now.
-Added player Bob_VaultOverToFall animation when climbing over fences.
-Added zombie Zombie_WalkTrees animation for walktoward and pathfind states.
-Zombie lunge animations played at 50% speed in trees.
+[SEÇÃO] NOVO
+Todos os personagens agora começam com um cinto - dando a eles uma slot "traseira" e dois slots de cinto (esquerdo/direito).
+Você pode clicar com o botão direito do mouse em um slot ou arrastar e soltar uma arma nele. Ou, alternativamente, clique em uma arma em seu inventário para anexá-la na hotbar.
+As armas serão mostradas no jogador. Pressionar uma tecla de atalho (de 1 a 5) equipará automaticamente a arma atribuída a cada slot.
+Coldres adicionados. Coldres têm a chance de aparecer em zumbis da polícia/policial estadual.
+ProjectZomboid.exe reconstruído como um aplicativo GUI, sem mais janela de console. Deve funcionar com o Steam remote play juntos agora.
+Adicionada animação do jogador Bob_VaultOverToFall ao pular cercas.
+Adicionada animação zumbi Zombie_WalkTrees para os estados walktoward e pathfind.
+Animações de ataques de zumbis reproduzidas a 50% de velocidade nas árvores.
 
 [SEÇÃO]BALANCE
 
