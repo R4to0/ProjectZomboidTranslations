@@ -191,37 +191,37 @@ Adicionado a pesca com lança.
 Agora equipa uma pá de 2 mãos ao tirar a terra/areia.
 Adicionada frigideira com grelha para fritar.
 
-[SEÇÃO]FIXES
+[SEÇÃO] CORREÇÕES
 
-Fixed zombies spawning in buildings long after a player has entered the building. 
-Fixed Double-barrel shotgun issues.
-[OBS]<INDENT:40> 1) Missing inventory icon.
-[OBS]<INDENT:40> 2) Removed chamber, which allowed 3 shells to be loaded.
-[OBS]<INDENT:40> 3) Racking not required.
-Fixed blob/suitcase Zeds on spawn
-Fixed FMOD crash on 64-bit.
-Fixed zombies getting stuck in the air after climbing through a window.
-Fixed exception after renaming food to have a dollar-sign character in it.
-Fixed lua error when taking compost from a composter.
-Fixed zombified players interacting with doors/windows/etc by left-clicking.
-Fixed new shovels not being useable for taking dirt/gravel/sand.
-Fixed hammering animation when pouring dirt/gravel/sand from a bag.
-Fixed Logs.zip console.txts are limited to all of 2 lines during most crashes
-Fixed issues pressing Escape while entering or exiting a vehicle, or switching seats.
-Fixed players going through a wall when run-vaulting over a fence adjacent to the wall.
-Fixed issue: Unhandled Thread exception by the SQLDB in a non UTF8 environ.
-Fixed Protection screen not working with a controller.
-Fixed Info hair/beard buttons not working with a controller.
-Fixed clothing dryer and washer continuing to play sound after the power goes out.
-Fixed weather mask not updating when the zoom level changes.
-Fixed weather mask not rendering for splitscreen players.
-Fixed zombies get stuck after climbing over a fence with no floor on the other side.
-Fixed some files being closed via garbage collection.
-Crouch key only affects player 0 which fixes split-screen shared crouch
-Fixed "Sit On Ground" context-menu option is available when already sitting.
-Fixed "Sit On Ground" context-menu option is not available when using a controller.
-Fixed adding frozen food into recipes.
-Fixed old Socks still existing.
+Corrigidos zumbis surgindo em edifícios muito depois de um jogador entrar no prédio. 
+Corrigidos problemas de espingarda de cano duplo.
+[OBS]<INDENT:40> 1) Ícone de inventário ausente.
+[OBS]<INDENT:40> 2) Câmara removida, que permitia o carregamento de 3 projéteis.
+[OBS]<INDENT:40> 3) Racking não é necessário.
+Corrigido blob/mala Zeds no spawn.
+Corrigida a falha do FMOD em 64 bits.
+Corrigidos zumbis ficando presos no ar depois de pular uma janela.
+Corrigida a exceção após renomear a comida para ter um caractere de dolar.
+Corrigido o erro de lua ao retirar o composto de uma composteira.
+Corrigido jogadores zumbificados interagindo com portas/janelas/etc clicando com o botão esquerdo do mouse.
+Corrigidas novas pás não sendo utilizáveis para tirar terra/cascalho/areia.
+Corrigida a animação de martelar ao derramar terra/cascalho/areia de um saco.
+Corrigido Logs.zip console.txts são limitados a todas as 2 linhas durante a maioria das falhas.
+Corrigidos problemas ao pressionar Escape ao entrar ou sair de um veículo ou trocar de assento.
+Corrigidos jogadores atravessando uma parede ao saltar sobre uma cerca adjacente à parede.
+Problema corrigido: exceção de thread não tratada pelo SQLDB em um ambiente não UTF8.
+Corrigida a tela de proteção que não funcionava com um controle.
+Corrigidos botões de cabelo/barba de informações que não funcionam com um controle.
+Corrigidas secadora e lavadora de roupas continuando a reproduzir som após a queda de energia.
+Corrigida máscara meteorológica não atualizando quando o nível de zoom muda.
+Corrigida máscara meteorológica não renderizada para jogadores em tela dividida.
+Corrigidos os zumbis que ficam presos depois de pular uma cerca sem chão do outro lado.
+Corrigidos alguns arquivos sendo fechados através da coleta de lixo.
+Corrigida a tecla Abaixar que afeta apenas o jogador 0, que corrige o agachamento compartilhado em tela dividida.
+Corrigida a opção do menu de contexto "Sentar no Chão" está disponível quando você já está sentado.
+Corrigida a opção do menu de contexto "Sentar no Chão" não está disponível ao usar um controle.
+Corrigida a adição de alimentos congelados em receitas.
+Correção de meias velhas ainda existentes.
 
 [VERSÃO] 41.18
 
