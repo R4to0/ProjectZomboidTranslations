@@ -52,13 +52,13 @@ Várias correções de movimento / rotação, espera-se uma correção final do 
 
 [SEÇÃO] ANIMAÇÕES
 Agora trata a mira/metralhadora como um estado de momento zero, como ocioso.
-Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da direção inicial
-Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurningAround==false
-Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80
-ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS
-Run -> Strafe -> Correr agora mantém uma linha reta de viagem. O estranho movimento do arco não ocorre mais durante a transição
-Strafe -> Executar transições agora usa apenas animações de transição se não girar mais de 90 graus.
-Strafe -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
+Turn180 agora usa idleToRun180 em vez de runToTurn180 ao ir de strafe -> correr na direção oposta da direção inicial.
+Apenas combina (com animações) com o padrão Caminhar/Correr/Correr se isTurningAround==false.
+Caso contrário, usa transições sem animação. Isso evita que os animações de transição dobrem com as animações da virada dos anos 80.
+ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS.
+Correr -> Esgueirar -> Correr agora te mantém em uma linha reta. O estranho movimento do curva não ocorre mais durante a transição.
+Esgueirar -> Executar transições agora usa apenas animações de transição se não girar mais de 90 graus.
+Esgueirar -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
 
 [SEÇÃO] BALANCIAMENTO
 Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Survivor.
