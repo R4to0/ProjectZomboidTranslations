@@ -23,7 +23,7 @@ Novo sistema de poça durante tempestades.
 Vidro quebrado e ferimentos relacionados.
 As portas da garagem podem ser abertas/fechadas e tremer ao serem atingidas.
 Novos mapas de desafios: Estúdio de Cinema e Ilha de Férias Kingsmouth.
-Manequins de loja 3D - podem ser vestidos como você quiser.
+Manequins 3D das lojas - podem ser vestidos como você quiser.
 Lavadoras e secadoras funcionando.
 Novo cursor de jogo.
 Novo sistema de volumes do som.
