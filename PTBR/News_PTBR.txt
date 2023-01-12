@@ -1,4 +1,4 @@
-[VERSION] 41 - Versão Beta Inicial
+[VERSÃO] 41 - Versão Beta Inicial
 [SEÇÃO]
 [NODOT] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
 <LEFT> Novos estilos de jogo: Builder, Brawler e Survivor.
@@ -33,7 +33,7 @@ Dois níveis de prioridade de loot - permitindo um loot mais realista 'filler' e
 Muitas, muitas correções gerais incluindo consertos para: carros flutuantes, problemas agrícolas, alarmes inaudíveis de casas, arbustos de erosão bloqueando veículos, sobreviventes medrosos sendo assustados por rastejadores e muito mais.
 MOCHILAS VISÍVEIS!
 
-[VERSION] 41.13
+[VERSÃO] 41.13
 [SEÇÃO]
 Jassimp64.dll reconstruída com library c++ estaticamente vinculada (remove a dependência da msvcp140.dll).
 Corrigida exceção no MouseState com mouse de 2 botões.
@@ -46,7 +46,7 @@ Corrigido “bem-vindo à build 41” fora do centro.
 Possivelmente corpos cor de arco-íris corrigidos no Mac OS.
 Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows usando os locais Turcos (e potencialmente outros).
 
-[VERSION] 41.14
+[VERSÃO] 41.14
 [SEÇÃO]
 Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais.
 
@@ -92,7 +92,7 @@ Corrigida as curvas de arco estranhas durante a transição de caminhada -> stra
 Corrigidas as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Survivor por engano.
 Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
 
-[VERSION] 41.15
+[VERSÃO] 41.15
 [SEÇÃO] NOVO
 Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brawler se torna Survivor, Survivor se torna Apocalypse.
 Adicionadas transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
@@ -167,7 +167,7 @@ Fixed zombie number issue on Survival
 Fixed pathfinding failing when moving on the same square when that square is blocked in all directions.
 [NODOT]<INDENT:40> This worked before luautils.walkAdj() was changed to not call AdjacentFreeTileFinder.isTileOrAdjacent().
 
-[VERSION] 41.17
+[VERSÃO] 41.17
 [SEÇÃO]NEW
 All characters now start with a belt - giving them a "Back" slot & two belt (left/right) belt slots.
 You can either right click a slot, or drag & drop a weapon to it.  Or, alternatively, click a weapon in your inventory to attach it to the hotbar.
@@ -223,7 +223,7 @@ Fixed "Sit On Ground" context-menu option is not available when using a controll
 Fixed adding frozen food into recipes.
 Fixed old Socks still existing.
 
-[VERSION] 41.18
+[VERSÃO] 41.18
 
 Add "Finished" Sound to Washing Machine/Dryer
 Not being able to add/remove clothes to washer/dryer while cycle is active
@@ -280,7 +280,7 @@ Can now wash yourself without soap, but takes longer.
 Capped the time needed to wash clothing.
 Added holster icons.
 
-[VERSION] 41.19
+[VERSÃO] 41.19
 [SEÇÃO]NEW
 Re-added sprinter zombies to sandbox.
 Certain headwear now have a chance to fall when attacking (on zombies and players). Hats now rendered as 3D models in the world.
@@ -361,7 +361,7 @@ Fixed players not always facing the direction they should when performing action
 Fixed player walking when turning off an alarm that is in their inventory.
 Fixed house alarms not working.
 
-[VERSION] 41.20
+[VERSÃO] 41.20
 [SEÇÃO]NEW
 Added new textures for zombies and survivor characters.
 Zombies have now 3 level of decay, they'll be shown depending on your survival time (6 months after apo having lots of decay level 3 etc..)
@@ -450,7 +450,7 @@ Fixed typo in ClothingSelectionDefinitions.lua.
 
 
 
-[VERSION] 41.21
+[VERSÃO] 41.21
 [SEÇÃO]NEW
 Replaced tailoring submenu with an "Inspect clothing UI" which act like health panel.
 Added visible bandage models on character
@@ -525,7 +525,7 @@ Fixed hitting trees through walls.
 Fixed zombies runners not running toward a sound (breaking windows, TV..)
 Fixed zombies runners running in circle around you.
 
-[VERSION] 41.22
+[VERSÃO] 41.22
 
 [SEÇÃO]NEW
 New way to spawn vehicle stories, now use zone intersect in chunk to be really accurate.
@@ -608,7 +608,7 @@ Fixed IsoWorldInventoryObject sometimes using the smaller WItem_xxx textures.
 Fixed car duplication.
 Fixed vehicle headlights not getting removed when destroyed, emitting light when broken
 
-[VERSION] 41.23
+[VERSÃO] 41.23
 [SEÇÃO]NEW
 Change the color of non-icon buttons when clicking them for visual feedback.
 Added new sandbox loot options:
@@ -669,7 +669,7 @@ Fixed VehiclesDB throwing exceptions repeatedly if BaseVehicle.load() failed
 Fixed NullPointerException in IsoPuddlesGeometry.
 Fixed VERSION=1 not being written to keys.ini in some cases
 
-[VERSION] 41.24
+[VERSÃO] 41.24
 
 [SEÇÃO]NEW
 Added zombie turn alerted
@@ -728,7 +728,7 @@ Fixed blood splatter causing bushes and trees to rustle.
 Fixed not being able to walk off the floor in all directions after building a new staircase.
 Fixed corpses/items/zombies in rooms spawning in inaccessible areas behind stairs (when the area is 1x1 or 2x1 or 1x2 only).
 
-[VERSION] 41.25 and 41.26
+[VERSÃO] 41.25 and 41.26
 [SEÇÃO]NEW
 Revamped mod system:
 [NODOT]<INDENT:40> - Updated the Mods screen. The mod description is displayed for the selected mod on the right side of the screen, instead of in the list of mods. Other details such as the ID, Workshop ID (if any), installation directory, and any posters are displayed on the right.
@@ -887,7 +887,7 @@ Fixed replaceOnUse/replaceOnDelete not setting favorite is the previous item was
 Fixed destroying stuff not having a calories modifier.
 Fixed riverside garage missing their loot table.
 
-[VERSION] 41.27
+[VERSÃO] 41.27
 
 Reverted (for now) the attack cancel fix while we work out a more elegant solution for next week's patch.
 Added missing Melee Movement Disruption option to sandbox options.
@@ -905,7 +905,7 @@ Fixed items in bags not being used when doing carpentry.
 Changed "Drop items near square center" default to false, so items are dropped under the player's feet as before.
 Fixed not being able to click on carpentry containers to display their contents in the loot window, if the container was more transparent due to being in front of the player.
 
-[VERSION] 41.28
+[VERSÃO] 41.28
 
 [SEÇÃO]NEW
 Experimental optimization. This allows zombies to be updated every X frames via a per-object gametime multiplier that depends on proximity / visibility to player. It spreads update ticks of zombies over frames, meaning higher FPS with large crowds.\
@@ -952,7 +952,7 @@ Fixed garbage creation related to clothing item lookup.
 Fixed scavenge and fishing Cancel buttons doing nothing after the first action finishes.
 Fixed scavenge and fishing layout with different-sized fonts.
 
-[VERSION] 41.29
+[VERSÃO] 41.29
 
 [SEÇÃO]NEW
 
@@ -1001,7 +1001,7 @@ Fixed being able to click on curtains to open/close them from too far away or wh
 Fixed iso cursor being visible when using a controller.
 Fixed the player getting stuck in the aim animation if the weapon breaks while attacking.
 
-[VERSION] 41.30
+[VERSÃO] 41.30
 
 [SEÇÃO]NEW
 
@@ -1146,7 +1146,7 @@ Create texture mipmap data on the asset-loading threads instead of on the render
 Tried to reduce the long delay after clicking "Click to continue" the first time.
 
 
-[VERSION] 41.31
+[VERSÃO] 41.31
 
 [SEÇÃO]ANIMS
 
@@ -1174,7 +1174,7 @@ Fixed multithreading bug with physics debug rendering.
 Fixed toxic buildings throwing exceptions when zombies are inside.
 Fixed vehicles running in building making them toxic until it's polished up again
 
-[VERSION] 41.32
+[VERSÃO] 41.32
 [SEÇÃO]NEW
 Map and crafting window can now be closed using ESC 
 Fishing with a spear has new SFX
@@ -1292,7 +1292,7 @@ Fixed Sack not being empty (with items inside it) being used to take dirt/sand/g
 Fixed red veteran shirt having purple color.
 Fixed one of the generic outfit of zeds (one with the long leather jacket) always having white trousers.
 
-[VERSION] 41.33 and 41.34
+[VERSÃO] 41.33 and 41.34
 
 [SEÇÃO]NEW
 Added a full decay for zombie corpses: they go from stage to stage until disapearing totally (they can become skeleton before disapearing)
@@ -1356,7 +1356,7 @@ Fixed models with capital I not loading when using the Turkish locale.
 Fixed player not finishing turning around before climbing through a window that is behind him/her.
 Fixed missing BreakSound on some weapons.
 
-[VERSION] 41.35
+[VERSÃO] 41.35
 [SEÇÃO]NEW
 Experimental bag holding. Feedback please!
 [NODOT]<BR>
@@ -1549,7 +1549,7 @@ AnimLayers now sync to their parent
 [NODOT]<INDENT:40>- ie. Bob_Anim_Bags now syncs to the root Bob_Anim
   
   
-[VERSION] 41.36
+[VERSÃO] 41.36
 
 [SEÇÃO]BALANCE
 - Increased dirt on character.
@@ -1566,7 +1566,7 @@ Fixed Blooo (again again again) by making the default DisplayName for items is n
 Fixed the "leg kick" when performing some timed actions (eating, smoking, etc).
 
 
-[VERSION] 41.37
+[VERSÃO] 41.37
 [SEÇÃO]NEW
 Prevention for prone zombie heads clipping through walls and obstacles: Falling and prone zombies will now slide away from walls.
 Added guitar case/flight case 
@@ -1637,7 +1637,7 @@ Fixed Unusable Wood appearing twice in the barbeque Add Fuel menu.
 Fixed the player not turning to face a barbeque when displaying the info ui.
 
 
-[VERSION] 41.38
+[VERSÃO] 41.38
 [SEÇÃO][NEW TUTORIAL]
 Updated and improved Cabin in the Woods map by Xeonyx (worth exploring if you survive at end)
 New steps and expanded outside sequence
@@ -1867,7 +1867,7 @@ ModelInstance.reset() shouldn't call "Pool.tryRelease(AnimPlayer)" because Anima
 Fixed exception in PZArrayUtil.newInstance() when the new array is smaller than the one being copied.
 
 
-[VERSION] 41.39
+[VERSÃO] 41.39
 [SEÇÃO]NEW
 translationProblems.txt lists missing ItemName_xxx instead of the old DisplayName_xxx.
 Removed the true|false debug console spam.
@@ -1893,7 +1893,7 @@ Fixed incorrect instruction in tutorial re: tall fence
 Fixed (hopefully) the last of the 'red dot on tiles' issues
 
 
-[VERSION] 41.40
+[VERSÃO] 41.40
 [SEÇÃO]NEW
 
 Added jewelry that can be worn on player: necklaces, earrings and rings on fingers.
@@ -2165,7 +2165,7 @@ Fixed text width of "Hair" and "Beard" translations in the character-info ui not
 Fixed not being able to knock down zombies by shoving with a knife-like weapon equipped.
 
 
-[VERSION] 41.41
+[VERSÃO] 41.41
 
 [SEÇÃO]NEW
 
@@ -2257,7 +2257,7 @@ ProceduralDistributions Lua table is parsed one time during startup instead of e
 Fixed the hotbar shortcut keys not working after the player gets bumped just before an attack starts
 
 
-[VERSION] 41.42
+[VERSÃO] 41.42
 
 [SEÇÃO]NEW
 Added emote wheel, you currently press Q to open it.
@@ -2370,7 +2370,7 @@ Fixed the crafting ui "Name Filter" entry and "Filter All" checkbox displaying d
 Fixed the fishing ui not being tall enough to display the caught items sometimes.
 
 
-[VERSION] 41.43
+[VERSÃO] 41.43
 
 [SEÇÃO]NEW
 Updated with new controller icons on gameplay screen when playing with pad
@@ -2438,7 +2438,7 @@ Fixed pouring the same thing out the same type multiple times on a tile (sand/gr
 Fixed park ranger not having his/her walk through trees work correctly
 
 
-[VERSION] 41.44
+[VERSÃO] 41.44
 
 [SEÇÃO]NEW
 Re-use container buttons in the inventory and loot windows instead of creating new ones each time the windows are updated.
@@ -2642,7 +2642,7 @@ Fixed the "Put In Container" context-menu option not working when right-clicking
 Fixed NullPointerException adding gas to a generator when the gas can wasn't equipped.
 
 
-[VERSION] 41.45
+[VERSÃO] 41.45
 [SEÇÃO]NEW
 Allow crowbars to be used to remove wood barricades, and use animations for it
 Added context-menu commands for adding all fuel items, and all fuel items of a certain type, to barbecues, campfires and fireplaces.
@@ -2767,7 +2767,7 @@ Fixed not being able to remove tiredness with restless sleeper
 Fixed front strength not showing properly in debug climate plotter
 
 
-[VERSION] 41.46
+[VERSÃO] 41.46
 [SEÇÃO][PERSISTENT ZED OUTFITS]
 
 Zombie appearance is now mostly preserved when reloading.
@@ -2973,7 +2973,7 @@ Fixed the wrong strafe angle being used when walking short paths.
 Fixed max capacity for vehicles not being saved.
 
 
-[VERSION] 41.47
+[VERSÃO] 41.47
 
 [SEÇÃO]NEW
 
@@ -3041,7 +3041,7 @@ Fixed zombie outfit system being able to spawn two items on the same body locati
 Fixed missing newline in Remove Patch tooltip.
 
 
-[VERSION] 41.48
+[VERSÃO] 41.48
 [SEÇÃO][EXPERIMENTAL/NEW]
 Added a new keybinding: Manual Floor Attack:
 [NODOT]<INDENT:40> - Default to LEFT ALT.
@@ -3187,7 +3187,7 @@ Fixed enabling and disabling mods with texture packs not updating which textures
 Fixed mod lua files in the server directory not loading after editing one in debug mode.
 
 
-[VERSION] 41.49
+[VERSÃO] 41.49
 [SEÇÃO]NEW
 Added sawn-off double barrel shotgun.
 Greatly reduce hit chance if shooting from a moving car (depend on car's speed).
@@ -3258,7 +3258,7 @@ Fixed a nullpointer in Zed Stories
 Fixed RandomizedBuildingBase.addRandomRangedWeapon() bug with choosing random weapon parts.
 
 
-[VERSION] 41.50
+[VERSÃO] 41.50
 [SEÇÃO]NEW
  
 
@@ -3311,7 +3311,7 @@ Fixed new splitscreen players with the same profession sharing the same XP multi
 
 
 
-[VERSION] 41.51
+[VERSÃO] 41.51
 [SEÇÃO] 
 [NODOT] <CENTRE><SIZE:large> Project Zomboid IWBUMS beta update 41.51 contains significant optimizations to our save game system. As such any saved games played in 41.50 will NOT be operational.
  
@@ -3767,7 +3767,7 @@ Don't use shared animations on the nearest 20 zombies, to avoid foot-sliding whe
 [NODOT]<BR>
 Removed IsoPlayer.m_moveDelta because IsoGameCharacter.m_moveDelta already exists.  The value is always 1.0 in any case
 
-[VERSION] 41.52
+[VERSÃO] 41.52
 
 [SEÇÃO]BALANCE
 
@@ -3795,7 +3795,7 @@ Fixed excessive Baseball Bat spawns in Riverside Sports Store
 Fixed Linux ProjectZomboid64 failing to find the ProjectZomboid64.json file.
 
 
-[VERSION] 41.53
+[VERSÃO] 41.53
 [NEWS]
 [BOLD]PLEASE NOTE:
 [BOLD]This patch includes a fix to a longstanding bug.
@@ -3870,7 +3870,7 @@ Added ISComboBox.setEditable() to allow filtering the choices in a combobox by t
 Added ISTextEntryBox.selectAll().
 Hopefully fixed fullscreen on MacOS
 
-[VERSION] 41.54
+[VERSÃO] 41.54
 [NEWS]
 Added Noiseworks Sound Revamp - Stage #1
 
@@ -4077,7 +4077,7 @@ Added a few WorldDictionary.DebugPrintItem calls to some functions to help find 
 Moved updating some global FMOD parameters out of IsoPlayer into AmbientStreamManager.
 
 
-[VERSION] 41.55
+[VERSÃO] 41.55
 
 [SEÇÃO]NEW
 Added new 3D items + fixed some.
@@ -4195,7 +4195,7 @@ Fixed duplicate context-menu "Rest" options for tents.
 Fixed some instances of zombies turning while lying on the floor - needs further feedback.
 Fixed (hopefully) an "invalid direction" exception in BrokenFences
 
-[VERSION] 41.56
+[VERSÃO] 41.56
 
 [SEÇÃO]NEW
 The containers in the "Move to" controller context sub-menu are disabled if the container can't hold the item to be moved.
@@ -4248,7 +4248,7 @@ Fixed zombies opening locked carpentry doors.
 
 
 
-[VERSION] 41.60
+[VERSÃO] 41.60
 
 [SEÇÃO]MULTIPLAYER
 Multiplayer for Build 41 released. Capped to 16 player servers.
@@ -4423,7 +4423,7 @@ Fixed other clients hearing VehicleHotwireStart sound looping for other players.
 Fixed clients sending cooking sounds to other clients.
 Fixed "Open Sack of Tomatoes" recipe using an undefined Lua function.
 
-[VERSION]41.61
+[VERSÃO]41.61
 [SEÇÃO]
 [NODOT] <CENTRE><SIZE:large> With the release of 41.61 we've increased server player limit to 32. <LINE> WARNING: THIS IS FOR TEST PURPOSES. <LINE> We can't guarantee a smooth experience but would like to hear people's feedback on server performance. <LINE> VOIP is still recommended to be disabled for now. <BR> To be safe, it is recommended to back up your server saves. <LINE>
 
@@ -4512,7 +4512,7 @@ Fixed grapefruit being too heavy
 
 
 
-[VERSION]41.62 - 41.64
+[VERSÃO]41.62 - 41.64
 [SEÇÃO]MODS
 Hopefully fixed issue with servers not updating mods correctly. Now a server update should update any mods that have changed since last time.
 
@@ -4598,7 +4598,7 @@ Added translations for Large Rental Shelves and Small Rental Shelves (moveables)
 Fixed some curved-road zones.
 
 
-[VERSION]41.65 Release to Stable Branch
+[VERSÃO]41.65 Release to Stable Branch
 [SEÇÃO]
 Fixed the PlayerBumpPlayer option.
 Added splash-screen logos for General Arcade and Noiseworks.
@@ -4626,7 +4626,7 @@ Server disables statistics gathering if no requests for 10 seconds
 Fixed zombies not becoming corpses sometimes in splitscreen multiplayer.
 Fixed a Lua error adding a saved splitscreen player in multiplayer.
 
-[VERSION]41.65 What's New with Build 41?
+[VERSÃO]41.65 What's New with Build 41?
 [SEÇÃO]
 [NODOT] <CENTRE><SIZE:large> This marks the public release of Build 41. <LINE> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too, Build 41 has spend an unusually long amount of time on the Beta. <LINE> With a huge overhaul comes also a revampt of the Multiplayer. <LINE> For now, the Multiplayer portion of the game should still be considered BETA, and is limited to a maximum server size of 32 players. <LINE> Below is a selection of the biggest changes that come with Build 41. 
 [NODOT]<BR>
@@ -4692,7 +4692,7 @@ Fixed a Lua error adding a saved splitscreen player in multiplayer.
 [NODOT]A gigantic list of fixes and QoL improvements.
 
 
-[VERSION]41.66
+[VERSÃO]41.66
 [SEÇÃO]MP CHANGES
 Increased experimental maximum player limit to 100. Default remains at 32. Servers with more than 32 players will likely result in poor map streaming and desync, so proceed with caution.
 [NODOT]<LINE>
@@ -5145,7 +5145,7 @@ Fixed the sound of zombies eating continuing to play while exiting to the main m
 
 
 
-[VERSION]41.67 and 41.68
+[VERSÃO]41.67 and 41.68
 [SEÇÃO]MP
 Cheat control
 [NODOT]<INDENT:40> Each anti-cheat can now be disabled via server option
@@ -5256,7 +5256,7 @@ Fixed the MusicCombined event being stopped and then restarted the first time Lu
 Fixed split-screen players, except the last, being unable to drive vehicles in multiplayer.
 Fixed unnecessary pause when starting in debug
 
-[VERSION]41.69
+[VERSÃO]41.69
 [SEÇÃO]NEW
 Added "Stubble" checkboxes to the Hair and Beard sections in the character-creation ui.
 Added new items + updated 3D models
@@ -5924,7 +5924,7 @@ Added 'DisplayCategory' entries to the following items:
 [NODOT]<INDENT:40> WafflesRecipe
 [NODOT]<INDENT:40> Wasabi 
 
-[VERSION]41.70
+[VERSÃO]41.70
 [SEÇÃO]FIXES
 
 Fixed WorldItemModelDrawer.java applying ModelScript.scale twice
@@ -5949,7 +5949,7 @@ Fixed typo with Tooltip_BookTitle_9.
 Fixed sawing a JS-2000 Shotgun with a Choke Tube upgrade not removing the Choke Tube, which isn't allowed on the Sawn Off JS-2000 Shotgun. The Choke Tube is now returned to the player's inventory.
 Fixed incorrect hunger calculation for the Muffin recipe.
 
-[VERSION]41.71
+[VERSÃO]41.71
 [SEÇÃO]MUSIC
 More tracks for the new dynamic music system - we now have ten of the refigured music tracks in-game, with four more still to come.
 
@@ -6004,7 +6004,7 @@ Fixed "Film Camera" not being called "Camera Film" and lowered the weight.  The 
 Fixed some hedge sprites becoming invisible when covered in snow with x1 textures.  
 
 
-[VERSION]41.72
+[VERSÃO]41.72
 [SEÇÃO]NEW
 Added the MapRemotePlayerVisibility server option for Multiplayer.
 [NODOT]<INDENT:40> 1 = Remote players aren't visible on the in-game map
@@ -6465,7 +6465,7 @@ Changed ZomboidFileSystem.getGameModeCacheDir() to not append a trailing File.se
 [NODOT]<INDENT:40> Most callers of getGameModeCacheDir() already appended a File.separator, resulting in two separator characters.
 [NODOT]<INDENT:40> hese duplicate separators didn't seem to hurt anything.
 
-[VERSION]41.73
+[VERSÃO]41.73
 [SEÇÃO]NEW
 
 Gas container tooltip tweaks:
@@ -6551,7 +6551,7 @@ Fixed NullPointerException in IsoGameCharacter.Eat().
 Increased allowed map_meta.bin and map_zone.bin file size from 20MB to 50MB in multiplayer.
 Fixed a redundant/duplicate exclusive trait definition in MainCreationMethods.lua that could allow the Obese trait to be taken twice under some circumstances.
 
-[VERSION]41.74 - 41.77
+[VERSÃO]41.74 - 41.77
 [SEÇÃO]41.77.7 Hotfix October 17th:
 
 znet libraries were rebuilt.
@@ -6620,7 +6620,7 @@ Removed Bowling shirt model from Bowling shirt definitions and made Bowling Shir
 Improved base Body mask to help with clipping.
 Re-exported ALICE packs as some straps were missing. 
 
-[VERSION]41.78
+[VERSÃO]41.78
 
 [SEÇÃO]NEW
 Added a prompt for the updated Terms of Service as we are a big boy game now and have to fit in with the other biggerer boys.
