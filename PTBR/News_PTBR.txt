@@ -17,7 +17,7 @@ Roupas visivelmente rasgadas e danificadas.
 Novo sistema de visão em corte no estilo Sims.
 Melhorias de direção do veículo, redimensionamento e ajustes na aparência.
 Trilha sonora atualizada, remasterizada e melhorada com o tema do Kentucky. Música original ainda em funcionamento, e também acessível através das opções do jogo.
-Novo SFX: armamento, gemidos de zumbis etc.
+Novo SFX: armamento, grunhidos de zumbis etc.
 Novos visuais de água – incluindo direção de fluxo visível.
 Novo sistema de poça durante tempestades.
 Vidro quebrado e ferimentos relacionados.
