@@ -58,7 +58,7 @@ Caso contrário, usa transições sem animação. Isso evita que os animações 
 ZNetFriends continua fazendo pinging no singleplayer, possivelmente é uma fonte de queda de FPS.
 Correr -> Esgueirar -> Correr agora te mantém em uma linha reta. O estranho movimento do curva não ocorre mais durante a transição.
 Esgueirar -> Executa transições agora usa apenas animações de transição se não girar mais de 90 graus.
-Esgueirar -> transições de movimento atualizadas para corrigir alvos quando está girando 90/ao redor.
+Esgueirar -> transições de movimento atualizadas para corrigir alvos quando isTurning90/ ao redor.
 
 [SEÇÃO] BALANCIAMENTO
 Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Survivor.
