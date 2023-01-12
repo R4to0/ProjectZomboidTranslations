@@ -121,7 +121,7 @@ Definir algumas peças de veículo para ConditionMax = 100.
 Ajustadas várias animações de turno.
 Logotipo da van mccoy invertida.
 
-[SEÇÃO] CONSERTOS
+[SEÇÃO] CORREÇÕES
 Corrigido empurrando o primeiro zumbi dentro do alcance, em vez do zumbi mais próximo dentro do alcance.
 Corrigido o caminho incorreto para o Piano Ambiente.
 Tentativa de correção para problemas do Mac por meio de 'iluminação' reconstruída do Mac libLighting.dylib
@@ -178,18 +178,18 @@ Adicionada animação do jogador Bob_VaultOverToFall ao pular cercas.
 Adicionada animação zumbi Zombie_WalkTrees para os estados walktoward e pathfind.
 Animações de ataques de zumbis reproduzidas a 50% de velocidade nas árvores.
 
-[SEÇÃO]BALANCE
+[SEÇÃO] CORREÇÕES
 
-Boosted wood axe damage, speed, amount of time you can move during strafe, to make it a viable (but still quite slow) heavy damage weapon
-Force standing when drinking/filling items from sink.
-Reduced handgun model size (+ muzzle redone)
-Added Chipped stone to craft lance recipe.
-Made tall fences transparent when the player is behind them
-Disabled Hypochondriac trait until it can be fully reworked
-Reload XP now given when inserting bullets in clip (small chance) and when reloading (bigger chance).
-Added spear fishing.
-Now equip in 2 hands shovel when taking dirt/sands..
-dded Griddle pan for stir-fry.
+Dano do machado de madeira aumentado, velocidade, quantidade de tempo que você pode se mover durante o strafe, para torná-lo uma arma de dano pesado viável (mas ainda bastante lenta).
+Forçar a postura ao beber/encher itens da pia.
+Reduzido o tamanho do modelo de revólver (+ cano refeito)
+Adicionada pedra lascada à receita de criação de lança.
+Tornou as cercas altas transparentes quando o jogador está atrás delas.
+Traço hipocondríaco desativado até que possa ser totalmente retrabalhado.
+Recarregar agora permite conceder XP ao inserir balas no cartucho (pequena chance) e ao recarregar (maior chance).
+Adicionado a pesca com lança.
+Agora equipa uma pá de 2 mãos ao tirar a terra/areia.
+Adicionada frigideira com grelha para fritar.
 
 [SEÇÃO]FIXES
 
