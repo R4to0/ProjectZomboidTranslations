@@ -48,7 +48,7 @@ Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows
 
 [VERSÃO] 41.14
 [SEÇÃO]
-Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Apocalipse e Contrutor funcionais.
+Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Brigador e Contrutor funcionais.
 
 [SEÇÃO] ANIMAÇÕES
 Agora trata a mira/metralhadora como um estado de momento zero, como ocioso.
