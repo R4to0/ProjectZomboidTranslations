@@ -193,30 +193,30 @@ Adicionada frigideira com grelha para fritar.
 
 [SEÇÃO] CORREÇÕES
 
-Corrigidos zumbis surgindo em edifícios muito depois de um jogador entrar no prédio. 
-Corrigidos problemas de espingarda de cano duplo.
+Corrigido os zumbis surgindo em edifícios muito depois de um jogador entrar no prédio. 
+Corrigido os problemas de espingarda de cano duplo.
 [OBS]<INDENT:40> 1) Ícone de inventário ausente.
 [OBS]<INDENT:40> 2) Câmara removida, que permitia o carregamento de 3 projéteis.
 [OBS]<INDENT:40> 3) Racking não é necessário.
 Corrigido blob/mala Zeds no spawn.
 Corrigida a falha do FMOD em 64 bits.
-Corrigidos zumbis ficando presos no ar depois de pular uma janela.
+Corrigido os zumbis ficando presos no ar depois de pular uma janela.
 Corrigida a exceção após renomear a comida para ter um caractere de dolar.
 Corrigido o erro de lua ao retirar o composto de uma composteira.
-Corrigido jogadores zumbificados interagindo com portas/janelas/etc clicando com o botão esquerdo do mouse.
-Corrigidas novas pás não sendo utilizáveis para tirar terra/cascalho/areia.
+Corrigido os jogadores zumbificados interagindo com portas/janelas/etc clicando com o botão esquerdo do mouse.
+Corrigida as novas pás não sendo utilizáveis para tirar terra/cascalho/areia.
 Corrigida a animação de martelar ao derramar terra/cascalho/areia de um saco.
 Corrigido Logs.zip console.txts são limitados a todas as 2 linhas durante a maioria das falhas.
-Corrigidos problemas ao pressionar Escape ao entrar ou sair de um veículo ou trocar de assento.
-Corrigidos jogadores atravessando uma parede ao saltar sobre uma cerca adjacente à parede.
+Corrigido os problemas ao pressionar Escape ao entrar ou sair de um veículo ou trocar de assento.
+Corrigido os jogadores atravessando uma parede ao saltar sobre uma cerca adjacente à parede.
 Problema corrigido: exceção de thread não tratada pelo SQLDB em um ambiente não UTF8.
 Corrigida a tela de proteção que não funcionava com um controle.
-Corrigidos botões de cabelo/barba de informações que não funcionam com um controle.
+Corrigido os botões de cabelo/barba de informações que não funcionam com um controle.
 Corrigidas secadora e lavadora de roupas continuando a reproduzir som após a queda de energia.
 Corrigida máscara meteorológica não atualizando quando o nível de zoom muda.
 Corrigida máscara meteorológica não renderizada para jogadores em tela dividida.
-Corrigidos os zumbis que ficam presos depois de pular uma cerca sem chão do outro lado.
-Corrigidos alguns arquivos sendo fechados através da coleta de lixo.
+Corrigido os zumbis que ficam presos depois de pular uma cerca sem chão do outro lado.
+Corrigido alguns arquivos sendo fechados através da coleta de lixo.
 Corrigida a tecla Abaixar que afeta apenas o jogador 0, que corrige o agachamento compartilhado em tela dividida.
 Corrigida a opção do menu de contexto "Sentar no Chão" está disponível quando você já está sentado.
 Corrigida a opção do menu de contexto "Sentar no Chão" não está disponível ao usar um controle.
@@ -225,51 +225,50 @@ Correção de meias velhas ainda existentes.
 
 [VERSÃO] 41.18
 
-Add "Finished" Sound to Washing Machine/Dryer
-Not being able to add/remove clothes to washer/dryer while cycle is active
-Change Moodle "Minor injuries, first aid required"
-Custom Sandbox Settings Don't Save as a Saved Preset if "/" is in Name
-Fishing SFX not synced
-Clothing Ensemble Bug
-Filling Broken Saucepan Bug
-Fixed uninitialized uniform index with TallFenceShader.
-Disabled TerrainRenderTiles_UseShaders in non-debug mode, set default=false.
-Fixed floor and wall shaders being recreated each time a game is started.
-Hopefully fixed rain puddle performance issues.
-Re-enabled the fridehum/window/door/etc ambient sounds.  
-Changed WaterDrip sound to only play on IsoFlagType.waterPiped sprites with water (so they won't drip after the water shuts off, unless connected to a water source). 
-Save hotbbar position to avoid weirdness at loading game with holster equipped.
-Adjusted some model position for attached weapons.
-Added double barrel shotgun. (anim + spawn).
-Fixed some weirdness with guns.
-Now reset the loot position when transfering stuff
-Can now pickup broken glass (warning, if no gloves you might get injured).
-Increased Soap spawn rate.
-Decrease soap consumption (*2).
-
-Various compatibility changes for future Super Survivors updates.
-Cleaning liquid can now be used to wash yourself/clothing (NEW cleaning liquid, previous one won't work).
-Cleaning time now depend on amount of blood/dirt on clothing.
-Clothing will be soaked after being washed by hands.
-Fixed exception when washing Socks.
-Decreased time to wash clothing.
-Added various recoil anim for guns/firearm, the more aiming level, the faster you'll shoot + less recoil from anim.
-Added switch Single/Auto for the M16.
-Fixed hotbar weight taking priority over equipped item weight.
-Tooltip now show correct weight if weapon is in hotbar.
-Balanced assault rifle
-Fixed: Zooming out over water results in black squares instead of water
-Fixed after-death text being rendered twice for players.
-Fixed rain-splash rendering bug in splitscreen. 
-Fixed typo with ISBaseObject.type. Capital-T Type is used in several places.
-Fixed player model being reset when swapping hotbar items.
-Fixed character-info avatar not updating when swapping hotbar items.
-Call ISHotbar:refresh() in update().  My previous commit added a call to triggerEvent("OnClothingUpdate") in IsoGameCharacter.setAttachedItem() which might cause refresh() to be called at unexpected times.
-Moved IsoGameCharacter.attachedModels to ModelSlot.attachedModels.
-Fixed error in ISAttachedItemsUI.lua when zombies have multiple items attached.
-Delay resetting a character's equipped and attached models until the next frame.
-Changed ISHotbar:update() to handle InventoryItem.getAttachedSlot() becoming invalid for some reason.
-Fixed text boxes not being destroyed bug
+Adicionado o som "Concluído" à Máquina de Lavar/Secar roupa.
+Não conseguir adicionar/remover roupas da lavadora/secadora enquanto o ciclo está ativo.
+Mudança de status "Lesões menores, primeiros socorros necessários".
+As Configurações de Sandbox Personalizadas não são Salvas como uma Predefinição Salva se "/" Estiver no Nome.
+SFX de Pesca não sincronizada.
+Bug do Conjunto de Roupas.
+Corrigido o Bug de Panela Quebrada.
+Corrigido índice do uniforme não ser inicializado com TallFenceShader.
+TerrainRenderTiles_UseShaders desabilitado no modo não depurado, defina default=false.
+Corrigido sombreados de piso e parede sendo recriados sempre que um jogo é iniciado.
+Espero ter corrigido os problemas de desempenho da poça de chuva.
+Reativado os sons ambiente geladeira/janela/porta/etc.
+Mudou o som WaterDrip para tocar apenas em sprites IsoFlagType.waterPiped com água (para que eles não gotejem depois que a água for desligada, a menos que estejam conectados a uma fonte de água).
+Salva a posição do hotbar para evitar estranheza ao carregar o jogo com o coldre equipado.
+Ajustada a posição de alguns modelos para armas equipadas.
+Adicionada espingarda de cano duplo. (animação + spawn).
+Corrigido algumas estranhezas com armas.
+Agora redefine a posição do loot ao transferir coisas.
+Agora pode pegar vidro quebrado (aviso, se não tiver luvas, você pode se machucar).
+Aumento da taxa de aparecimento de Sabão.
+Diminui o consumo de sabão (*2).
+Várias mudanças de compatibilidade para futuras atualizações de Super Sobreviventes.
+O líquido de limpeza agora pode ser usado para lavar a si mesmo/roupas (NOVO líquido de limpeza, o anterior não funcionará).
+O tempo de limpeza agora depende da quantidade de sangue/sujeira na roupa.
+A roupa ficará ensopada depois de ser lavada à mão.
+Corrigida exceção ao lavar Meias.
+Diminuição do tempo para lavar roupas.
+Adicionada várias animações de recuo para armas/arma de fogo, quanto mais nível de mira, mais rápido você atirará + menos recuo da animação.
+Adicionado disparo Único/Auto para o M16.
+Corrigido o peso da hotbar tendo prioridade sobre o peso do item equipado.
+A dica de ferramenta agora mostra o peso correto se a arma estiver na hotbar.
+Balanceado rifle de assalto.
+Corrigido: Diminuir o zoom sobre a água resulta em quadrados pretos em vez de água.
+Corrigido o texto após a morte sendo renderizado duas vezes para os jogadores.
+Corrigido o erro de renderização de respingos de chuva em tela dividida.
+Corrigido erro de digitação com ISBaseObject.type. O tipo T maiúsculo é usado em vários lugares.
+Corrigido o modelo do jogador sendo redefinido ao trocar os itens da hotbar.
+Corrigido o avatar de informações do personagem não atualizando ao trocar itens da hotbar.
+Chame ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada para triggerEvent("OnClothingUpdate") em IsoGameCharacter.setAttachedItem() que pode fazer com que refresh() seja chamado em momentos inesperados.
+IsoGameCharacter.attachedModels movido para ModelSlot.attachedModels.
+Corrigido erro em ISAttachedItemsUI.lua quando zumbis possuem vários itens equipados.
+Atraso na reinicialização dos modelos equipados e anexados de um personagem até o próximo frame.
+ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
+Corrigidas as caixas de texto que não estavam sendo destruídas.
 Fixed hotbar exception after moving the first of two belts to a container.
 Fixed previous game's zombie population settings being applied to new games.
 Fixed Survivor.lua sandbox preset never being loaded.
