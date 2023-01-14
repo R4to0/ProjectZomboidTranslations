@@ -267,7 +267,7 @@ Chama ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada 
 IsoGameCharacter.attachedModels movido para ModelSlot.attachedModels.
 Corrigido erro em ISAttachedItemsUI.lua quando zumbis possuem vários itens equipados.
 Atraso na reinicialização dos modelos equipados e anexados de um personagem até o próximo frame.
-Alterado ISHotbar:update() para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
+ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
 Corrigidas as caixas de texto que não estavam sendo destruídas.
 Corrigida a exceção da hotbar após mover o primeiro de dois cintos para um contêiner.
 Corrigidas as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
@@ -280,44 +280,44 @@ Limitado o tempo necessário para lavar roupas.
 Adicionados ícones de coldre.
 
 [VERSÃO] 41.19
-[SEÇÃO]NEW
-Re-added sprinter zombies to sandbox.
-Certain headwear now have a chance to fall when attacking (on zombies and players). Hats now rendered as 3D models in the world.
-Slot labels now displayed above the hotbar when the mouse hovers that slot.  This was to fix labels that are longer than the slot. When no item is in a slot, the faded icon of the item that provides the slot (such as a belt) is displayed instead.
-New SFX for lower impact car collisions
-Added  new sandbox presets to the sandbox options screen. Updated all the sandbox preset files so they include values for all options.
-Added star quality to show durability of items in hotbar.
-Left belt is now first, then right slot, this'll work only if you unequip/reequip the belt.
-Updated community translations
-Added ProjectZomboidOpenGLDebug64.bat which uses lwjgl-debug.jar instead of lwjgl.jar to enable extended error checking. Among other things, this calls glGetError() after every OpenGL call.
-Sneaking now drains more endurance when walking/jogging than normal walking/jogging.
-Equipped item/clothing now at the end of the inventory and not at the top.
-Pressing R can now do multiple thing:
-[OBS]<INDENT:40> - If mag is in equipped gun, unequip it, check for a new mag to insert.
-[OBS]<INDENT:40> - If no other mag found, check if we can load bullets in one mag, when done auto reload/rack.
-Added some debug info about quit and around saving the game on quit
+[SEÇÃO] NOVO
+Zumbis corredores readicionados ao sandbox.
+Certos chapéus agora têm chance de cair ao atacar (em zumbis e jogadores). Chapéus agora renderizados como modelos 3D no mundo.
+Os rótulos dos slots agora são exibidos acima da barra de atalho quando o mouse passa sobre esse slot. Isso foi feito para corrigir rótulos mais longos que o slot. Quando nenhum item estiver em um slot, o ícone desbotado do item que fornece o slot (como um cinto) é exibido.
+Novo SFX para colisões de carros de menor impacto.
+Adicionadas novas predefinições de sandbox à tela de opções de sandbox. Atualizados todos os arquivos predefinidos do sandbox para que incluam valores para todas as opções.
+Adicionada qualidade de estrela para mostrar a durabilidade dos itens no hotbar.
+O cinto esquerdo agora é o primeiro, depois o slot direito, isso funcionará apenas se você desequipar/reequipar o cinto.
+Traduções da comunidade atualizadas.
+Adicionado ProjectZomboidOpenGLDebug64.bat que usa lwjgl-debug.jar em vez de lwjgl.jar para ativar a verificação de erro estendida. Entre outras coisas, isso chama glGetError() após cada chamada OpenGL.
+Esgueirar-se agora drena mais resistência ao caminhar/correr em disparada do que caminhar/correr normalmente.
+Item/roupa equipado agora no final do inventário e não no topo.
+Pressionar R agora pode fazer várias coisas:
+[OBS]<INDENT:40> - Se o caarregador estiver na arma equipada, desequipe-o, verifique se há um novo carregador para inserir.
+[OBS]<INDENT:40> - Se nenhum outro carregador for encontrado, verifique se podemos carregar balas em um carregador, quando terminar o recarregamento automático/rack.
+Adicionadas algumas informações de depuração sobre sair e salvar o jogo ao sair.
 
-[SEÇÃO]BALANCE
-Changed all open doors to be see-through to help with combat when zombies are on the other side of an open door.
-If a vehicle is inside a garage, the area of the vehicle now decreases slightly - to help with parking.
-Balanced firearm stats.
-Increased chance of finding magazine in guns.
-Improved M16 and Automatic fire weapons. 
-Adjusted some loot spawns
-Add carpentry exp when making spears.
-Zombies have now defense according to clothing
-Eating frozen food now gives unhappiness/boredom malus.
-Re-added guns to spawn
-Lowered gigamart spawn rate.
-Increased safehouse loot.
-Changed Builder's food rarity settings from "extremely rare" to "rare"
-Disabled automatically vaulting over fences when there's no floor on the other side.
-Added a grace period during which a 'Surprise Bathroom zombie' attack does no damage to avoid unfair instadeath. 
+[SEÇÃO] BALANCIAMENTO
+Todas as portas abertas foram alteradas para serem transparentes para ajudar no combate quando os zumbis estão do outro lado de uma porta aberta.
+Se um veículo estiver dentro de uma garagem, a área do veículo agora diminui ligeiramente - para ajudar no estacionamento.
+Estatísticas de armas de fogo balanceadas.
+Maior chance de encontrar carregadores em armas.
+Armas de fogo automáticas e M16 aprimoradas.
+Ajustado alguns spawns de loot.
+Adicionado exp de carpintaria ao fazer lanças.
+Os zumbis agora têm defesa de acordo com a roupa.
+Comer comida congelada agora dá males de infelicidade/tédio.
+Readicionadas armas para spawn.
+Redução da taxa de geração de gigamart.
+Maior loot do refúgio.
+Mudamos as configurações de raridade de comida do Construtor de "extremamente raro" para "raro"
+Desativado o salto automático sobre cercas quando não há piso do outro lado.
+Adicionado um período de tempo durante o qual um ataque de um 'Zumbi Surpresa do Banheiro' não causa dano para evitar morte instantânea injusta.
 
-[SEÇÃO]ANIM AND MODEL CHANGES
-Tweaks to Hunting vest x files and masks so they work better together
-Adjusted wedding jacket to work a bit better with jumpers.
-Adjusted Huntingvest masks so that it works better with clothing
+[SEÇÃO] MUDANÇAS DE ANIMAÇÕES E MODELOS
+Ajustes nos arquivos Hunting vest x e máscaras para que funcionem melhor juntos.
+Casaco de noiva ajustado para funcionar um pouco melhor com saltadores.
+Máscaras de Caça ajustadas para que funcione melhor com roupas.
  
 
 [SEÇÃO]FIXES
