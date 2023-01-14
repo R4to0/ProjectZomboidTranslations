@@ -263,21 +263,21 @@ Corrigido o erro de renderização de respingos de chuva em tela dividida.
 Corrigido erro de digitação com ISBaseObject.type. O tipo T maiúsculo é usado em vários lugares.
 Corrigido o modelo do jogador sendo redefinido ao trocar os itens da hotbar.
 Corrigido o avatar de informações do personagem não atualizando ao trocar itens da hotbar.
-Chame ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada para triggerEvent("OnClothingUpdate") em IsoGameCharacter.setAttachedItem() que pode fazer com que refresh() seja chamado em momentos inesperados.
+Chama ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada para triggerEvent("OnClothingUpdate") em IsoGameCharacter.setAttachedItem() que pode fazer com que refresh() seja chamado em momentos inesperados.
 IsoGameCharacter.attachedModels movido para ModelSlot.attachedModels.
 Corrigido erro em ISAttachedItemsUI.lua quando zumbis possuem vários itens equipados.
 Atraso na reinicialização dos modelos equipados e anexados de um personagem até o próximo frame.
-ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
+Alterado ISHotbar:update() para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
 Corrigidas as caixas de texto que não estavam sendo destruídas.
-Fixed hotbar exception after moving the first of two belts to a container.
-Fixed previous game's zombie population settings being applied to new games.
-Fixed Survivor.lua sandbox preset never being loaded.
-Rebuilt Linux libPZPopMan64.so.
-Lowered burnt house spawn rate.
-Fixed zombies being considered as on back when falling through window.
-Can now wash yourself without soap, but takes longer.
-Capped the time needed to wash clothing.
-Added holster icons.
+Corrigida a exceção da hotbar após mover o primeiro de dois cintos para um contêiner.
+Corrigidas as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
+Correção da predefinição de sandbox do Survivor.lua que nunca é carregada.
+Linux reconstruído libPZPopMan64.so.
+Reduzida a taxa de geração de casas queimadas.
+Corrigidos zumbis sendo considerados de costas ao cair pela janela.
+Agora pode se lavar sem sabão, mas leva mais tempo.
+Limitado o tempo necessário para lavar roupas.
+Adicionados ícones de coldre.
 
 [VERSÃO] 41.19
 [SEÇÃO]NEW
