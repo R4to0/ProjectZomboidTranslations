@@ -34,7 +34,7 @@ Muitas, muitas correções gerais incluindo consertos para: carros flutuantes, p
 MOCHILAS VISÍVEIS!
 
 [VERSÃO] 41.13
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Jassimp64.dll reconstruída com library c++ estaticamente vinculada (remove a dependência da msvcp140.dll).
 
 [SEÇÃO] CORREÇÕES
@@ -75,7 +75,7 @@ Corrigido o jogador não começar sem roupas em AReallyCDDAy.
 Corrigido ícones personalizados para roupas e recipientes perdidos após recarregar um jogo.
 Corrigida a exceção de limpeza de sangue com uma Toalha de Banho.
 Corrigida a exceção para o carregamento de espingardas (ou qualquer arma sem carregador).
-GrabItemAction transfere vários itens de uma vez, semelhante a InventoryTransferAction.
+Corrigido o GrabItemAction transferir vários itens de uma vez, semelhante a InventoryTransferAction.
 Corrigida a transferência de grandes pilhas de itens que reduziam o FPS.
 Corrigida a perda de munição ao criar uma espingarda serrada.
 Corrigido o comportamento de redimensionamento da tela de Personalizar Personagem.
@@ -91,13 +91,13 @@ Correções para tratamento de falhas MainThread/GameThread.
 [OBS]<INDENT:40> - DebugOptions.
 [OBS]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
 Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe.
-Corrigidas as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Survivor por engano.
-Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
+Corrigido as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Survivor por engano.
+Corrigido falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSÃO] 41.15
 [SEÇÃO] NOVIDADES
 Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brawler se torna Survivor, Survivor se torna Apocalypse.
-Adicionadas transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
+Adicionado transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
 [OBS]<INDENT:40> - Elimina o estranho arco de giro durante a transição para o strafe.
 Removido a animação strafeToWalk do strafeSneak -> walk/run/etc.
 [OBS]<INDENT:40> - Reduz a quantidade de saltos do personagem durante a transição de strafeSneak para os referidos estados.
@@ -116,19 +116,19 @@ Reduzido o atraso após escalar uma janela ou uma cerca antes que o jogador poss
 Mudança de temperatura corporal temporariamente desativada para ajudar as pessoas a sobreviver ao inverno.
 Tornou a detecção de acertos em partes do corpo de zumbis abatidos um pouco mais generosa.
 Mãos vazias em golpes múltiplos agora podem empurrar até 3 zumbis - no modo Survivor (anteriormente Brawler).
-Definir gerador para ConditionMax = 100.
-Definir algumas peças de veículo para ConditionMax = 100.
+Definido gerador para ConditionMax = 100.
+Definido algumas peças de veículo para ConditionMax = 100.
 
 [SEÇÃO] MUDANÇAS DE ANIMAÇÕES E MODELOS
-Ajustadas várias animações de turno.
+Ajustado várias animações de turno.
 Logotipo da van mccoy invertida.
 
 [SEÇÃO] CORREÇÕES
 Corrigido empurrando o primeiro zumbi dentro do alcance, em vez do zumbi mais próximo dentro do alcance.
 Corrigido o caminho incorreto para o Piano Ambiente.
-Tentativa de correção para problemas do Mac por meio de 'iluminação' reconstruída do Mac libLighting.dylib
+Tentativa de correção para problemas do Mac por meio de 'iluminação' reconstruída do Mac libLighting.dylib.
 Corrigida a zumbificação de arranhões de árvores.
-Tarefas RenderThread corrigidas às vezes sendo relatadas como concluídas antes de serem invocadas.
+Corrigido as Tarefas RenderThread às vezes sendo relatadas como concluídas antes de serem invocadas.
 Corrigido o botão "Aleatório" na tela Personalização de Personagem, redefinindo a profissão do jogador.
 Corrigido molotovs e armas quebradas não sendo removidas das mãos do jogador.
 Corrigido ícones de itens no chão sendo o dobro do tamanho normal quando "Texturas de tamanho duplo" = Não.
@@ -140,11 +140,11 @@ Corrigido posições externas de passageiros rebaixados do Carro Esportivo (corr
 Corrigido Pano Rasgado e Corda Improvisada funcionam em todos os itens selecionados (se forem válidos).
 Removido Performance Settings.modelsEnabled e Performance Settings.support 3D.
 Reduzido o número de threads de carregamento de ativos de 4 para 2 em sistemas com 4 ou menos threads de hardware. Ou seja, dual-core com hyperthreading ou quad-core sem hyperthreading.
-Corrigido ícones de traços ausentes ao usar o local turco. (Saúde Fraca, Analfabeto, etc.).  Qualquer coisa com um I maiúsculo.
-Clicar duas vezes nos rótulos de tutorial e estilo de jogo na tela do novo jogo avança para a próxima tela.
+Corrigido ícones de traços ausentes ao usar o local turco. (Saúde Fraca, Analfabeto, etc.). Qualquer coisa com um I maiúsculo.
+Corrigido clicar duas vezes nos rótulos de tutorial e estilo de jogo na tela do novo jogo avança para a próxima tela.
 Corrigido problemas ao atacar enquanto estiver em um veículo (munição infinita, não pode empurrar).
-Tentativa de corrigir exceções em ClimbThroughWindowState. Não armazene IsoWindow ou IsoGridSquare em StateMachineParams, pois eles podem se tornar inválidos devido à rolagem do mapa (para zumbis na borda da área carregada, não para o jogador)
-Corrigido erro de lua em DebugChunkStateUI
+Tentativa de corrigir exceções em ClimbThroughWindowState. Não armazene IsoWindow ou IsoGridSquare em StateMachineParams, pois eles podem se tornar inválidos devido à rolagem do mapa (para zumbis na borda da área carregada, não para o jogador).
+Corrigido erro de lua em DebugChunkStateUI.
 Corrigida a exibição de LMENU como LALT. Exibir RMENU como RALT.
 Corrigida a limpeza de uma tecla de atalho do teclado, exibindo-o sem nome em vez de NENHUM.
 Corrigido algumas estranhezas no cancelamento do avanço rápido quando perto de zumbis.
@@ -161,10 +161,10 @@ Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrado
 
 [SEÇÃO] CORREÇÕES
 Corrigido os problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
-Adicionadas opções de transparência / visibilidade do cursor iso para combate.
+Adicionado opções de transparência / visibilidade do cursor iso para combate.
 Corrigido os zumbis tocando seu som de morte às vezes quando esfaqueados (mas não esfaqueados na mandíbula).
 [OBS]<INDENT:40> Isso aconteceu quando bCloseKill=true mas CriticalHit=false.
-Um zumbi morre assim que é esfaqueado no maxilar, não depois de cair no chão.
+Corrigido um zumbi morrer assim que é esfaqueado no maxilar, não depois de cair no chão.
 [OBS]<INDENT:40> A animação KnifeDeath é reproduzida no estado de queda, não no estado de reação ao golpe.
 [OBS]<INDENT:40> A reação de golpe KnifeDeath não acontece agora porque o zumbi está morto antes de cair.
 Corrigido o problema do número de zumbis em Sobrevivência.
@@ -174,7 +174,7 @@ Corrigida a falha de localização de caminho ao mover-se no mesmo quadrado quan
 [VERSÃO] 41.17
 [SEÇÃO] NOVIDADES
 Todos os personagens agora começam com um cinto - dando a eles uma slot "traseira" e dois slots de cinto (esquerdo/direito).
-Você pode clicar com o botão direito do mouse em um slot ou arrastar e soltar uma arma nele. Ou, alternativamente, clique em uma arma em seu inventário para anexá-la na hotbar.
+Você pode clicar com o botão direito do mouse em um slot ou arrastar e soltar uma arma nele. Ou, alternativamente, clique em uma arma em seu inventário para equipar-la na hotbar.
 As armas serão mostradas no jogador. Pressionar uma tecla de atalho (de 1 a 5) equipará automaticamente a arma atribuída a cada slot.
 Coldres adicionados. Coldres têm a chance de aparecer em zumbis da polícia/policial estadual.
 ProjectZomboid.exe reconstruído como um aplicativo GUI, sem mais janela de console. Deve funcionar com o Steam remote play juntos agora.
@@ -211,7 +211,7 @@ Corrigida a animação de martelar ao derramar terra/cascalho/areia de um saco.
 Corrigido Logs.zip console.txts são limitados a todas as 2 linhas durante a maioria das falhas.
 Corrigido os problemas ao pressionar Escape ao entrar ou sair de um veículo ou trocar de assento.
 Corrigido os jogadores atravessando uma parede ao saltar sobre uma cerca adjacente à parede.
-Problema corrigido: exceção de thread não tratada pelo SQLDB em um ambiente não UTF8.
+Corrigido o Problema: Exceção de thread não tratada pelo SQLDB em um ambiente não UTF8.
 Corrigida a tela de proteção que não funcionava com um controle.
 Corrigido os botões de cabelo/barba de informações que não funcionam com um controle.
 Corrigido secadora e lavadora de roupas continuando a reproduzir som após a queda de energia.
@@ -223,7 +223,7 @@ Corrigida a tecla Abaixar que afeta apenas o jogador 0, que corrige o agachament
 Corrigida a opção do menu de contexto "Sentar no Chão" está disponível quando você já está sentado.
 Corrigida a opção do menu de contexto "Sentar no Chão" não está disponível ao usar um controle.
 Corrigida a adição de alimentos congelados em receitas.
-Correção de meias velhas ainda existentes.
+Corrigido as meias velhas ainda existentes.
 
 [VERSÃO] 41.18
 [SEÇÃO] NOVIDADES
@@ -233,7 +233,7 @@ Mudança de status "Lesões menores, primeiros socorros necessários".
 As Configurações de Sandbox Personalizadas não são Salvas como uma Predefinição Salva se "/" Estiver no Nome.
 SFX de Pesca não sincronizada.
 Mudou o som WaterDrip para tocar apenas em sprites IsoFlagType.waterPiped com água (para que eles não gotejem depois que a água for desligada, a menos que estejam conectados a uma fonte de água).
-Adicionados ícones de coldre.
+Adicionado ícones de coldre.
 Várias mudanças de compatibilidade para futuras atualizações de Super Sobreviventes.
 Adicionada várias animações de recuo para armas/arma de fogo, quanto mais nível de mira, mais rápido você atirará + menos recuo da animação.
 Adicionado disparo Único/Auto para o M16.
@@ -369,7 +369,7 @@ Corrigido alarmes domésticos não funcionarem.
 [SEÇÃO] NOVIDADES
 Adicionadas novas texturas para zumbis e personagens sobreviventes.
 Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc).
-Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
+Mapa atualizado de Ilha de Férias Kingsmouth & Estúdio de Cinema, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
 
 [SEÇÃO] Coisas de Temperatura do Personagem:
 Adicionado termorregulador ao BodyDamage, que lida com todo o calor do jogador.
@@ -474,7 +474,7 @@ Modelos de curativos acabados (adicionados sujos!).
 Removida a opção "Nova Ocultação de Telhado".
 Capture e registre todos os erros do Throwable ao salvar o jogo.
 Adicionado eventos aleatórios de geração de veículos - acidentes de carro, etc.
-Aspectos introduzidos de novos desafios: Zumbis agora estão ativos à noite e inativos durante o dia no Studio, você começa com uma tocha à meia-noite. Opções de sandbox de Kingsmouth ajustadas.
+Aspectos introduzidos de novos desafios: Zumbis agora estão ativos à noite e inativos durante o dia no Estúdio de Cinema, você começa com uma tocha à meia-noite. Opções de sandbox da Ilha de Férias Kingsmouth ajustadas.
 Transição aprimorada para animação de ação para remover snaps de animação.
 
 [SEÇÃO] [MUDANÇAS NO SISTEMA DE ISOLAMENTO]
