@@ -111,11 +111,11 @@ Adicionada textura de mapa de altura para poças. Essa textura deve aumentar o d
 Adicionado Logs/ZombieSpawn.txt para registrar spawns de zumbis. Deve gravar zumbis surgindo dentro de edifícios, não tanto fora.
 
 [SEÇÃO] BALANCIAMENTO
-Zumbis atenuados e spawns de zumbis diminuem em Survivor (anteriormente Brawler).
+Zumbis atenuados e spawns de zumbis diminuem em Sobrevivente (anteriormente Brigador).
 Reduzido o atraso após escalar uma janela ou uma cerca antes que o jogador possa se mover.
 Mudança de temperatura corporal temporariamente desativada para ajudar as pessoas a sobreviver ao inverno.
 Tornou a detecção de acertos em partes do corpo de zumbis abatidos um pouco mais generosa.
-Mãos vazias em golpes múltiplos agora podem empurrar até 3 zumbis - no modo Survivor (anteriormente Brawler).
+Mãos vazias em golpes múltiplos agora podem empurrar até 3 zumbis - no modo Sobrevivente (anteriormente Brigador).
 Definido gerador para ConditionMax = 100.
 Definido algumas peças de veículo para ConditionMax = 100.
 
@@ -282,7 +282,7 @@ ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornan
 Corrigido as caixas de texto que não estavam sendo destruídas.
 Corrigida a exceção da hotbar após mover o primeiro de dois cintos para um contêiner.
 Corrigida as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
-Corrigida a predefinição de sandbox do Survivor.lua que nunca é carregada.
+Corrigida a predefinição de sandbox do Sobrevivente.lua que nunca é carregada.
 Corrigido os zumbis sendo considerados de costas ao cair pela janela.
 
 [VERSÃO] 41.19
