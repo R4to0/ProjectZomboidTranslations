@@ -419,41 +419,44 @@ Adicionadas zonas de água nas docas e na casa de barcos ao norte de West Point 
 [OBS]<INDENT:40> Alterado o código do sombreado da água para renderizar em duas passagens, primeiro os ladrilhos de água sólida, depois os ladrilhos regulares e os ladrilhos da costa.
 [OBS]<INDENT:40> Ele corrige alguns ladrilhos escondidos nas docas/casa de barcos ao norte de West point e na ponte ferroviária a leste de West point. Antes não era possível ver os pisos transparentes nas bordas da ponte ferroviária porque a água os cobria.
 
-[SEÇÃO]GENERAL
-Added some food models (mainly for vegetables/fruits).
-Addded eat from plate anim
-Added tailoring trait/books.
-Fixed sometimes having spawn house barricaded.
-Moved passive skills to the top of the Skills tab.
-Transfering items by 20 stakcs now does it only for small items (weight <= 0.1) liks nails, bullets etc..
-Changed aiming zombies outline colors to use less dark red.
-Changed some words on repair menu.
-Added Bob_IdleEatingFromPlate.X and Bob_DrinkFromFloor.X
-Fixed puddles rendering on top of water (when not using the water shader and Dynamic Puddles = All).
-Fixed puddle data rendering
-[OBS]<INDENT:40> This was to fix a bug when opening/closing a door using a controller, puddles would appear briefly in a 3x3 area around the door. It didn't happen when using the 'E' key, strangely.
-Fixed the second container in the loot window being auto-selected instead of the first when using a controller.
-Fixed some garage doors with walls behind them in cell 25,31.
-Fixed zombies inherit some other room distributions, making easy to farm some items by luring zombies into specific rooms.
-Removed tutorial popup message for new players.
-Fixed entering a vehicle sometimes taking longer than it should. This seemed to happen when the player was playing a turning animation and entered the vehicle.
-Fixed rendering of wall vines being affected by the old circle-stencil.
-Added a delay-before attack animation to the zombie "attack" state in 100% unfair instant pounce situations.  The animation lasts 1/2 second. This replaces the 'grace' period from the last patch.
-Removed the blend time between the start and finish animations of the zombie attack. This appeared to cause a hitch in the zombie's pose.
-Fixed player walking to adjacent containers when transferring items.
-Fixed Difference in how tint is applied to models versus on-character clothes.
-Fixed Survivor & Builder mode not starting in July.
-Fixed player not waking up when low health.
-Fixed player not waking up if a zombie destroy something in the house (window, door, barricade..)
-Fixed sometimes player continue walking when about to sleep making him phasing through walls etc.
-Fixed texture-related exception loading moveable items in containers.
-Fixed sleep ending too soon.
-Fixed player turning while looting since doing so may change which containers are displayed.
-Fixed corpse textures being recreated each time a corpse was loaded.
-Fixed lua error unloading bullets from a magazine when there are no bullets in inventory.
-Fixed issues dismantling vehicles with a blowtorch.
-Fixed multiplying comboboxes killing fps after repeatedly clicking the Randomize button in the character-creation screen.
-Fixed typo in ClothingSelectionDefinitions.lua.
+[SEÇÃO] GERAL
+Adicionado alguns modelos de alimentos (principalmente para vegetais/frutas).
+Adicionado animação de comer do prato.
+Adicionado traço/livros de costura.
+Movido as habilidades passivas para o topo da guia Habilidades.
+Transferir itens em 20 pilhas agora faz isso apenas para itens pequenos (peso <= 0,1) como pregos, balas etc.
+Adicionados Bob_IdleEatingFromPlate.X e Bob_DrinkFromFloor.X.
+[OBS]<INDENT:40> Isso foi para corrigir um bug ao abrir/fechar uma porta usando um controle, poças apareceriam brevemente em uma área de 3x3 ao redor da porta. Isso não aconteceu ao usar a tecla 'E', estranhamente.
+Mensagem pop-up de tutorial removida para novos jogadores.
+Adicionada uma animação de atraso antes do ataque ao estado de "ataque" do zumbi em situações de ataque instantâneo 100% injustas. A animação dura 1/2 segundo. Isso substitui o período de 'graça' do último patch.
+
+
+[SEÇÃO] CORREÇÕES
+Corrigida a diferença em como a tonalidade é aplicada aos modelos em relação às roupas dos personagens.
+Corrigido o modo Sobrevivente & Construtor não iniciando em julho.
+Corrigido o jogador não acordando quando estiver com pouca saúde.
+Corrigido o jogador não acordando se um zumbi destruir algo na casa (janela, porta, barricada..)
+Corrigido às vezes o jogador continuar andando quando está prestes a dormir, fazendo-o passar pelas paredes, etc.
+Corrigida a exceção relacionada à textura ao carregar itens móveis em contêineres.
+Corrigido o sono terminando muito cedo.
+Corrigido o jogador girando durante o loot, pois isso pode alterar quais contêineres são exibidos.
+Corrigida as texturas de cadáver sendo recriadas cada vez que um cadáver era carregado.
+Corrigido o erro lua ao descarregar balas de um carregador quando não há balas no inventário.
+Corrigidos problemas ao desmontar veículos com um maçarico.
+Corrigida a multiplicação de caixas de combinação matando fps após clicar repetidamente no botão Randomizar na tela de criação de personagem.
+Corrigido erro de digitação em ClothingSelectionDefinitions.lua.
+Corrigido o jogador caminhando para contêineres adjacentes ao transferir itens.
+Corrigido algumas vezes tendo a casa de spawn barricada.
+Corrigido poças renderizando em cima da água (ao não usar o sombreado de água e Poças Dinâmicas = Todas).
+Corrigido a renderização de dados da poça.
+Corrigido o segundo contêiner na janela de loot sendo selecionado automaticamente em vez do primeiro ao usar um controle.
+Corrigidas algumas portas de garagem com paredes atrás delas no quadrado 25,31.
+Corrigido os zumbis herdarem algumas outras distribuições de salas, facilitando o cultivo de alguns itens atraindo zumbis para salas específicas.
+Corrigido entrar em um veículo às vezes demorando mais do que deveria. Isso parecia acontecer quando o jogador estava reproduzindo uma animação de giro e entrava no veículo.
+Corrigida a renderização de vinhas de parede sendo afetadas pelo antigo estêncil de círculo.
+Alteradas as cores de contorno dos zumbis para usar menos vermelho escuro.
+Alterado algumas palavras no menu de reparos.
+Removido o tempo de mesclagem entre as animações inicial e final do ataque zumbi. Isso pareceu causar um problema na pose do zumbi.
 
 [VERSÃO] 41.21
 [SEÇÃO]NEW
