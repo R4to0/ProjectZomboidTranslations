@@ -401,7 +401,7 @@ As texturas de remendo atualmente são todas iguais, não importa o tecido usado
 [SEÇÃO] Melhorias nas Armas:
 Chance de acerto ajustada com armas: deve ser mais fácil e ter uma sensação muito mais 'linear' em relação ao nível de mira agora.
 
-[SEÇÃO] Zumbis Corredores Melhorados:
+[SEÇÃO] Melhorias nos Zumbis Corredores:
 Eles agora correm apenas se tiverem um alvo, caso contrário, apenas andam.
 Eles têm a chance de tropeçar e cair ao correr.
 Corrigido zumbis correndo por entre as árvores.
