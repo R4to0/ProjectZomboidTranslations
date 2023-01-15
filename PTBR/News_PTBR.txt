@@ -464,9 +464,8 @@ Submenu de costura substituído por um "Inspecionar interface do usuário de rou
 Adicionados modelos de bandagens visíveis no personagem.
 Alterada a animação ao construir paredes de troncos e ocultar modelos de mão, pois nenhuma ferramenta é necessária.
 Adicionado uma melhoria de "mundo" a alguns modelos de armas para posicioná-los e girá-los bem quando estiverem no chão. Isso é usado para que pás e tábus fiquem planas no chão, por exemplo.
-Adicionada a opção de exibição "Contorno da mira".
+Adicionada a opção de exibição "Contorno da Mira".
 O jogador agora desequipa o item atual antes de equipar outro quando ambos os itens estão na hotbar.
-Corrigidos alguns bugs com a IU de inspeção de roupas e adicionada uma barra de condição.
 Modelos de curativos acabados (adicionados sujos!).
 Removida a opção "Nova Ocultação de Telhado".
 Capture e registre todos os erros do Throwable ao salvar o jogo.
@@ -474,61 +473,62 @@ Adicionado eventos aleatórios de geração de veículos - acidentes de carro, e
 Aspectos introduzidos de novos desafios: Zumbis agora estão ativos à noite e inativos durante o dia no Studio, você começa com uma tocha à meia-noite. Opções de sandbox de Kingsmouth ajustadas.
 Transição aprimorada para animação de ação para remover snaps de animação.
 
-[SEÇÃO][INSULATION SYSTEM CHANGES]
-Fixed bug that resulted in no catch a cold chance when conditions did apply
-Slowed down body heat generation increase/decrease rates
-Added advanced view and applied text changes on thermal tab
-Fixed temperature offsets of limbs to be more pronounced
-Changed a few internal values making fighting cold to be harder based on test feedback also including: the dropping of core temperature now affects total possible heat generated and the body ability to keep fighting cold
-Increased energy/fluid consumption rates a little bit when overheating/undercooling
-Added small increase in energy consumption when generating lots of heat.
-Changed skin temperature moves faster when its moving back to favorable levels, so it doesnt take that long to warm up again.
-Fixed bug that during heat made skin too hot too fast based on insulation
-Fixed a few clothing pieces insulation
-Changed hypothermia stage 2 kicking in at core 35, instead of 33
-Added a lower body heat generation value when sneaking.
-Added small incremental insulation bonus affecting high insulating clothing mostly
-Added extra lower perspiration rate modifier for clothing in colder temperatures
-Added water resistance to various jackets,pants,hats and footwear
+[SEÇÃO][MUDANÇAS NO SISTEMA DE ISOLAMENTO]
+Diminuição das taxas de aumento/diminuição da geração de calor corporal.
+Adicionada visualização avançada e alterações de texto aplicadas na guia térmica.
+Corrigido compensações de temperatura dos membros para serem mais pronunciadas.
+Alguns valores internos foram alterados, tornando o combate ao frio mais difícil com base no feedback do teste, incluindo também: a queda da temperatura central agora afeta o calor total possível gerado e a capacidade do corpo de continuar combatendo o frio.
+Aumentado um pouco as taxas de consumo de energia/fluido durante o superaquecimento/subresfriamento.
+Adicionado pequeno aumento no consumo de energia ao gerar muito calor.
+A temperatura alterada da pele se move mais rapidamente quando volta a níveis favoráveis, por isso não demora muito para aquecer novamente.
+Alterado o estágio 2 de hipotermia, iniciando no núcleo 35, em vez de 33.
+Adicionado um menor valor de geração de calor corporal ao esgueirar-se.
+Adicionado pequeno bônus de isolamento incremental afetando principalmente roupas de alto isolamento.
+Adicionado modificador de taxa de transpiração extra baixa para roupas em temperaturas mais frias.
+Adicionada resistência à água para várias jaquetas, calças, chapéus e calçados.
 
-[SEÇÃO]BALANCE
-Increased a tad weapon spawning attached to zombies.
-Increased gardenning spray, scissors, gloves & butter knife spawn rate.
-Removed Belt being able to be cut.
-Increased thread spawn rate in kitchen.
-Mechanics window tooltips now display battery charge, amount of fuel in gas tank, amount of air in tires.
-Improved how day/night cycle zombies sandbox option works: when active, they get your sandbox options. When inactive, they're really slow & weak, but they can still walk/attack.
-Added slow shamblers zombies speed.
+[SEÇÃO] BALANCEAMENTO
+Aumentou um pouco o spawn de armas equipadas a zumbis.
+Maior taxa de geração de spray de jardinagem, tesoura, luvas e faca de manteiga.
+Removido o cinto ser cortado.
+Aumento da taxa de geração de threads na cozinha.
+As dicas da janela de mecânica agora exibem a carga da bateria, a quantidade de combustível no tanque de gasolina e a quantidade de ar nos pneus.
+Aprimorado o funcionamento da opção de sandbox de zumbis de ciclo diurno/noturno: quando ativos, eles obtêm suas opções de sandbox. Quando inativos, eles são muito lentos e fracos, mas ainda podem andar/atacar.
+Adicionado velocidade lenta dos zumbis shamblers.
 
-[SEÇÃO]FIXES
-Possibly fixed walking-in-place zombies.
-Fixed hotbar not updating when replacing a holster with a double holster or vice-versa.
-Fixed custom weights for food and crafted radios not being saved.
-Fixed "Clear Ashes" not being available.
-Allow Shovel/Shovel2/SnowShovel/HandShovel to be used to clear ashes.
-Fixed lua error in DebugChunkState displaying tables in modData.
-Fixed the bug "vehicles sometimes disappear until you reload the game".
-Fixed the player getting stuck when climbing a sheetrope and the way is blocked at the top. The player will automatically climb back down.
-Fixed overlapping garage door and wall in cell 37,22.
-Fixed Tailoring skill books disappearing after being read.
-Fixed grime/overlays/etc from burned tiles.
-Fixed the bug: the -Dnosave option throw a bunch of error
-Fixed car batteries starting with greater than 100% charge sometimes.
-Fixed picking up broken glass with the furniture-moving tool not cutting the hands as it does when done with the context menu.
-Fixed red garage doors not being openable.
-Fixed Transfer All not working when one of the items is a Moveable (furniture) item.
-Fixed cold water being used sometimes when disinfecting bandages or making hot drinks.
-Fixed Zombie Count sandbox option setting Population Multiplier incorrectly (since Very High was added).
-Fixed wrong climb-over-fence animation playing when holding a handgun.
-Fixed MEGA THUNDER bug after fast-forward
-Fixed zombies springing upright when struck after climbing over a fence, instead of getting stomped on.
-Fixed lua error when attempting to reload a magazine when there are no bullets in inventory.
-Fixed lua error when crafting when items need to be transferred to main inventory. (Packing nails into multiple boxes).
-Fixed not being able to wear items on the head with coveralls (FullSuit and FullSuitHead locations were swapped). This should fix welding masks disappearing when zombies die, if they were wearing coveralls.
-Fixed being able to click on doors to open/close them from too far away. Now the player must be in the 2x3 or 3x2 squares adjacent to the door.
-Fixed hitting trees through walls.
-Fixed zombies runners not running toward a sound (breaking windows, TV..)
-Fixed zombies runners running in circle around you.
+[SEÇÃO] CORREÇÕES
+Possivelmente corrigido zumbis andando no local.
+Corrigida a hotbar não atualizando ao substituir um coldre por um coldre duplo ou vice-versa.
+Corrigido os pesos personalizados para alimentos e rádios criados não sendo salvos.
+Corrigido "Cinzas Claras" não estando disponível.
+Correção que permite que Pá/Pál2/Pá de Neve/Pá de Jardinagem seja usado para limpar as cinzas.
+Corrigido erro de lua em DebugChunkState exibindo tabelas em modData.
+Corrigido o bug "às vezes os veículos desaparecem até você recarregar o jogo".
+Corrigido o jogador ficar preso ao subir uma corda de fuga e o caminho está bloqueado no topo. O jogador descerá automaticamente.
+Corrigido a porta da garagem sobreposta e parede na cela 37,22.
+Corrigido os livros de habilidades de costura desaparecendo após serem lidos.
+Corrigido as sujeiras / sobreposições / etc de ladrilhos queimados.
+Corrigido o bug: a opção -Dnosave gera vários erros.
+Corrigido as baterias de carro começando com mais de 100% de carga às vezes.
+Corrigida a coleta de cacos de vidro com a ferramenta de movimentação de móveis, não cortando as mãos, como acontece com o menu de contexto.
+Corrigido as portas vermelhas da garagem que não podiam ser abertas.
+Corrigido o Transferir Tudo não funcionar quando um dos itens é um item móvel (mobília).
+Corrigido a água fria sendo usada às vezes ao desinfetar curativos ou fazer bebidas quentes.
+Corrigida a opção de caixa de proteção Zombie Count definindo o Multiplicador de População incorretamente (desde que Muito Alto foi adicionado).
+Corrigida a reprodução incorreta da animação de escalar a cerca ao segurar uma arma.
+Corrigido o bug do MEGA THUNDER após o avanço rápido do tempo.
+Corrigido os zumbis pulando de pé quando atingidos após escalar uma cerca, em vez de serem pisoteados.
+Corrigido erro de lua ao tentar recarregar um carregador quando não há balas no inventário.
+Corrigido o erro de lua ao criar quando os itens precisam ser transferidos para o inventário principal. (Colocando pregos em várias caixas).
+Corrigido não ser capaz de usar itens na cabeça com macacões (os locais de FullSuit e FullSuitHead foram trocados). Isso deve corrigir o desaparecimento das máscaras de soldagem quando os zumbis morrem, se estiverem usando macacões.
+Corrigido ser capaz de clicar nas portas para abri-las/fechá-las de muito longe. Agora o jogador deve estar nos quadrados 2x3 ou 3x2 adjacentes à porta.
+Corrigido bater em árvores através das paredes.
+Corrigido os zumbis corredores não correndo em direção a um som (janelas quebradas, TV...)
+Corrigido os zumbis corredores correndo em círculo ao seu redor.
+Corrigido o bug que resultava em nenhuma chance de pegar um resfriado quando as condições se aplicavam.
+Corrigido o bug que durante o calor tornava a pele muito quente muito rápido com base no isolamento.
+Corrigido o isolamento de algumas peças de roupa.
+Corrigido alguns bugs com a IU de inspeção de roupas e adicionada uma barra de condição.
 
 [VERSÃO] 41.22
 
