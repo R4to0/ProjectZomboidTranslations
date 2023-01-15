@@ -1,5 +1,5 @@
 [VERSÃO] 41 - Versão Beta Inicial
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 [OBS] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
 <LEFT> Novos estilos de jogo: Construtor, Brigador e Sobrevivente.
 Estilo de jogo "Survivor" (Sobrevivente) mais mortal - o jogador pode ser arrastado pela horda ser degustado e etc.
@@ -36,6 +36,8 @@ MOCHILAS VISÍVEIS!
 [VERSÃO] 41.13
 [SEÇÃO] NOVO
 Jassimp64.dll reconstruída com library c++ estaticamente vinculada (remove a dependência da msvcp140.dll).
+
+[SEÇÃO] CORREÇÕES
 Corrigida exceção no MouseState com mouse de 2 botões.
 Corrigido o erro lua com o comando do menu de contexto subir pela janela.
 Corrigido objetos solidtrans próximos a molduras de janelas sem janelas sendo sólidas.
@@ -47,7 +49,7 @@ Possivelmente corpos cor de arco-íris corrigidos no Mac OS.
 Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows usando os locais Turcos (e potencialmente outros).
 
 [VERSÃO] 41.14
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Brigador e Contrutor funcionais.
 
 [SEÇÃO] ANIMAÇÕES
@@ -93,7 +95,7 @@ Corrigidas as opções de estilo de jogo Brawler e Builder no menu para impedi-l
 Correção de falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSÃO] 41.15
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brawler se torna Survivor, Survivor se torna Apocalypse.
 Adicionadas transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
 [OBS]<INDENT:40> - Elimina o estranho arco de giro durante a transição para o strafe.
@@ -153,11 +155,13 @@ Corrigido Mãos Vazias não sendo contadas como uma arma favorita, exceto ao pis
 Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrados após o carregamento de um jogo. Corrigido jogador que não morria corretamente após cair.
 
 [VERSÃO] 41.16
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 - Maior alocação de memória para zomboid de 64 bits que poderia evitar falhas em alguns sistemas que carregam no jogo.
+- A linha de renderização agora emitirá mensagens de erro melhores para diagnosticar problemas futuros.
+
+[SEÇÃO] CORREÇÕES
 Corrigido os problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
 Adicionadas opções de transparência / visibilidade do cursor iso para combate.
-- A linha de renderização agora emitirá mensagens de erro melhores para diagnosticar problemas futuros.
 Corrigido os zumbis tocando seu som de morte às vezes quando esfaqueados (mas não esfaqueados na mandíbula).
 [OBS]<INDENT:40> Isso aconteceu quando bCloseKill=true mas CriticalHit=false.
 Um zumbi morre assim que é esfaqueado no maxilar, não depois de cair no chão.
@@ -168,7 +172,7 @@ Corrigida a falha de localização de caminho ao mover-se no mesmo quadrado quan
 [OBS]<INDENT:40> Isso funcionava antes de luautils.walkAdj() ser alterado para não chamar AdjacentFreeTileFinder.isTileOrAdjacent().
 
 [VERSÃO] 41.17
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Todos os personagens agora começam com um cinto - dando a eles uma slot "traseira" e dois slots de cinto (esquerdo/direito).
 Você pode clicar com o botão direito do mouse em um slot ou arrastar e soltar uma arma nele. Ou, alternativamente, clique em uma arma em seu inventário para anexá-la na hotbar.
 As armas serão mostradas no jogador. Pressionar uma tecla de atalho (de 1 a 5) equipará automaticamente a arma atribuída a cada slot.
@@ -178,7 +182,7 @@ Adicionada animação do jogador Bob_VaultOverToFall ao pular cercas.
 Adicionada animação zumbi Zombie_WalkTrees para os estados walktoward e pathfind.
 Animações de ataques de zumbis reproduzidas a 50% de velocidade nas árvores.
 
-[SEÇÃO] CORREÇÕES
+[SEÇÃO] BALANCEAMENTO
 Dano do machado de madeira aumentado, velocidade, quantidade de tempo que você pode se mover durante o strafe, para torná-lo uma arma de dano pesado viável (mas ainda bastante lenta).
 Forçar a postura ao beber/encher itens da pia.
 Reduzido o tamanho do modelo de revólver (+ cano refeito)
@@ -222,14 +226,13 @@ Corrigida a adição de alimentos congelados em receitas.
 Correção de meias velhas ainda existentes.
 
 [VERSÃO] 41.18
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Adicionado o som "Concluído" à Máquina de Lavar/Secar roupa.
 Não conseguir adicionar/remover roupas da lavadora/secadora enquanto o ciclo está ativo.
 Mudança de status "Lesões menores, primeiros socorros necessários".
 As Configurações de Sandbox Personalizadas não são Salvas como uma Predefinição Salva se "/" Estiver no Nome.
 SFX de Pesca não sincronizada.
 Mudou o som WaterDrip para tocar apenas em sprites IsoFlagType.waterPiped com água (para que eles não gotejem depois que a água for desligada, a menos que estejam conectados a uma fonte de água).
-Bug do Conjunto de Roupas.
 Adicionados ícones de coldre.
 Várias mudanças de compatibilidade para futuras atualizações de Super Sobreviventes.
 Adicionada várias animações de recuo para armas/arma de fogo, quanto mais nível de mira, mais rápido você atirará + menos recuo da animação.
@@ -257,7 +260,8 @@ Reativado os sons ambiente geladeira/janela/porta/etc.
 Reduzida a taxa de geração de casas queimadas.
 
 [SEÇÃO] CORREÇÕES
-Corrigido o Bug de Panela Quebrada.
+Corrigido o Bug da Panela Quebrada.
+Corrigido o bug do Conjunto de Roupas.
 Corrigido índice do uniforme não ser inicializado com TallFenceShader.
 Corrigido sombreados de piso e parede sendo recriados sempre que um jogo é iniciado.
 Espero ter corrigido os problemas de desempenho da poça de chuva.
@@ -270,7 +274,7 @@ Corrigido o erro de renderização de respingos de chuva em tela dividida.
 Corrigido erro de digitação com ISBaseObject.type. O tipo T maiúsculo é usado em vários lugares.
 Corrigido o modelo do jogador sendo redefinido ao trocar os itens da hotbar.
 Corrigido o avatar de informações do personagem não atualizando ao trocar itens da hotbar.
-Chama ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada para triggerEvent("OnClothingUpdate") em IsoGameCharacter.setAttachedItem() que pode fazer com que refresh() seja chamado em momentos inesperados.
+Chame ISHotbar:refresh() em update(). Meu commit anterior adicionou uma chamada para triggerEvent("OnClothingUpdate") em IsoGameCharacter.setAttachedItem() que pode fazer com que refresh() seja chamado em momentos inesperados.
 IsoGameCharacter.attachedModels movido para ModelSlot.attachedModels.
 Corrigido erro em ISAttachedItemsUI.lua quando zumbis possuem vários itens equipados.
 Atraso na reinicialização dos modelos equipados e anexados de um personagem até o próximo frame.
@@ -282,7 +286,7 @@ Corrigida a predefinição de sandbox do Survivor.lua que nunca é carregada.
 Corrigido os zumbis sendo considerados de costas ao cair pela janela.
 
 [VERSÃO] 41.19
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Zumbis corredores readicionados ao sandbox.
 Certos chapéus agora têm chance de cair ao atacar (em zumbis e jogadores). Chapéus agora renderizados como modelos 3D no mundo.
 Os rótulos dos slots agora são exibidos acima da barra de atalho quando o mouse passa sobre esse slot. Isso foi feito para corrigir rótulos mais longos que o slot. Quando nenhum item estiver em um slot, o ícone desbotado do item que fornece o slot (como um cinto) é exibido.
@@ -312,7 +316,7 @@ Comer comida congelada agora dá males de infelicidade/tédio.
 Readicionadas armas para spawn.
 Redução da taxa de geração de gigamart.
 Maior loot do refúgio.
-Mudamos as configurações de raridade de comida do Construtor de "extremamente raro" para "raro"
+Mudamos as configurações de raridade de comida do Construtor de "extremamente raro" para "raro".
 Desativado o salto automático sobre cercas quando não há piso do outro lado.
 Adicionado um período de tempo durante o qual um ataque de um 'Zumbi Surpresa do Banheiro' não causa dano para evitar morte instantânea injusta.
 
@@ -349,7 +353,7 @@ Corrigido alguns erros de lua sendo impressos no console sem exibir a caixa de e
 Corrigido carregador de bateria de carro não renderizando às vezes.
 Corrigida alguma mistura durante o salto.
 Corrigida a pausa repentina no final do vaultOverRun
-Correção do salto sobre o corredor fazendo um snap.
+Corrigido o salto sobre o corredor fazendo um snap.
 Corrigido as animações de comer e beber parando no meio da ação.
 Corrigido alguns zumbis andando muito rápido ou muito lento.
 Corrigida a predefinição do Construtor sendo selecionada inicialmente na caixa de combinação "Predefinições Salvas" do sandbox quando as configurações reais eram para Survivor.lua, também conhecido como Apocalipse.
@@ -362,7 +366,7 @@ Corrigido jogador andando ao desligar um alarme que está em seu inventário.
 Corrigido alarmes domésticos não funcionarem.
 
 [VERSÃO] 41.20
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Adicionadas novas texturas para zumbis e personagens sobreviventes.
 Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc).
 Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
@@ -370,8 +374,8 @@ Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o esp
 [SEÇÃO] Coisas de Temperatura do Personagem:
 Adicionado termorregulador ao BodyDamage, que lida com todo o calor do jogador.
 Adicionada interface térmica do usuário e elementos do painel de personagens.
-A alteração da fome, sede e fadiga pode ser multiplicada devido ao estado da termorregulação.
-Danos e penalidades por frio/calor reformulados.
+Alteração da fome, sede e fadiga pode ser multiplicada devido ao estado da termorregulação.
+Reformulados os danos e penalidades por frio/calor.
 Alterada a eficácia do guarda-chuva para cada parte do corpo.
 Alterado obtendo uma chance fria de medir a temperatura da pele + umidade por parte do corpo, cabeça/pescoço/peito pesam mais.
 Alterado agora para um homem ao ar livre reduzir a chance de pegar um resfriado para 10% do normal.
@@ -404,7 +408,7 @@ Chance de acerto ajustada com armas: deve ser mais fácil e ter uma sensação m
 [SEÇÃO] Melhorias nos Zumbis Corredores:
 Eles agora correm apenas se tiverem um alvo, caso contrário, apenas andam.
 Eles têm a chance de tropeçar e cair ao correr.
-Corrigido zumbis correndo por entre as árvores.
+Corrigido zumbis corredores correndo entre as árvores.
 Os corredores têm um delta de curva mais amplo ao correr.
 O botão X do controle agora transfere itens do jogador para qualquer contêiner exibido na janela de pilhagem, em vez de para o chão.
 
@@ -414,7 +418,7 @@ Verificado se o arquivo vehicles.db é salvo em logs.zip. Este arquivo está con
 Adicionado salvamento do último salvamento quando o jogo começa. Esses arquivos estão contidos no diretório /save_old/ no arquivo.
 
 [SEÇÃO] Melhorias na Água:
-Adicionadas zonas de água nas docas e na casa de barcos ao norte de West Point para corrigir a renderização com o sombreado da água.
+Adicionado zonas de água nas docas e na casa de barcos ao norte de West Point para corrigir a renderização com o sombreado da água.
 [OBS]<INDENT:40> Não é 100% corrigido; os ladrilhos que fornecem espessura às docas não são visíveis e há uma falha de 1 ladrilho onde a doca encontra a costa.
 [OBS]<INDENT:40> Alterado o código do sombreado da água para renderizar em duas passagens, primeiro os ladrilhos de água sólida, depois os ladrilhos regulares e os ladrilhos da costa.
 [OBS]<INDENT:40> Ele corrige alguns ladrilhos escondidos nas docas/casa de barcos ao norte de West point e na ponte ferroviária a leste de West point. Antes não era possível ver os pisos transparentes nas bordas da ponte ferroviária porque a água os cobria.
@@ -459,9 +463,9 @@ Alterado algumas palavras no menu de reparos.
 Removido o tempo de mesclagem entre as animações inicial e final do ataque zumbi. Isso pareceu causar um problema na pose do zumbi.
 
 [VERSÃO] 41.21
-[SEÇÃO] NOVO
+[SEÇÃO] NOVIDADES
 Submenu de costura substituído por um "Inspecionar interface do usuário de roupas", que funciona como um painel de saúde.
-Adicionados modelos de bandagens visíveis no personagem.
+Adicionado modelos de bandagens visíveis no personagem.
 Alterada a animação ao construir paredes de troncos e ocultar modelos de mão, pois nenhuma ferramenta é necessária.
 Adicionado uma melhoria de "mundo" a alguns modelos de armas para posicioná-los e girá-los bem quando estiverem no chão. Isso é usado para que pás e tábus fiquem planas no chão, por exemplo.
 Adicionada a opção de exibição "Contorno da Mira".
@@ -473,7 +477,7 @@ Adicionado eventos aleatórios de geração de veículos - acidentes de carro, e
 Aspectos introduzidos de novos desafios: Zumbis agora estão ativos à noite e inativos durante o dia no Studio, você começa com uma tocha à meia-noite. Opções de sandbox de Kingsmouth ajustadas.
 Transição aprimorada para animação de ação para remover snaps de animação.
 
-[SEÇÃO][MUDANÇAS NO SISTEMA DE ISOLAMENTO]
+[SEÇÃO] [MUDANÇAS NO SISTEMA DE ISOLAMENTO]
 Diminuição das taxas de aumento/diminuição da geração de calor corporal.
 Adicionada visualização avançada e alterações de texto aplicadas na guia térmica.
 Corrigido compensações de temperatura dos membros para serem mais pronunciadas.
@@ -501,7 +505,7 @@ Possivelmente corrigido zumbis andando no local.
 Corrigida a hotbar não atualizando ao substituir um coldre por um coldre duplo ou vice-versa.
 Corrigido os pesos personalizados para alimentos e rádios criados não sendo salvos.
 Corrigido "Cinzas Claras" não estando disponível.
-Correção que permite que Pá/Pál2/Pá de Neve/Pá de Jardinagem seja usado para limpar as cinzas.
+Correção que permite que a Pá/Pál2/Pá de Neve/Pá de Jardinagem seja usado para limpar as cinzas.
 Corrigido erro de lua em DebugChunkState exibindo tabelas em modData.
 Corrigido o bug "às vezes os veículos desaparecem até você recarregar o jogo".
 Corrigido o jogador ficar preso ao subir uma corda de fuga e o caminho está bloqueado no topo. O jogador descerá automaticamente.
