@@ -459,7 +459,7 @@ Alterado algumas palavras no menu de reparos.
 Removido o tempo de mesclagem entre as animações inicial e final do ataque zumbi. Isso pareceu causar um problema na pose do zumbi.
 
 [VERSÃO] 41.21
-[SEÇÃO]NEW
+[SEÇÃO] NOVO
 Replaced tailoring submenu with an "Inspect clothing UI" which act like health panel.
 Added visible bandage models on character
 Changed the animation when building log walls, and hide hand models since no tools are required.
