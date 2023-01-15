@@ -63,7 +63,7 @@ Esgueirar -> Executa transições agora usa apenas animações de transição se
 Esgueirar -> transições de movimento atualizadas para corrigir alvos quando isTurning90/ ao redor.
 
 [SEÇÃO] BALANCIAMENTO
-Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Survivor.
+Aumente a qualidade dos pneus nos carros para pelo menos 20-30% no modo Sobrevivente.
 
 [SEÇÃO] CORREÇÕES
 Corrigido o veículo parando imediatamente após o pneu estourar.
@@ -91,12 +91,12 @@ Correções para tratamento de falhas MainThread/GameThread.
 [OBS]<INDENT:40> - DebugOptions.
 [OBS]<INDENT:40> Adicionado o mecanismo testThreadCrash, usado para disparar uma falha sob demanda, remotamente do AnimZed.
 Corrigida as curvas de arco estranhas durante a transição de caminhada -> strafe.
-Corrigido as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Survivor por engano.
+Corrigido as opções de estilo de jogo Brawler e Builder no menu para impedi-los de lançar o Sobrevivente por engano.
 Corrigido falha para quando getVectorFromDirection recebe um vetor nulo.
 
 [VERSÃO] 41.15
 [SEÇÃO] NOVIDADES
-Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brawler se torna Survivor, Survivor se torna Apocalypse.
+Estilos de jogo renomeados para maior clareza e para enfatizar a intenção do desenvolvedor de como eles devem ser jogados. Brigador se torna Sobrevivente e Sobrevivente se torna Apocalipse.
 Adicionado transições sem animações para sneakWalk -> strafe, sneakRun -> strafe, sneakWalkLow -> strafe, e sneakRunLow -> strafe.
 [OBS]<INDENT:40> - Elimina o estranho arco de giro durante a transição para o strafe.
 Removido a animação strafeToWalk do strafeSneak -> walk/run/etc.
