@@ -1,5 +1,5 @@
 [VERSÃO] 41 - Versão Beta Inicial
-[SEÇÃO]
+[SEÇÃO] NOVO
 [OBS] <CENTRE><SIZE:large> A Build 41 é a atualização mais fundamental e abrangente que o Project Zomboid já teve. <BR><LINE> Pretendemos que seja uma base estável para construirmos por muitos anos à frente. No entanto, também por esse motivo, prevemos uma beta pública bastante longa, enquanto todos os vários problemas apresentados a nós pelos testadores da comunidade são destacados e corrigidos. <LINE> Alguns recursos principais, principalmente o MP, estão desativados na versão beta. <LINE> 
 <LEFT> Novos estilos de jogo: Construtor, Brigador e Sobrevivente.
 Estilo de jogo "Survivor" (Sobrevivente) mais mortal - o jogador pode ser arrastado pela horda ser degustado e etc.
@@ -34,7 +34,7 @@ Muitas, muitas correções gerais incluindo consertos para: carros flutuantes, p
 MOCHILAS VISÍVEIS!
 
 [VERSÃO] 41.13
-[SEÇÃO]
+[SEÇÃO] NOVO
 Jassimp64.dll reconstruída com library c++ estaticamente vinculada (remove a dependência da msvcp140.dll).
 Corrigida exceção no MouseState com mouse de 2 botões.
 Corrigido o erro lua com o comando do menu de contexto subir pela janela.
@@ -47,7 +47,7 @@ Possivelmente corpos cor de arco-íris corrigidos no Mac OS.
 Possivelmente corrigida a falha ao carregar a animação bob/bob_idle no Windows usando os locais Turcos (e potencialmente outros).
 
 [VERSÃO] 41.14
-[SEÇÃO]
+[SEÇÃO] NOVO
 Várias correções de movimento / rotação, espera-se uma correção final do problema do idioma Turco, várias outras correções de bugs e modos Brigador e Contrutor funcionais.
 
 [SEÇÃO] ANIMAÇÕES
@@ -153,7 +153,7 @@ Corrigido Mãos Vazias não sendo contadas como uma arma favorita, exceto ao pis
 Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrados após o carregamento de um jogo. Corrigido jogador que não morria corretamente após cair.
 
 [VERSÃO] 41.16
-[SEÇÃO]
+[SEÇÃO] NOVO
 - Maior alocação de memória para zomboid de 64 bits que poderia evitar falhas em alguns sistemas que carregam no jogo.
 Corrigidos problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
 Adicionadas opções de transparência / visibilidade do cursor iso para combate.
@@ -179,7 +179,6 @@ Adicionada animação zumbi Zombie_WalkTrees para os estados walktoward e pathfi
 Animações de ataques de zumbis reproduzidas a 50% de velocidade nas árvores.
 
 [SEÇÃO] CORREÇÕES
-
 Dano do machado de madeira aumentado, velocidade, quantidade de tempo que você pode se mover durante o strafe, para torná-lo uma arma de dano pesado viável (mas ainda bastante lenta).
 Forçar a postura ao beber/encher itens da pia.
 Reduzido o tamanho do modelo de revólver (+ cano refeito)
@@ -192,7 +191,6 @@ Agora equipa uma pá de 2 mãos ao tirar a terra/areia.
 Adicionada frigideira com grelha para fritar.
 
 [SEÇÃO] CORREÇÕES
-
 Corrigido os zumbis surgindo em edifícios muito depois de um jogador entrar no prédio. 
 Corrigido os problemas de espingarda de cano duplo.
 [OBS]<INDENT:40> 1) Ícone de inventário ausente.
@@ -224,39 +222,48 @@ Corrigida a adição de alimentos congelados em receitas.
 Correção de meias velhas ainda existentes.
 
 [VERSÃO] 41.18
-
+[SEÇÃO] NOVO
 Adicionado o som "Concluído" à Máquina de Lavar/Secar roupa.
 Não conseguir adicionar/remover roupas da lavadora/secadora enquanto o ciclo está ativo.
 Mudança de status "Lesões menores, primeiros socorros necessários".
 As Configurações de Sandbox Personalizadas não são Salvas como uma Predefinição Salva se "/" Estiver no Nome.
 SFX de Pesca não sincronizada.
-Bug do Conjunto de Roupas.
-Corrigido o Bug de Panela Quebrada.
-Corrigido índice do uniforme não ser inicializado com TallFenceShader.
-TerrainRenderTiles_UseShaders desabilitado no modo não depurado, defina default=false.
-Corrigido sombreados de piso e parede sendo recriados sempre que um jogo é iniciado.
-Espero ter corrigido os problemas de desempenho da poça de chuva.
-Reativado os sons ambiente geladeira/janela/porta/etc.
 Mudou o som WaterDrip para tocar apenas em sprites IsoFlagType.waterPiped com água (para que eles não gotejem depois que a água for desligada, a menos que estejam conectados a uma fonte de água).
-Salva a posição do hotbar para evitar estranheza ao carregar o jogo com o coldre equipado.
-Ajustada a posição de alguns modelos para armas equipadas.
-Adicionada espingarda de cano duplo. (animação + spawn).
-Corrigido algumas estranhezas com armas.
-Agora redefine a posição do loot ao transferir coisas.
-Agora pode pegar vidro quebrado (aviso, se não tiver luvas, você pode se machucar).
-Aumento da taxa de aparecimento de Sabão.
-Diminui o consumo de sabão (*2).
+Bug do Conjunto de Roupas.
+Adicionados ícones de coldre.
 Várias mudanças de compatibilidade para futuras atualizações de Super Sobreviventes.
+Adicionada várias animações de recuo para armas/arma de fogo, quanto mais nível de mira, mais rápido você atirará + menos recuo da animação.
+Adicionado disparo Único/Auto para o M16.
+A dica de ferramenta agora mostra o peso correto se a arma estiver na hotbar.
+Linux reconstruído libPZPopMan64.so.
+Agora pode se lavar sem sabão, mas leva mais tempo.
 O líquido de limpeza agora pode ser usado para lavar a si mesmo/roupas (NOVO líquido de limpeza, o anterior não funcionará).
 O tempo de limpeza agora depende da quantidade de sangue/sujeira na roupa.
 A roupa ficará ensopada depois de ser lavada à mão.
-Corrigida exceção ao lavar Meias.
+Limitado o tempo necessário para lavar roupas.
+Agora pode pegar vidro quebrado (aviso, se não tiver luvas, você pode se machucar).
+Adicionada espingarda de cano duplo. (animação + spawn).
+
+[SEÇÃO] BALANCEAMENTO
+Ajustada a posição de alguns modelos para armas equipadas.
+Agora salva a posição do hotbar para evitar estranheza ao carregar o jogo com o coldre equipado.
+Agora redefine a posição do loot ao transferir coisas.
+Diminuiu o consumo de sabão (*2).
+Aumento da taxa de aparecimento de Sabão.
 Diminuição do tempo para lavar roupas.
-Adicionada várias animações de recuo para armas/arma de fogo, quanto mais nível de mira, mais rápido você atirará + menos recuo da animação.
-Adicionado disparo Único/Auto para o M16.
+Desabilitado TerrainRenderTiles_UseShaders no modo não depurado, defina default=false.
+Balanceado o rifle de assalto.
+Reativado os sons ambiente geladeira/janela/porta/etc.
+Reduzida a taxa de geração de casas queimadas.
+
+[SEÇÃO] CORREÇÕES
+Corrigido o Bug de Panela Quebrada.
+Corrigido índice do uniforme não ser inicializado com TallFenceShader.
+Corrigido sombreados de piso e parede sendo recriados sempre que um jogo é iniciado.
+Espero ter corrigido os problemas de desempenho da poça de chuva.
+Corrigido algumas estranhezas com armas.
+Corrigida exceção ao lavar Meias.
 Corrigido o peso da hotbar tendo prioridade sobre o peso do item equipado.
-A dica de ferramenta agora mostra o peso correto se a arma estiver na hotbar.
-Balanceado rifle de assalto.
 Corrigido: Diminuir o zoom sobre a água resulta em quadrados pretos em vez de água.
 Corrigido o texto após a morte sendo renderizado duas vezes para os jogadores.
 Corrigido o erro de renderização de respingos de chuva em tela dividida.
@@ -270,14 +277,9 @@ Atraso na reinicialização dos modelos equipados e anexados de um personagem at
 ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
 Corrigidas as caixas de texto que não estavam sendo destruídas.
 Corrigida a exceção da hotbar após mover o primeiro de dois cintos para um contêiner.
-Corrigidas as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
-Correção da predefinição de sandbox do Survivor.lua que nunca é carregada.
-Linux reconstruído libPZPopMan64.so.
-Reduzida a taxa de geração de casas queimadas.
-Corrigidos zumbis sendo considerados de costas ao cair pela janela.
-Agora pode se lavar sem sabão, mas leva mais tempo.
-Limitado o tempo necessário para lavar roupas.
-Adicionados ícones de coldre.
+Corrigida as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
+Corrigida a predefinição de sandbox do Survivor.lua que nunca é carregada.
+Corrigido os zumbis sendo considerados de costas ao cair pela janela.
 
 [VERSÃO] 41.19
 [SEÇÃO] NOVO
@@ -318,7 +320,7 @@ Adicionado um período de tempo durante o qual um ataque de um 'Zumbi Surpresa d
 Ajustes nos arquivos Hunting vest x e máscaras para que funcionem melhor juntos.
 Casaco de noiva ajustado para funcionar um pouco melhor com saltadores.
 Máscaras de Caça ajustadas para que funcione melhor com roupas.
- 
+
 
 [SEÇÃO] CORREÇÕES
 Corrigido o jogador andando na direção errada enquanto mirava com um controle.
@@ -361,10 +363,11 @@ Corrigido jogador andando ao desligar um alarme que está em seu inventário.
 Corrigido alarmes domésticos não funcionarem.
 
 [VERSÃO] 41.20
-[SEÇÃO]NEW
-Added new textures for zombies and survivor characters.
-Zombies have now 3 level of decay, they'll be shown depending on your survival time (6 months after apo having lots of decay level 3 etc..)
-Updated Kingsmouth & Studio map, also changed their description for placeholder & added correct thumblr for them.
+[SEÇÃO] NOVO
+Adicionadas novas texturas para zumbis e personagens sobreviventes.
+Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc.)
+Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
+
 [SEÇÃO]Character temperature stuff:
 Added Thermoregulator to BodyDamage which handles all the player heat stuff
 Added character panel thermos ui and elements
@@ -385,6 +388,7 @@ Added bodypart widget to protection panel
 Changed PlayerClimateDebug to show debug stuff for thermoregulator now
 Added BodyPartContacts, can be used to determine which body part connects to another
 Added distance to core, skinsurface percentage and umbrella mod to BodyPartType
+
 [SEÇÃO]Added Clothing Repair:
 Right click an item to add/remove patches to clothing.
 Adding a patch to a hole removes it, otherwise it simply gives you defense bonus (need to add more insulation to them if simply upgrading).
@@ -394,23 +398,28 @@ Changed how ripping clothing works to make it easier to update when new clothes 
 Can now rip leather/denim stuff to get strips (requires scissors).
 Boosted overall thread spawn rate, can also get leather strips when disassembling leather stuff (couch etc.)
 Patch textures currently all the same no matter the fabric used, they are placeholder textures.
+
 [SEÇÃO]Gun improvements:
 Tweaked hit chance with guns: should be easier and have a way more 'linear' feel toward aiming level now.
+
 [SEÇÃO]Improved zombies sprinter:
 They now sprint only if they have a target, otherwise they just walk.
 They have a chance to trip and fall when sprinting.
 Fixed zombies sprinting through trees.
 Sprinters have a wider turn delta when sprinting.
 Controller X button now transfers items from the player to whichever container is displayed in the loot window, instead of to the floor.
+
 [SEÇÃO]Saving and logs:
 Added DebugLog.txt file to logs.zip. This file is contained in /debug-log/ directory in archive.
 Checked that vehicles.db file is saved in logs.zip. This file is contained in /save/ directory in archive.
 Added saving last save when the game starting. Those files are contained in /save_old/ directory in archive.
+
 [SEÇÃO]Water improvements:
 Added WaterZones on the docks and boathouse north of Westpoint to fix rendering with the water shader.
 [OBS]<INDENT:40> It isn't 100% fixed; the tiles that provide thickness to the docks aren't visible, and there's a 1-tile glitch where the dock meets the shore.
 [OBS]<INDENT:40> Changed the water-shader code to render in two passes, first the solid water tiles, then the regular tiles, then the shore tiles.
 [OBS]<INDENT:40> It fixes some tiles being hidden on the docks/boathouse north of Westpoint, and the railway bridge east of Westpoint. Previously you couldn't see the transparent floors on the edges of the railway bridge because the water covered them.
+
 [SEÇÃO]GENERAL
 Added some food models (mainly for vegetables/fruits).
 Addded eat from plate anim
@@ -447,8 +456,6 @@ Fixed issues dismantling vehicles with a blowtorch.
 Fixed multiplying comboboxes killing fps after repeatedly clicking the Randomize button in the character-creation screen.
 Fixed typo in ClothingSelectionDefinitions.lua.
 
-
-
 [VERSÃO] 41.21
 [SEÇÃO]NEW
 Replaced tailoring submenu with an "Inspect clothing UI" which act like health panel.
@@ -464,7 +471,6 @@ Catch and log all Throwable errors when saving the game.
 Added randomised vehicle spawn events - car crashes etc.
 Introduced aspects of new challenges: Zombies are now active at night & inactive during day in Studio, you start with a torch at midnight. Tweaked Kingsmouth sandbox options.
 Improved transition to action animation to remove anim snaps
- 
 
 [SEÇÃO][INSULATION SYSTEM CHANGES]
 Fixed bug that resulted in no catch a cold chance when conditions did apply
@@ -482,7 +488,6 @@ Added a lower body heat generation value when sneaking.
 Added small incremental insulation bonus affecting high insulating clothing mostly
 Added extra lower perspiration rate modifier for clothing in colder temperatures
 Added water resistance to various jackets,pants,hats and footwear
- 
 
 [SEÇÃO]BALANCE
 Increased a tad weapon spawning attached to zombies.
@@ -492,7 +497,6 @@ Increased thread spawn rate in kitchen.
 Mechanics window tooltips now display battery charge, amount of fuel in gas tank, amount of air in tires.
 Improved how day/night cycle zombies sandbox option works: when active, they get your sandbox options. When inactive, they're really slow & weak, but they can still walk/attack.
 Added slow shamblers zombies speed.
- 
 
 [SEÇÃO]FIXES
 Possibly fixed walking-in-place zombies.
