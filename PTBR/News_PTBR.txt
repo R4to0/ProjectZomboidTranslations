@@ -145,7 +145,7 @@ Tentativa de corrigir exceções em ClimbThroughWindowState. Não armazene IsoWi
 Corrigido erro de lua em DebugChunkStateUI
 Corrigida a exibição de LMENU como LALT. Exibir RMENU como RALT.
 Corrigida a limpeza de uma tecla de atalho do teclado, exibindo-o sem nome em vez de NENHUM.
-Corrigidas algumas estranhezas no cancelamento do avanço rápido quando perto de zumbis.
+Corrigido algumas estranhezas no cancelamento do avanço rápido quando perto de zumbis.
 Corrigido itens flutuando do chão quando largados de dentro de um veículo.
 Corrigido geradores de multiplicação após usar "Equipar nas Duas as Mãos".
 Corrigida a atribuição do inventário do jogador a um zumbi depois que uma faca fica presa na cabeça do zumbi.
@@ -155,10 +155,10 @@ Corrigida a opção "Desamarrar Cabelo" disponível para cabelos já desamarrado
 [VERSÃO] 41.16
 [SEÇÃO] NOVO
 - Maior alocação de memória para zomboid de 64 bits que poderia evitar falhas em alguns sistemas que carregam no jogo.
-Corrigidos problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
+Corrigido os problemas de sombreamento com sobreposições de roupas e buracos que afetam algumas GPUs (grande fonte de travamentos/travamentos no carregamento do jogo/saída da casa de desova e provavelmente a mesma causa de alguns problemas do mac relatados).
 Adicionadas opções de transparência / visibilidade do cursor iso para combate.
 - A linha de renderização agora emitirá mensagens de erro melhores para diagnosticar problemas futuros.
-Corrigidos zumbis tocando seu som de morte às vezes quando esfaqueados (mas não esfaqueados na mandíbula).
+Corrigido os zumbis tocando seu som de morte às vezes quando esfaqueados (mas não esfaqueados na mandíbula).
 [OBS]<INDENT:40> Isso aconteceu quando bCloseKill=true mas CriticalHit=false.
 Um zumbi morre assim que é esfaqueado no maxilar, não depois de cair no chão.
 [OBS]<INDENT:40> A animação KnifeDeath é reproduzida no estado de queda, não no estado de reação ao golpe.
@@ -210,7 +210,7 @@ Corrigido os jogadores atravessando uma parede ao saltar sobre uma cerca adjacen
 Problema corrigido: exceção de thread não tratada pelo SQLDB em um ambiente não UTF8.
 Corrigida a tela de proteção que não funcionava com um controle.
 Corrigido os botões de cabelo/barba de informações que não funcionam com um controle.
-Corrigidas secadora e lavadora de roupas continuando a reproduzir som após a queda de energia.
+Corrigido secadora e lavadora de roupas continuando a reproduzir som após a queda de energia.
 Corrigida máscara meteorológica não atualizando quando o nível de zoom muda.
 Corrigida máscara meteorológica não renderizada para jogadores em tela dividida.
 Corrigido os zumbis que ficam presos depois de pular uma cerca sem chão do outro lado.
@@ -275,7 +275,7 @@ IsoGameCharacter.attachedModels movido para ModelSlot.attachedModels.
 Corrigido erro em ISAttachedItemsUI.lua quando zumbis possuem vários itens equipados.
 Atraso na reinicialização dos modelos equipados e anexados de um personagem até o próximo frame.
 ISHotbar:update() alterado para lidar com InventoryItem.getAttachedSlot() tornando-se inválido por algum motivo.
-Corrigidas as caixas de texto que não estavam sendo destruídas.
+Corrigido as caixas de texto que não estavam sendo destruídas.
 Corrigida a exceção da hotbar após mover o primeiro de dois cintos para um contêiner.
 Corrigida as configurações de população de zumbis do jogo anterior sendo aplicadas a novos jogos.
 Corrigida a predefinição de sandbox do Survivor.lua que nunca é carregada.
@@ -350,7 +350,7 @@ Corrigido carregador de bateria de carro não renderizando às vezes.
 Corrigida alguma mistura durante o salto.
 Corrigida a pausa repentina no final do vaultOverRun
 Correção do salto sobre o corredor fazendo um snap.
-Corrigidas as animações de comer e beber parando no meio da ação.
+Corrigido as animações de comer e beber parando no meio da ação.
 Corrigido alguns zumbis andando muito rápido ou muito lento.
 Corrigida a predefinição do Construtor sendo selecionada inicialmente na caixa de combinação "Predefinições Salvas" do sandbox quando as configurações reais eram para Survivor.lua, também conhecido como Apocalipse.
 Corrigido o campo de visão do jogador mudando de direção mais rapidamente do que o modelo está girando.
@@ -364,7 +364,7 @@ Corrigido alarmes domésticos não funcionarem.
 [VERSÃO] 41.20
 [SEÇÃO] NOVO
 Adicionadas novas texturas para zumbis e personagens sobreviventes.
-Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc.)
+Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc).
 Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
 
 [SEÇÃO] Coisas de Temperatura do Personagem:
@@ -442,7 +442,7 @@ Corrigido o sono terminando muito cedo.
 Corrigido o jogador girando durante o loot, pois isso pode alterar quais contêineres são exibidos.
 Corrigida as texturas de cadáver sendo recriadas cada vez que um cadáver era carregado.
 Corrigido o erro lua ao descarregar balas de um carregador quando não há balas no inventário.
-Corrigidos problemas ao desmontar veículos com um maçarico.
+Corrigido os problemas ao desmontar veículos com um maçarico.
 Corrigida a multiplicação de caixas de combinação matando fps após clicar repetidamente no botão Randomizar na tela de criação de personagem.
 Corrigido erro de digitação em ClothingSelectionDefinitions.lua.
 Corrigido o jogador caminhando para contêineres adjacentes ao transferir itens.
@@ -450,7 +450,7 @@ Corrigido algumas vezes tendo a casa de spawn barricada.
 Corrigido poças renderizando em cima da água (ao não usar o sombreado de água e Poças Dinâmicas = Todas).
 Corrigido a renderização de dados da poça.
 Corrigido o segundo contêiner na janela de loot sendo selecionado automaticamente em vez do primeiro ao usar um controle.
-Corrigidas algumas portas de garagem com paredes atrás delas no quadrado 25,31.
+Corrigido algumas portas de garagem com paredes atrás delas no quadrado 25,31.
 Corrigido os zumbis herdarem algumas outras distribuições de salas, facilitando o cultivo de alguns itens atraindo zumbis para salas específicas.
 Corrigido entrar em um veículo às vezes demorando mais do que deveria. Isso parecia acontecer quando o jogador estava reproduzindo uma animação de giro e entrava no veículo.
 Corrigida a renderização de vinhas de parede sendo afetadas pelo antigo estêncil de círculo.
@@ -460,19 +460,19 @@ Removido o tempo de mesclagem entre as animações inicial e final do ataque zum
 
 [VERSÃO] 41.21
 [SEÇÃO] NOVO
-Replaced tailoring submenu with an "Inspect clothing UI" which act like health panel.
-Added visible bandage models on character
-Changed the animation when building log walls, and hide hand models since no tools are required.
-Added a "world" attachment to some weapon models to position and rotate them nicely when they are on the ground. This is used so shovels and planks lie flat on the ground, for example.
-Added "Aim outline" display option.
-Player now unequips current item before equipping another when both items are in the hotbar.
-Fixed some bugs with the Inspect Clothing UI & added a condition bar.
-Finished bandages models (added dirty!)
-Removed "New Roof Hiding" option.
-Catch and log all Throwable errors when saving the game.
-Added randomised vehicle spawn events - car crashes etc.
-Introduced aspects of new challenges: Zombies are now active at night & inactive during day in Studio, you start with a torch at midnight. Tweaked Kingsmouth sandbox options.
-Improved transition to action animation to remove anim snaps
+Submenu de costura substituído por um "Inspecionar interface do usuário de roupas", que funciona como um painel de saúde.
+Adicionados modelos de bandagens visíveis no personagem.
+Alterada a animação ao construir paredes de troncos e ocultar modelos de mão, pois nenhuma ferramenta é necessária.
+Adicionado uma melhoria de "mundo" a alguns modelos de armas para posicioná-los e girá-los bem quando estiverem no chão. Isso é usado para que pás e tábus fiquem planas no chão, por exemplo.
+Adicionada a opção de exibição "Contorno da mira".
+O jogador agora desequipa o item atual antes de equipar outro quando ambos os itens estão na hotbar.
+Corrigidos alguns bugs com a IU de inspeção de roupas e adicionada uma barra de condição.
+Modelos de curativos acabados (adicionados sujos!).
+Removida a opção "Nova Ocultação de Telhado".
+Capture e registre todos os erros do Throwable ao salvar o jogo.
+Adicionado eventos aleatórios de geração de veículos - acidentes de carro, etc.
+Aspectos introduzidos de novos desafios: Zumbis agora estão ativos à noite e inativos durante o dia no Studio, você começa com uma tocha à meia-noite. Opções de sandbox de Kingsmouth ajustadas.
+Transição aprimorada para animação de ação para remover snaps de animação.
 
 [SEÇÃO][INSULATION SYSTEM CHANGES]
 Fixed bug that resulted in no catch a cold chance when conditions did apply
