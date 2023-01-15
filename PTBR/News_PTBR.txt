@@ -320,45 +320,45 @@ Casaco de noiva ajustado para funcionar um pouco melhor com saltadores.
 Máscaras de Caça ajustadas para que funcione melhor com roupas.
  
 
-[SEÇÃO]FIXES
-Fixed the player walking in the wrong direction while aiming with a controller.
-Fixed hotbar position in splitscreen and after resizing the game window.
-Fixed missing window icons.
-Fixed tired moodle not in calcul hit chance for firearm.
-Fixed exhausted moodle not being in calcul for stomping.
-Fixed zombies pushing around zombies sat against a wall.
-Fixed hand axe being on wrong rotation when attached in belt right.
-Fixed various body location (gask mask could be wear with glasses, some full helmet etc..)
-Fixed clothing protection could display over 100%.
-Fixed wrong color scheme for bite/scratch defense color.
-Fixed not regen endurance if heavy load was > 0.
-Fixed heavy load moodle level 4 not doing anything to endurance regen.
-Fixed fitness level 10 make you run faster (now only affect endurance).
-Fixed missing rip clothing SFX.
-Fixed stone not being lost when creating a spear from it.
-Fixed double create spear with screwdriver.
-Fixed missing adding kitchen knife to spear recipe.
-Fixed occasional duplicated cars.
-Fixed zombies teleporting through walls when choosing a place to sit after loading part of the map.
-Fixed zombies never sitting against south or east walls.  IsoGridSquare.getWallType() looked for WallS and WallE properties which don't exist.
-Fixed lua error looting hotbar items from corpses.
-Fixed dissassembling not forcing you to stand.
-Fixed removing a magazine from a firearm also removing 1 bullet from the clip.
-Fixed some lua errors being printed to console without displaying the red error box.
-Fixed car battery charger not rendering sometimes.
-Fixed some blending during vault over.
-Fixed sudden pause at the end of vaultOverRun
-Fixed vault over sprint making a snap.
-Fixed eating and drinking animations stopping in the middle of the action
-Fixed some zombies walking being really fast or way too slow
-Fixed Builder preset being initially selected in the sandbox "Saved Presets" combobox when the actual settings were for Survivor.lua aka Apocalypse.
-Fixed the player's view cone changing direction more quickly than the model is turning.
-Fixed character-info avatar not updating after washing off blood.
-Fixed zombies sometimes standing idle when they should be chasing the player.
-Fixed iso cursor being rendered at twice the size when Double-sized Textures = No.
-Fixed players not always facing the direction they should when performing actions.
-Fixed player walking when turning off an alarm that is in their inventory.
-Fixed house alarms not working.
+[SEÇÃO] CORREÇÕES
+Corrigido o jogador andando na direção errada enquanto mirava com um controle.
+Corrigida a posição da hotbar em tela dividida e após o redimensionamento da janela do jogo.
+Corrigido os ícones de janela ausentes.
+Corrigido o status cansado que não estava no cálculo da chance de acerto da arma de fogo.
+Corrigido status exausto não sendo calculado para pisotear.
+Corrigido os zumbis empurrando zumbis sentados contra uma parede.
+Corrigido machado de mão estando na rotação errada quando preso no cinto direito.
+Corrigido vários locais do corpo (máscara de gás pode ser usada com óculos, capacete completo, etc.)
+Corridiga a proteção da roupa poder exibir mais de 100%.
+Corrigido o esquema de cores errado para a cor de defesa de mordida/arranhões.
+Corrigida a resistência de não regeneração se a carga pesada fosse > 0.
+Corrigido o nível 4 do status de carga pesada, não fazendo nada para a regeneração de resistência.
+Corrigido o nível de condicionamento físico 10 faz você correr mais rápido (agora afeta apenas a resistência).
+Corrigido SFX de roupa rasgada faltando.
+Corrigido a pedra não sendo perdida ao criar uma lança a partir dela.
+Corrigida a lança artesanal dupla com chave de fenda.
+Corrigida a falta da adição da faca de cozinha na receita da lança.
+Corrigido carros duplicados ocasionais.
+Corrigido os zumbis se teletransportando pelas paredes ao escolher um lugar para sentar depois de carregar parte do mapa.
+Corrigido os zumbis para nunca sentar contra as paredes sul ou leste. IsoGridSquare.getWallType() procurou pelas propriedades WallS e WallE que não existem.
+Corrigido o erro de lua ao pegar itens da hotbar de cadáveres.
+Corrigida a desmontagem não obrigando você a ficar de pé.
+Corrigida a remoção de um carregador de uma arma de fogo e também a remoção de 1 bala do pente.
+Corrigido alguns erros de lua sendo impressos no console sem exibir a caixa de erro vermelha.
+Corrigido carregador de bateria de carro não renderizando às vezes.
+Corrigida alguma mistura durante o salto.
+Corrigida a pausa repentina no final do vaultOverRun
+Correção do salto sobre o corredor fazendo um snap.
+Corrigidas as animações de comer e beber parando no meio da ação.
+Corrigido alguns zumbis andando muito rápido ou muito lento.
+Corrigida a predefinição do Construtor sendo selecionada inicialmente na caixa de combinação "Predefinições Salvas" do sandbox quando as configurações reais eram para Survivor.lua, também conhecido como Apocalipse.
+Corrigido o campo de visão do jogador mudando de direção mais rapidamente do que o modelo está girando.
+Corrigido o avatar de informações do personagem não atualizando após a lavagem do sangue.
+Corrigido zumbis às vezes parados quando deveriam estar perseguindo o jogador.
+Correção do cursor iso sendo renderizado com o dobro do tamanho quando Texturas de tamanho duplo = Não.
+Corrigido jogadores nem sempre voltados para a direção que deveriam ao realizar ações.
+Corrigido jogador andando ao desligar um alarme que está em seu inventário.
+Corrigido alarmes domésticos não funcionarem.
 
 [VERSÃO] 41.20
 [SEÇÃO]NEW
