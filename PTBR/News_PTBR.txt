@@ -321,7 +321,6 @@ Ajustes nos arquivos Hunting vest x e máscaras para que funcionem melhor juntos
 Casaco de noiva ajustado para funcionar um pouco melhor com saltadores.
 Máscaras de Caça ajustadas para que funcione melhor com roupas.
 
-
 [SEÇÃO] CORREÇÕES
 Corrigido o jogador andando na direção errada enquanto mirava com um controle.
 Corrigida a posição da hotbar em tela dividida e após o redimensionamento da janela do jogo.
@@ -368,57 +367,57 @@ Adicionadas novas texturas para zumbis e personagens sobreviventes.
 Os zumbis agora têm 3 níveis de decaimento, eles serão mostrados dependendo do seu tempo de sobrevivência (6 meses após o apocalipse ter muitos níveis de decaimento 3 etc.)
 Mapa atualizado de Kingsmouth & Studio, também mudou sua descrição para o espaço reservado e adicionou o tumblr correto para eles.
 
-[SEÇÃO]Character temperature stuff:
-Added Thermoregulator to BodyDamage which handles all the player heat stuff
-Added character panel thermos ui and elements
-Changed hunger,thirst,fatigue may be multiplied due to thermoregulation state
-Reworked cold/heat damage and penalties
-Changed umbrella effectiveness to per body part basis
-Changed getting a cold chance to measure skin temperature + wetness per body part, head/neck/chest weigh more
-Changed outdoorsman reduces chance to catch a cold to 10% of normal
-Added proper humidity to climate manager
-Added bodyheat generation values to timedactions, walking, combat (also an increase based on weight)
-Added bodywetness per body part instead of one value for entire body
-Changed clothing wetness/drying, added perspiration and body heat working the layers from inside to outside 
-Added clothing insulation values to new clothing, Clothing insulation can be set from 0.0 to 1.0 
-Added clothing wind resist, decreases windchill effect, can be set from 0.0 to 1.0
-Added clothing water resist, 1.0 fully stops soakthrough (example poncho) lower value slows it down
-Added time penalty for timed actions when hands/arms are very cold
-Added bodypart widget to protection panel
-Changed PlayerClimateDebug to show debug stuff for thermoregulator now
-Added BodyPartContacts, can be used to determine which body part connects to another
-Added distance to core, skinsurface percentage and umbrella mod to BodyPartType
+[SEÇÃO] Coisas de Temperatura do Personagem:
+Adicionado termorregulador ao BodyDamage, que lida com todo o calor do jogador.
+Adicionada interface térmica do usuário e elementos do painel de personagens.
+A alteração da fome, sede e fadiga pode ser multiplicada devido ao estado da termorregulação.
+Danos e penalidades por frio/calor reformulados.
+Alterada a eficácia do guarda-chuva para cada parte do corpo.
+Alterado obtendo uma chance fria de medir a temperatura da pele + umidade por parte do corpo, cabeça/pescoço/peito pesam mais.
+Alterado agora para um homem ao ar livre reduzir a chance de pegar um resfriado para 10% do normal.
+Adicionada umidade adequada ao gerenciador de clima.
+Adicionados valores de geração de calor corporal para ações de tempo, caminhada, combate (também um aumento baseado no peso).
+Adicionado umidade corporal por parte do corpo em vez de um valor para o corpo inteiro.
+Alterado a umidade/secagem da roupa, adicionado transpiração e calor corporal trabalhando as camadas de dentro para fora.
+Adicionados valores de isolamento de roupas para novas roupas. O isolamento de roupas pode ser definido de 0,0 a 1,0.
+Adicionada resistência ao vento da roupa, diminui o efeito de resfriamento do vento, pode ser definido de 0,0 a 1,0.
+Adicionada resistência à água para roupas, 1,0 para totalmente a imersão (exemplo poncho) valor mais baixo reduz a velocidade.
+Adicionada penalidade de tempo para ações cronometradas quando mãos/braços estão muito frios.
+Adicionado widget de parte do corpo ao painel de proteção.
+Alterado PlayerClimateDebug para mostrar coisas de depuração para termorregulador agora.
+Adicionado BodyPartContacts, pode ser usado para determinar qual parte do corpo se conecta a outra.
+Adicionada distância ao núcleo, porcentagem de superfície da pele e mod guarda-chuva para BodyPartType.
 
-[SEÇÃO]Added Clothing Repair:
-Right click an item to add/remove patches to clothing.
-Adding a patch to a hole removes it, otherwise it simply gives you defense bonus (need to add more insulation to them if simply upgrading).
-Quality of the defense depend on fabric used & tailoring skill.
-In coming weeks a UI will be made to inspect clothing so it'll be less clicky through submenus.
-Changed how ripping clothing works to make it easier to update when new clothes are being added.
-Can now rip leather/denim stuff to get strips (requires scissors).
-Boosted overall thread spawn rate, can also get leather strips when disassembling leather stuff (couch etc.)
-Patch textures currently all the same no matter the fabric used, they are placeholder textures.
+[SEÇÃO] Adicionado Reparo de Roupas:
+Clique com o botão direito do mouse em um item para adicionar/remover remendos na roupa.
+Adicionar um remendo a um buraco o remove, caso contrário, ele simplesmente oferece bônus de defesa (é necessário adicionar mais isolamento a eles se simplesmente atualizar).
+A qualidade da defesa depende do tecido usado e da habilidade de costura.
+Nas próximas semanas, uma interface do usuário será criada para inspecionar roupas, para que haja menos cliques nos submenus.
+Alterado o modo como as roupas rasgadas funcionam para facilitar a atualização quando novas roupas são adicionadas.
+Agora pode rasgar coisas de couro/jeans para obter tiras (requer tesoura).
+Aumento da taxa geral da geração de threads, também pode obter tiras de couro ao desmontar itens de couro (sofá etc.)
+As texturas de remendo atualmente são todas iguais, não importa o tecido usado, são texturas de espaço reservado.
 
-[SEÇÃO]Gun improvements:
-Tweaked hit chance with guns: should be easier and have a way more 'linear' feel toward aiming level now.
+[SEÇÃO] Melhorias nas Armas:
+Chance de acerto ajustada com armas: deve ser mais fácil e ter uma sensação muito mais 'linear' em relação ao nível de mira agora.
 
-[SEÇÃO]Improved zombies sprinter:
-They now sprint only if they have a target, otherwise they just walk.
-They have a chance to trip and fall when sprinting.
-Fixed zombies sprinting through trees.
-Sprinters have a wider turn delta when sprinting.
-Controller X button now transfers items from the player to whichever container is displayed in the loot window, instead of to the floor.
+[SEÇÃO] Zumbis Corredores Melhorados:
+Eles agora correm apenas se tiverem um alvo, caso contrário, apenas andam.
+Eles têm a chance de tropeçar e cair ao correr.
+Corrigido zumbis correndo por entre as árvores.
+Os corredores têm um delta de curva mais amplo ao correr.
+O botão X do controle agora transfere itens do jogador para qualquer contêiner exibido na janela de pilhagem, em vez de para o chão.
 
-[SEÇÃO]Saving and logs:
-Added DebugLog.txt file to logs.zip. This file is contained in /debug-log/ directory in archive.
-Checked that vehicles.db file is saved in logs.zip. This file is contained in /save/ directory in archive.
-Added saving last save when the game starting. Those files are contained in /save_old/ directory in archive.
+[SEÇÃO] Salvamento e Registros:
+Adicionado arquivo DebugLog.txt a logs.zip. Este arquivo está contido no diretório /debug-log/ no arquivo.
+Verificado se o arquivo vehicles.db é salvo em logs.zip. Este arquivo está contido no diretório /save/ no arquivo.
+Adicionado salvamento do último salvamento quando o jogo começa. Esses arquivos estão contidos no diretório /save_old/ no arquivo.
 
-[SEÇÃO]Water improvements:
-Added WaterZones on the docks and boathouse north of Westpoint to fix rendering with the water shader.
-[OBS]<INDENT:40> It isn't 100% fixed; the tiles that provide thickness to the docks aren't visible, and there's a 1-tile glitch where the dock meets the shore.
-[OBS]<INDENT:40> Changed the water-shader code to render in two passes, first the solid water tiles, then the regular tiles, then the shore tiles.
-[OBS]<INDENT:40> It fixes some tiles being hidden on the docks/boathouse north of Westpoint, and the railway bridge east of Westpoint. Previously you couldn't see the transparent floors on the edges of the railway bridge because the water covered them.
+[SEÇÃO] Melhorias na Água:
+Adicionadas zonas de água nas docas e na casa de barcos ao norte de West Point para corrigir a renderização com o sombreado da água.
+[OBS]<INDENT:40> Não é 100% corrigido; os ladrilhos que fornecem espessura às docas não são visíveis e há uma falha de 1 ladrilho onde a doca encontra a costa.
+[OBS]<INDENT:40> Alterado o código do sombreado da água para renderizar em duas passagens, primeiro os ladrilhos de água sólida, depois os ladrilhos regulares e os ladrilhos da costa.
+[OBS]<INDENT:40> Ele corrige alguns ladrilhos escondidos nas docas/casa de barcos ao norte de West point e na ponte ferroviária a leste de West point. Antes não era possível ver os pisos transparentes nas bordas da ponte ferroviária porque a água os cobria.
 
 [SEÇÃO]GENERAL
 Added some food models (mainly for vegetables/fruits).
