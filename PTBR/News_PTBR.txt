@@ -6621,7 +6621,7 @@ Re-exported ALICE packs as some straps were missing.
 
 [VERSÃO]41.78
 
-[SEÇÃO]NOVO
+[SEÇÃO] NOVO
 Adicionamos um prompt para os Termos de Serviço atualizados, pois agora somos um grupo grande e temos que nos adaptar aos outros grupos maiores.
 [NODOT]<BR> 
 Adicionada opção sandbox para desabilitar Reanimação Falsa de Mortos. Desabilitado Mortos falsos no Multiplayer por padrão.
@@ -6765,45 +6765,45 @@ Demos aos itens de script Fritos e Assados um valor de fome padrão de 10. Isso 
 Larvas são um pouco mais venenosas.
 Menos larvas surgem, especialmente na primavera e no outono (larvas não surgem durante o inverno).
 Larvas agora são um item padrão nas listas de remoção de itens do mundo. Adicionado um comentário para as listas de remoção de itens do mundo explicando que Base.Maggots deve permanecer na lista devido a larvas de cadáver.
-Additional safeguard to prevent errors when using mods that remove maggots altogether.
+Proteção adicional para evitar erros ao usar mods que removem larvas completamente.
 
-[SECTION]DEBUG / MODDING
-Added a search bar to the LootZed cheat panel.
-Added vehicle distributions to LootZed.
-Improved inventory check-in Check Stats panel.
+[SEÇÃO] DEBUG / MODS
+Adicionada uma barra de pesquisa ao painel de trapaças do LootZed.
+Adicionadas distribuições de veículos ao LootZed.
+Melhoria no check-in de inventário no painel Verificar Estatísticas.
 [NODOT]<BR> 
-Right-clicking on a fuel pump in debug mode will display the amount of fuel in the pump in the right-click context menu.
+Clicar com o botão direito do mouse em uma bomba de combustível no modo de depuração exibirá a quantidade de combustível na bomba no menu de contexto do botão direito.
 [NODOT]<BR> 
-Added isStartValid function check for BaseTimedAction. Allows checking if an action is valid before the action starts. 
-Added saving ModData from IsoGameCharacter to IsoDeadBody and from IsoDeadBody to IsoZombie.
-Added "OnPlayerGetDamage" event.
-Added event "OnWeaponHitThumpable" (Args: character, weapon, object)
-Added a trigger for the OnFillContainer Event when vehicle part containers are filled.
-Added the tag "CarBattery" which can be used with mod item car batteries so they can be charged with the vanilla car battery charger.
-Added the event "OnThrowableExplode", which transmits the IsoTrap and IsoSquare when one detonates.
-Added a toggle option in the vehicle debug context menu that will show if a vehicle's alarm is enabled or disabled.
-Changed Fast Move cheat in debug. Players can now levitate on different height levels via the PageUP/PageDown keys, and move around via the Arrow Keys on the different height levels.
-Made ImageScale, SeatOffsetY and SeatOffsetX global and not local in ISVehicleSeatUI.
-"Missing translation", "ignoring invalid ItemPicker item type", and "VEHICLE MISSING CONT DISTRIBUTION" console messages will now only appear when using debug mode.
+Adicionado a função Iniciar Verificação válida para Ação Cronometrada Básica. Permite verificar se uma ação é válida antes que ela seja iniciada.
+Adicionado salvamento de ModData de IsoGameCharacter para IsoDeadBody e de IsoDeadBody para IsoZombie.
+Adicionado o evento "Jogador Recebe Dano".
+Adicionado evento "Ao Acertar a Arma, Pode ser Batido" (Ex: personagem, arma, objeto)
+Adicionado uma tecla para alternar o evento "Abastecimento de Recipientes Ativado" quando os contêineres de peças do veículo são preenchidos.
+Adicionada a tag "Bateria de Carro", que pode ser usada com baterias de carro de itens modificados para que possam ser carregadas com o carregador de bateria de carro padrão.
+Adicionado o evento "Arremessável Explosivo Ativado ", que transmite o IsoTrap e o IsoSquare quando um detona.
+Adicionada uma opção de alternar no menu de contexto de depuração do veículo que mostrará se o alarme do veículo está ativado ou desativado.
+Alterado a trapaça Mover Rápido no debug. Os jogadores agora podem levitar em diferentes níveis de altura por meio das teclas PageUP/PageDown e se movimentar por meio das teclas de seta nos diferentes níveis de altura.
+Tornou ImageScale, SeatOffsetY e SeatOffsetX globais e não locais em ISVehicleSeatUI.
+As mensagens de console "Tradução ausente", "ignorando tipo de item ItemPicker inválido" e "VEÍCULO COM DISTRIBUIÇÃO DE CONTROLE FALTA" agora aparecerão somente ao usar o modo de depuração.
 [NODOT]<LINE> 
-Fixed issues with the Tile picker:
-[NODOT]<INDENT:40> Fixed being unable to lock Doors placed via Tile Picker.
-[NODOT]<INDENT:40> Fixed Tree Tile issues.
-[NODOT]<INDENT:40> Fixed electronic tiles (TV, radio, generators, etc).
-[NODOT]<INDENT:40> Fixed Garage Doors.
-[NODOT]<INDENT:40> Fixed Street Light tiles.
-[NODOT]<INDENT:40> Fixed Search Bar issues.
-[NODOT]<INDENT:40> Fixed Light Switches.
-[NODOT]<INDENT:40> Fixed not showing all tiles.
-[NODOT]<INDENT:40> Fixed Fireplace objects.
-[NODOT]<INDENT:40> Fixed Wells and Lights.
+Problemas corrigidos com o seletor de blocos:
+[NODOT]<INDENT:40> Corrigida a impossibilidade de trancar portas colocadas por meio do seletor de peças.
+[NODOT]<INDENT:40> Corrigidos os problemas com o Tree Tile.
+[NODOT]<INDENT:40> Corrigidas os lugares com eletrônicos (TV, rádio, geradores, etc).
+[NODOT]<INDENT:40> Corrigidos os portões de garagem.
+[NODOT]<INDENT:40> Corrigidos os lugares iluminação pública.
+[NODOT]<INDENT:40> Corrigidos os problemas na barra de pesquisa.
+[NODOT]<INDENT:40> Corrigidos os Interruptores de Luz.
+[NODOT]<INDENT:40> Corrigido o problema de não mostrar todos os blocos.
+[NODOT]<INDENT:40> Corrigidos os objetos da Lareira.
+[NODOT]<INDENT:40> Corrigidos os Poços e Luzes.
 [NODOT]<LINE> 
-Fixed characters in godmode still changing body weight.
-Fixed instances of the Cheat Menu not working after a player died. 
-Fixed removing bodies via Horde manager not working in SP.
-Fixed being stuck in a vehicle after trying to uninstall/install a car part through the Mechanics Cheat, when a character was inside the vehicle.
-Fixed bug with health panel: Fully healing a body part now also removes its muscle fatigue.
-Fixed mod texture packs being loaded before Core.TileScale was set based on the double-sized-textures option. This would result in 2x texture packs being loaded instead of 1x texture packs.
+Corrigidos personagens no modo deus que ainda mudavam o peso corporal.
+Corrigidas instâncias do Menu de Trapaças que não funcionavam após a morte de um jogador.
+Corrigido o problema de remoção de corpos pelo Gerenciador da Horda que não funcionava no modo um jogador.
+Corrigido o problema de ficar preso em um veículo após tentar desinstalar/instalar uma peça do carro por meio das Trapaças de Mecânica, quando um personagem estava dentro do veículo.
+Corrigido bug no painel de saúde: curar completamente uma parte do corpo agora também remove sua fadiga muscular.
+Pacotes de textura de mod corrigidos sendo carregados antes de Core.TileScale ser definido com base na opção double-sized-textures. Isso resultaria em pacotes de textura 2x sendo carregados em vez de pacotes de textura 1x.
 [NODOT]<LINE> 
 
 [SECTION]FIXES
