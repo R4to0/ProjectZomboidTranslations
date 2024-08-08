@@ -6720,7 +6720,7 @@ Corrigido o problema em que os administradores não conseguiam remover os capôs
 Corrigido o problema em que jogadores não conseguiam interagir com rádios que eles mesmos colocavam.
 Corrigido um problema em que o dono do esconderijo sempre reaparecia no esconderijo quando a opção para fazer isso estava desmarcada.
 
-[SECTION]BALANCEAMENTO
+[SEÇÃO]BALANCEAMENTO
 Modificou os valores críticos da M16 e M14 para serem mais consistentes com outros rifles.
 [NOTAS]<INDENT:40> Chance de crítico da M16 alterada de 30 para 25.
 [NOTAS]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
