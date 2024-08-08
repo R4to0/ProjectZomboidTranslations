@@ -6619,152 +6619,152 @@ Removed Bowling shirt model from Bowling shirt definitions and made Bowling Shir
 Improved base Body mask to help with clipping.
 Re-exported ALICE packs as some straps were missing. 
 
-[VERSION]41.78
+[VERSÃO]41.78
 
-[SECTION]NEW
-Added a prompt for the updated Terms of Service as we are a big boy game now and have to fit in with the other biggerer boys.
+[SEÇÃO]NOVO
+Adicionamos um prompt para os Termos de Serviço atualizados, pois agora somos um grupo grande e temos que nos adaptar aos outros grupos maiores.
 [NODOT]<BR> 
-Added sandbox option to disable Fake Dead Reanimation. Disabled Fake deads in MP by default.
-Added more control over fake dead behaviour to the sandbox options; having zombies that were "killed" having a chance to become fake dead is an option that is off by default.
-Added sandbox option that allows Corpse Maggot spawning to be disabled or limited to corpse inventory.
-Added sandbox option that allows poisoning food to be disabled, or for poisoning food with bleach to be disabled.
-Added sandbox option to disable the Tainted Water Tooltip/Warning for hardcore play
-Added sandbox option for enabling/disabling XP multipliers affecting passive skills, which is false by default.
-Added sandbox option that prevents survivor vehicles from spawning.
-Added sandbox option "Light Bulb Lifespan". This does not affect Light Bulbs in vehicles, only in light fixture tiles.
+Adicionada opção sandbox para desabilitar Reanimação Falsa de Mortos. Desabilitado Mortos falsos no Multiplayer por padrão.
+Adicionado mais controle sobre o comportamento de falso morto às opções do sandbox; ter zumbis que foram "mortos" tendo a chance de se tornarem falsos mortos é uma opção que está desativada por padrão.
+Adicionada opção de sandbox que permite que a geração de Larva Cadáver seja desabilitada ou limitada ao inventário de cadáveres.
+Adicionada a opção sandbox que permite desabilitar o envenenamento de alimentos ou o envenenamento de alimentos com alvejante.
+Adicionada opção sandbox para desabilitar a dica/aviso de água contaminada para jogo hardcore
+Adicionada opção de sandbox para habilitar/desabilitar multiplicadores de XP que afetam habilidades passivas, o que é falso por padrão.
+Adicionada opção de sandbox que impede que veículos sobreviventes apareçam.
+Adicionada a opção sandbox "Vida Útil da Lâmpada". Isso não afeta lâmpadas em veículos, apenas em revestimentos de luminárias.
 [NODOT]<BR> 
-Added "Randomize" options to Zombie sandbox options for Memory, Sight, and Hearing.
-Added loot rarity settings "Incredibly Rare" and "None", as well as a "Super Low" option for Fuel Pump content. 
+Adicionadas opções "Randomizar" às opções do sandbox Zumbi para Memória, Visão e Audição.
+Adicionadas as configurações de raridade de saque "Incrivelmente Raro" e "Nenhum", bem como uma opção "Super Baixo" para o conteúdo da Bomba de Combustível.
 [NODOT]<BR> 
-Items from table stories/randomized stories/etc will still spawn when loot rarity is set to none.
+Itens de histórias de mesa/histórias aleatórias/etc ainda aparecerão quando a raridade do saque for definida como nenhuma.
 [NODOT]<BR> 
-Renamed Item "Weight" to "Encumbrance" in the UI and context menu. 
+O item "Peso" foi renomeado para "Sobrecarga" na interface do usuário e no menu de contexto. 
 [NODOT]<BR> 
-Added an Accessibility Option that makes the player character automatically walk to a click container within a short radius of 3 tiles.
-Added the ability to set custom "Good" and "Bad" highlighting colours in the Accessibility Options menu. This is applied to things like traits, tooltips, and the aiming outline.
-Added an option to bind "Walk To" to a key instead of having to go through the RMB menu.
-Added highlighting to clicked Crates so it's easier to tell which crate is selected.
-Added a Context Menu entry that enables/disables Auto-Drink.
-Tiles that are being disassembled will now be highlighted in the "bad colour", red being the default.
+Adicionada uma opção de acessibilidade que faz com que o personagem do jogador caminhe automaticamente até um contêiner de clique dentro de um raio curto de 3 blocos.
+Adicionada a habilidade de definir cores de destaque personalizadas "Bom" e "Ruim" no menu Opções de Acessibilidade. Isso é aplicado a coisas como características, dicas de uso e contorno de mira.
+Adicionada uma opção para vincular "Caminhar para" a uma tecla em vez de ter que passar pelo menu do Botão Direito do Mouse.
+Adicionado destaque às caixas clicadas para que seja mais fácil saber qual caixa está selecionada.
+Adicionada uma entrada no Menu de Contexto que habilita/desabilita o Beber Automaticamente.
+As peças que estão sendo desmontadas agora serão destacadas na "cor ruim", sendo o vermelho o padrão.
 [NODOT]<BR> 
-Resolutions higher than 1440p will have their zoom levels adjusted to allow closer zoom-in, bringing it more in line with lower resolutions.
+Resoluções maiores que 1440p terão seus níveis de zoom ajustados para permitir um zoom mais próximo, ficando mais alinhado com resoluções mais baixas.
 [NODOT]<BR> 
-Disabled some Randomized Survivor Safehouses from occurring in instances where a building has over 10 rooms, or is a spawn location. The limit is 10 for some and 20 for other Randomized Survivor Safehouses.
-[NODOT]<INDENT:40> This also means the Toilet Paper story is now disabled in buildings that have over 10 rooms or are spawn locations, which will likely reduce the amount of Reddit posts about it by 50%.
-Added a check to prevent any of the randomized burnt building stories from occurring if the building is a spawn location.
+Desabilitados alguns Esconderijos Aleatórios de Sobreviventes para que não ocorressem em situações em que um prédio tem mais de 10 salas ou é um local de surgimento.The limit is 10 for some and 20 for other Randomized Survivor Safehouses.
+[NODOT]<INDENT:40> Isso também significa que a História do Papel Higiênico agora está desabilitada em prédios com mais de 10 cômodos ou que são locais de surgimento, o que provavelmente reduzirá a quantidade de postagens sobre isso no Reddit em 50%.
+Adicionada uma verificação para evitar que qualquer uma das histórias aleatórias de edifícios queimados ocorra se o edifício for um local de surgimento.
 [NODOT]<BR> 
-Added "HasMetal" tag for items. This tag was added to food and water items in metal containers, which will now set microwaves on fire when microwaved.
+Adicionada a tag "Contém Metal" para itens. Esta tag foi adicionada a itens de comida e água em recipientes de metal, que agora incendeiam micro-ondas quando aquecidos.
 [NODOT]<BR> 
-Adjusted the mechanics UI so that both the Battery Charge and Condition are included in the Battery entry in the list of parts.
-Modified the vehicle mechanics UI to prominently feature the % of a full tank of gas it has, in addition to the battery charge.
+Ajustou a IU da mecânica para que tanto a Carga da Bateria quanto a Condição sejam incluídas na entrada da Bateria na lista de peças.
+Modificou a IU da mecânica do veículo para destacar com destaque a % de um tanque cheio de gasolina que ele tem, além da carga da bateria.
 [NODOT]<BR> 
-Added a few more existing clothing options to the character creation.
-Added the ability to destroy only one wall when selecting corner walls.
-Replaced the bucket world static model textures with metal icons and textures and not plastic ones, as buckets are now metal and not plastic.
-Updated the BucketEmpty and BucketWaterFull scripts with tooltips and IsCookable to reflect that they are now metal and not plastic.
-Changed the icon of the Watering Can With Water to match the Empty Water Can and the Watering Can models.
-Added a stale tooltip for perishable food to display, when appropriate, that such food is neither fresh nor rotten.
-Added tooltip to Club Hammers and Mallets explaining that they are unsuitable for driving nails.
-Flatpack model is applied to movable items that use the Flatpack icon.
-Made more food items capable of being added to tacos and burritos.
-Bell Pepper can now be added to Stews.
+Adicionadas mais algumas opções de roupas existentes à criação de personagens.
+Adicionada a capacidade de destruir apenas uma parede ao selecionar paredes do canto.
+As texturas do modelo estático dos baldes do mundo foram substituídas por ícones e texturas de metal, e não de plástico, pois os baldes agora são de metal e não de plástico.
+Atualizamos os scripts de "Balde Vazio" e "Balde Cheio de Água" com dicas de uso e "É Cozível" para refletir que agora são de metal e não de plástico.
+Alteramos o ícone do Regador com Água para corresponder aos modelos de Regador e Lata de Água Vazia.
+Adicionada uma dica de uso para alimentos perecíveis para mostrar, quando apropriado, que tais alimentos não são frescos nem podres.
+Adicionada uma dica de uso para "Martelos" e "Malho de Madeira" explicando que eles não são adequados para pregar pregos.
+O modelo de Mochila é aplicado a itens móveis que usam o ícone de Mochila.
+Tornou mais itens alimentares capazes de serem adicionados a tacos e burritos.
+Agora é possível adicionar Pimentão aos Ensopados.
 [NODOT]<BR> 
-Added a check so cooked eggs cannot be used for inappropriate non-evolved recipes.
-Removed the requirement for hot water to make a bowl of oats.
-Changed the Violet FoodType to NoExplicit.
+Foi adicionada uma verificação para que ovos cozidos não possam ser usados ​​em receitas inapropriadas e não evoluídas.
+Removida a necessidade de água quente para fazer uma tigela de aveia.
+Alterou o tipo de "Alimento Violeta" para "Não Explícito".
 [NODOT]<BR> 
-Trash tiles (Movable items) and Plastic Bags can now be used as tinder and fuel for fires.
-Changed the Sawed-off Shotgun recipes to only use the hacksaw, and not the garden saw; a wood saw would be unable to cut through the metal barrel of a shotgun.
-Added the Meat Cleaver to the Slice Onions recipe. Removed it from the Jack-o'-lantern recipe.
+Lugares com lixo (Itens Movíveis) e Sacos Plásticos agora podem ser usados ​​como isca e combustível para fogueiras.
+Alteradas as receitas de espingardas serradas para usar apenas a serra e não a serra de jardim; uma serra de madeira não seria capaz de cortar o cano de metal de uma espingarda.
+Adicionado o Cutelo à receita de Cebolas Fatiadas. Removido da receita de Abóbora de Halloween.
 [NODOT]<BR> 
-Changed the Cigarettes script to prioritize using Matches before a Lighter if both are in the same inventory.
-Added a new Doctor's bag and military duffel bag.
-Renamed "Hemophobic" trait to "Fear of Blood".
-Vehicle Spawn Chance rate can now be a float value instead of just an int.
-Added a check to prevent items that "weigh" over 50 units from being put in vehicle seats.
-[NODOT]<INDENT:40> This is an ongoing issue with bags/containers that are modded over capacity, which get stuck once placed in vehicle seats when the bag + contents have an Encumbrance of >50.
+Alterado o script de cigarros para priorizar o uso de fósforos antes de um isqueiro se ambos estiverem no mesmo inventário.
+Adicionamos uma nova Bolsa de Médico e uma Bolsa Militar.
+Traço "Hemofóbico" renomeado para "Medo de Sangue".
+A taxa de Chance de Geração de Veículos agora pode ser um valor real em vez de apenas um inteiro.
+Adicionada uma verificação para evitar que itens que "pesam" mais de 50 unidades sejam colocados nos assentos dos veículos.
+[NODOT]<INDENT:40> Este é um problema recorrente com bolsas/recipientes que são modificados acima da capacidade, que ficam presos quando colocados nos assentos do veículo quando a bolsa + o conteúdo têm uma sobrecarga de >50.
 [NODOT]<BR> 
-Changed translation strings to make bottle names more consistent.
-Changed IGUI_HouseKey from "House Key" to "Key" to avoid issues with non-residential keys.
+Alteradas as sequências de tradução para tornar os nomes das garrafas mais consistentes.
+Alterado a IGUI_HouseKey de "Chave da casa" para "Chave" para evitar problemas com chaves não residenciais.
 [NODOT]<BR> 
-Removed the numeric information tooltip provided when selecting eat all/half/quarter food item context options.
-Commented out the tool definitions in ClothingRecipesDefinitions as they currently are nonfunctional and serve no purpose aside from confusing modders.
+Foi removida a dica de uso com informações numéricas fornecida ao selecionar as opções de contexto de item alimentar: comer tudo/metade/um quarto.
+Comentei as definições de ferramentas em Definições de Receitas de Roupas, pois atualmente elas não são funcionais e não servem para nada além de confundir criadores de mods.
 [NODOT]<BR> 
-Commented out the WoodenLance in the safehouse weapons distro lists; that item is redundant vs SpearCrafted, and also doesn't work with spear recipes. SpearCrafted already spawns with safehouse weapons.
-Replaced AmmoStraps in the safehouse armor distro list with AmmoStraps_Bullets and AmmoStraps_Shells.
-Changed the display name translation string for the wearable AmmoStraps items to Bandolier on account of consistent confusion with the weapon attachment that is also called Ammo Straps.
-Changed the display name translation string for firearm magazines to use the firearm it is for, and not the caliber, as the prefix. Solves having two .308 Magazines, for both the MSR788 and the M14, and also that's how they're named in real life.
-Added a tooltip to firearm magazines that displays the ammunition type that it accepts.
+Comentei sobre a Lança de Madeira nas listas de distribuição de armas do esconderijo; esse item é redundante comparado a Lança Artesanal, e também não funciona com receitas de lança. A Lança Artesanal já aparece com armas do esconderijo.
+Substituímos as Bandoleiras na lista de distribuição de armaduras do esconderijo por AmmoStraps_Bullets e AmmoStraps_Shells.
+Foi alterada a sequência de tradução do nome de exibição dos itens vestíveis Bandoleira de Munição para Bandoleira devido à confusão constante com o acessório de arma que também é chamado de Bandoleira de Munição.
+Alterada a linha de tradução do nome de exibição para carregadores de armas de fogo para usar a arma de fogo para a qual é, e não o calibre, como prefixo. Como ter dois carregadores .308, tanto para o MSR788 quanto para o M14, e também é assim que eles são nomeados na vida real.
+Adicionada uma dica de uso aos carregadores de armas de fogo que exibe o tipo de munição que ele aceita.
 [NODOT]<BR> 
-Added missing models for Candy Corn, Candied Fruit Slices, Hot Sauce, Fountain Cups, JuJubes, Nettles, Shrimp Dumplings, Poached Eggs, Scrambled Eggs, Packaged Corn, Pickled Ginger, Sugar Cookies, Fish Sushi, Radio Receivers,Radio Transmitters, Gummy Bears, Gummy Worms, and Tent Kits.
+Adicionados modelos ausentes para Milho Doce, Fatias de Frutas Cristalizadas, Molho Picante, Copos de Fonte, Jujubas, Urtigas, Bolinhos de Camarão, Ovos Pochê, Ovos Mexidos, Milho Embalado, Gengibre em Conserva, Biscoitos de Açúcar, Sushi de Peixe, Receptores de Rádio, Transmissores de Rádio, Ursinhos de Goma, Minhocas de Goma e Kits de Barraca.
 [NODOT]<BR> 
-Added checks for a null VehicleScript to IsoPlayer.getNearVehicle() and IsoZombie.getNearVehicle().
+Adicionadas verificações para um Script de Veículo nulo para IsoPlayer.getNearVehicle() e IsoZombie.getNearVehicle().
 
-[SECTION]MULTIPLAYER
-Added server option "KnockedDownAllowed" to enable/disable the PVP knockdown. 
-[NODOT]<INDENT:40> This is a stopgap change to give servers an option to make PVP combat less frustrating before we can address PVP combat more directly in the future.  
+[SECTION]MULTIJOGADOR
+Adicionada a opção de servidor "Derrubada Permitida" para habilitar/desabilitar o PVP de nocaute.
+[NODOT]<INDENT:40> Esta é uma mudança provisória para dar aos servidores uma opção para tornar o combate PVP menos frustrante antes que possamos abordar o combate PVP mais diretamente no futuro.
 [NODOT]<BR> 
-Added auto-completion for player nicknames when pressing TAB while typing in the Chatbox.
-Added RCON command "checkModsNeedUpdate" to check for mods that need to be updated.
-Allow other non-admin permission levels to delete items in inventory/containers.
+Adicionado preenchimento automático para apelidos de jogadores ao pressionar TAB ao digitar na caixa de Bate-papo.
+Adicionado o comando RCON "check Mods Need Update" para verificar se há mods que precisam ser atualizados.
+Permitir que outros níveis de permissão não administrativos excluam itens no inventário/contêineres.
 [NODOT]<BR> 
-Fixed the multiplayer "whisper" command corrupting the Lua environment due to multithreading.
-Fixed being unable to claim a safehouse unless standing on the ground floor.
-Fixed not checking upper floors for other players or zombies when claiming a safehouse.
-Fixed an exception on the server when food rots into a new item in a container that isn't in the world any longer.
-Fixed new stubble getting added to remote players after each appearance change.
-Fixed text annotations not appearing on annotated maps in multiplayer.
-Fixed Endurance sync in the Admin Health Tool. 
-Fixed a bug that didn't display mods in the mod list of a server in the ESC menu. 
-Fixed admins being unable to remove car hoods while inside the vehicle.
-Fixed players being unable to interact with Radios they placed themselves. 
-Fixed a safehouse owner always respawning in their safehouse when the option to do so is unchecked.
+Corrigido o comando multijogador "whisper" que corrompia o ambiente Lua devido ao multithreading.
+Corrigida a impossibilidade de reivindicar um esconderijo a menos que esteja no andar térreo.
+Corrigido o problema que não verificava os andares superiores em busca de outros jogadores ou zumbis ao reivindicar um esconderijo.
+Corrigida uma exceção no servidor quando a comida apodrece em um novo item em um recipiente que não está mais no mundo.
+Corrigimos o problema em que uma nova barba por fazer era adicionada aos jogadores remotos após cada mudança de aparência.
+Corrigidas as anotações de texto que não apareciam em mapas anotados no modo multijogador.
+Corrigida a sincronização de resistência na ferramenta de saúde do administrador.
+Corrigido um bug que não exibia mods na lista de mods de um servidor no menu ESC.
+Corrigido o problema em que os administradores não conseguiam remover os capôs ​​dos carros enquanto estavam dentro do veículo.
+Corrigido o problema em que jogadores não conseguiam interagir com rádios que eles mesmos colocavam.
+Corrigido um problema em que o dono do esconderijo sempre reaparecia no esconderijo quando a opção para fazer isso estava desmarcada.
 
-[SECTION]BALANCE
-Modified the M16 & M14 critical values to be more consistent with other rifles.
-[NODOT]<INDENT:40> M16 CriticalChance changed from 30 to 25.
-[NODOT]<INDENT:60> Added CritDmgMultiplier 10
-[NODOT]<INDENT:60> Added AimingPerkCritModifier 12
-[NODOT]<INDENT:40> M14 CriticalChance changed from 0 to 30.
-[NODOT]<INDENT:60> Added CritDmgMultiplier 10
-[NODOT]<INDENT:60> AimingPerkCritModifier 15
-Disabled the cumulative slowdown until the next shot when firing the M16 in automatic mode. Firing the M16 in automatic mode will cumulatively reduce the chance of a critical with each additional shot. This is intended to represent the loss in accuracy due to recoil.
-Set some traits to be mutually exclusive to remove exploits or illogical combinations.
+[SECTION]BALANCEAMENTO
+Modificou os valores críticos da M16 e M14 para serem mais consistentes com outros rifles.
+[NODOT]<INDENT:40> Chance de crítico da M16 alterada de 30 para 25.
+[NODOT]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
+[NODOT]<INDENT:60> Adicionado Habilidade de Modificador de Mira Crítico para 12
+[NODOT]<INDENT:40> Chance de crítico da M14 alterada de 0 para 30.
+[NODOT]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
+[NODOT]<INDENT:60>  Habilidade de Modificador de Mira Crítico para 15
+Desabilitada a desaceleração acumulativa até o próximo tiro ao disparar a M16 no modo automático. Disparar a M16 no modo automático reduzirá acumulativamente a chance de um crítico a cada tiro adicional. Isso tem a intenção de representar a perda de precisão devido ao recuo.
+Definidas algumas características como mutuamente exclusivas para remover explorações ou combinações ilógicas.
 [NODOT]<BR> 
-Hot-Wiring a vehicle will have a low chance of causing a car alarm. The chance for this is decreased further for higher electronics skill levels. 
-Zombies pushing up against a previously unentered stationary vehicle have a chance to set off an alarm. 
-Removed the undesired RNG check that made vehicle alarms go off only 20% of the time.
-Fixed car hoods being unable to trigger vehicle alarms.
+Fazer Ligação Direta em um veículo terá uma chance baixa de causar um alarme de carro. A chance disso diminui ainda mais para níveis mais altos de habilidade em eletrônica.
+Zumbis que avançam contra um veículo parado que antes não havia sido atingido têm a chance de disparar um alarme.
+Removida a verificação indesejada de RNG que fazia com que os alarmes dos veículos disparassem apenas 20% das vezes.
+Corrigido o problema em que os capôs ​​dos carros não conseguiam disparar alarmes de veículos.
 [NODOT]<BR> 
-Disabled being able to make melee attacks while inside a vehicle with the window rolled down.
+Desativado a capacidade de fazer ataques corpo a corpo dentro de um veículo com a janela aberta.
 [NODOT]<BR> 
-Randomized the fall damage that zombies take. This randomized spread will average out to the previous damage before it was randomized; this will have a minor impact (hohoho) on the damage that zombies that fall suffer, but slightly more of them will be able to be killed by this than before.
-Made it so groin injuries from not-crawler zombies are less common, and that crawlers can also inflict uncommon groin injuries.
+Randomizado o dano de queda que os zumbis recebem. Essa distribuição randomizada será a média do dano anterior antes de ser randomizada; isso terá um impacto menor (hohoho) no dano que os zumbis que caem sofrem, mas um pouco mais deles poderão ser mortos por isso do que antes.
+Tornou menos comuns os ferimentos na virilha causados ​​por zumbis que não rastejam, e que os rastejantes também podem causar ferimentos incomuns na virilha.
 [NODOT]<BR> 
-Increased the yield of metal parts when scrapping wrecked vehicles by 33%.
-Added a new procedural container, "CratePropane", to garages and shed.
-Increased the spawn rates for Propane Tanks in the distributions.
+Aumentado o rendimento de peças metálicas ao desmanchar veículos destruídos em 33%.
+Adicionado um novo contêiner de procedimento, "Caixa de Propano", às garagens e galpões.
+Aumentamos as taxas de geração de Botijões de Propano nas distribuições.
 [NODOT]<BR> 
-Trailer capacity now reduces slightly when damaged, as there was no point in repairing them before.
-Changed Bowling Ball Bag capacity from 2 to 8.
-Increase number of Plaster uses to 10, same as Paint.
-Allow plastic bags and money to be used as tinder
+A capacidade dos trailers agora é ligeiramente reduzida quando danificados, pois antes não havia sentido em repará-los.
+Alterada a capacidade da Bolsa de Bolas de Boliche de 2 para 8.
+Aumentado o número de usos de Gesso para 10, o mesmo que a Tinta.
+Permitido que sacos plásticos e dinheiro sejam usados ​​como isca
 [NODOT]<BR> 
-Adjusted the capacities of pistol and revolver cases from 7 down to 4.
-Adjusted Encumbrance of the sturdy stick item to 1 to be more consistent with other items.
-Adjusted Encumbrance of fire extinguishers to 2, to be consistent with other items.
-Decreased Encumbrance of Walkie-Talkies.
-Adjusted Encumbrance of the TreeBranch item to match that of a crafted spear, to 1.7 from 1; 
-[NODOT]<INDENT:40> The Encumbrance discrepancy has been remarked upon repeatedly, and this also serves in making item Encumbrance more consistent.
-Adjusted the amount of fuel that spawns in fuel pumps at Low and Very Low.
+Ajustada a capacidade dos estojos de pistola e revólver de 7 para 4.
+A Resistência do item bastão resistente foi ajustada para 1 para ser mais consistente com outros itens.
+Ajustou a resistência de extintores de incêndio para 2, para ser consistente com outros itens.
+Redução do peso dos Radiotransmissores.
+A Resistência do item Galho de Árvore foi ajustada para corresponder à de uma lança artesanal, de 1 para 1,7;
+[NODOT]<INDENT:40> A discrepância de resistência foi observada repetidamente, e isso também serve para tornar a resistência do item mais consistente.
+Ajustada a quantidade de combustível que é gerada nas bombas de combustível em nível Baixo e Muito Baixo.
 [NODOT]<BR> 
-Updated the nutritional value for Canned Evaporated Milk. Calories 472; Carbs, Lipids, and Proteins at 23.6
-Changed the days until rotten for Bagels from 2 to 6.
-Gave the Stir Fry and roast script items a default hunger value of 10. This was previously reported as a bug when players spawned the item in instead of making it via the evolved recipe.
+Atualizado o valor nutricional para Leite Evaporado em Lata. Calorias 472; Carboidratos, Lipídios e Proteínas em 23,6
+Alterado os dias até apodrecer para Bagels de 2 para 6.
+Demos aos itens de script Fritos e Assados um valor de fome padrão de 10. Isso foi relatado anteriormente como um bug quando os jogadores geravam o item em vez de fazê-lo por meio da receita evoluída.
 [NODOT]<BR> 
-Maggots are slightly more poisonous. 
-Fewer maggots spawn, especially in spring and fall (maggots don't spawn during winter).
-Maggots are now a default item in the world item removal lists. Added a comment for the world item removal lists explaining that Base.Maggots should stay in the list due to corpse maggots.
+Larvas são um pouco mais venenosas.
+Menos larvas surgem, especialmente na primavera e no outono (larvas não surgem durante o inverno).
+Larvas agora são um item padrão nas listas de remoção de itens do mundo. Adicionado um comentário para as listas de remoção de itens do mundo explicando que Base.Maggots deve permanecer na lista devido a larvas de cadáver.
 Additional safeguard to prevent errors when using mods that remove maggots altogether.
 
 [SECTION]DEBUG / MODDING
