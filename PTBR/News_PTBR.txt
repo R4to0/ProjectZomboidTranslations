@@ -6806,111 +6806,111 @@ Corrigido bug no painel de saúde: curar completamente uma parte do corpo agora 
 Pacotes de textura de mod corrigidos sendo carregados antes de Core.TileScale ser definido com base na opção double-sized-textures. Isso resultaria em pacotes de textura 2x sendo carregados em vez de pacotes de textura 1x.
 [NODOT]<LINE> 
 
-[SECTION]FIXES
-Fixed only being able to add Maple syrup to "PancakesRecipe" and not to "PancakesCraft" or "Pancakes".
-Fixed not being able to make 2 or 4 bowls of Rice or Pasta with a Saucepan anymore.
-Fixed lipstick not being appliable when player had Foundation Makeup in inventory
-Fixed Make-Up not being appliable when in a car.
-Fixes and changes to item categories.
-Fixed destroying a wall with a Lightswitch on it not destroying the Lightswitch too.
-Fixed making 2/4 bowls from a Saucepan returning a Cooking Pot.
-Fixed putting a hat on a Mohawk resetting hair growth timer.
-Fixed not being able to make a Molotov with an Empty Beer bottle.
-Fixed repeatedly building/disassembling some carpentry objects increasing the number of Planks sometimes.
-Fixed Sand/Gravel Bag wall behaviour when built at an angle.
-Fixed selected part of a garment in the "Inspect" UI being too faint.
-Fixed Shirts and other clothing items getting auto-removed from the world.
-Fixed unnecessary extra Muffin recipe. United the two existing Muffin recipes into one.
-Fixed being able to make Cake Batter using rotten ingredients below level 7.
-Fixed unused Zombie Decomposition sandbox option still being listed.
-Fixed NullPointerException in bThump animation variable when the object isn't loaded.
-Fixed being unable to click on open doors in an adjacent room.
-Fixed the starting house in "A Really CDDAy" challenge sometimes not being on fire.
-Fixed possible Lua error in MOBarricade.lua when a barricade sprite is on the east or south edge of a chunk.
-Fixed minor issues in ISZoneDisplay UI and text colours.
-Fixed Foraging icons rerolling when a search focus was selected.
-Fixed ISSearchManager check for valid zoneData when loading icons.
-Fixed not being able to rip Jeans/Leather Jackets when they're on the ground instead of the player inventory.
-Fixed disassembly of Favourited items.
-Fixed randomized crashed cars not having the correct car keys spawned for them.
-Fixed Mouse Trap related collision.
-Fixed sound issue when pressing W and S at the same time.
-Fixed sound issue when switching Seats while Cruise Control was enabled.
-Fixed Refill tool not updating the container visually.
-Fixed incorrectly named recipe for making Wooden Box Traps.
-Fixed several tile and cutaway issues.
-Fixed Lighters draining completely when used with a Molotov.
-[NODOT]<INDENT:40> When a Lighter is equipped it will no longer automatically become lit, instead it will do so only if activated using the flashlight keybind or radial menu, or using the inventory context menu option to activate them.
-Fixed evolved recipe error in scripts for Lemons and Lime.
-Fixed Machetes not losing condition when used to craft spears from branches/planks.
-Fixed Empty Beer Bottle using the wrong icons.
-Fixed the space before commas in evolved recipe item names.
-Fixed missing recipe for Opening Canned Fruit Beverage.
-Changed "Canned Condensed Milk" to "Canned Evaporated Milk" because people are really passionate about milk in can lore.
-Fixed melted ice cream not rotting.
-Fixed house keys spawning with a long string of numbers in their display name.
-Fixed climb sheet rope speed.
-Fixed water collision bug when placing Stairs on water.
-Fixed missing textures for Flatpack model.
-Fixed ISInventoryPaneContextMenu.doEvorecipeMenu error.
-Fixed the on-screen keyboard returning asterisks instead of the actual text when entering passwords.
-Fixed microwaves not stopping the StoveTimer sound when turned off.
-Fixed missing context menu translation string for "Item Water Capacity".
-Fixed missing movables translation strings for Oak Bars.
-Fixed missing translation string for foodtype cocoa.
-Fixed wrong tooltip for Onion Slices.
-Fixed pies and cakes being able to be sliced when uncooked.
-Fixed frozen ice cream cones causing boredom and unhappiness; added the "GoodFrozen" tag for such items that should still be enjoyable when frozen.
-Fixed characters not limping when they had their groin bitten. 
-Fixed being able to fill a square over its capacity by using the Place Item interface.
-Fixed cooking rotten eggs producing fresh boiled eggs; now if food is rotten and has a "replace on cooked" value, it will not be replaced but will still be cooked, i.e. you will get a cooked rotten egg when you cook a rotten egg.                                             
-Fixed Propane Torch not being used for disassembling objects.                                          
-Fixed Walking and sprinting not burning more calories than standing still.
-Fixed NullPointerExeption when throwing a bomb from above ground level with a controller.
-Fixed not being able to pick items that were dropped to a removed seat slot.
-Fixed being stuck on a seat when trying to change seat twice in different places.
-Fixed being able to do Fitness during sleep and while sitting in a car.
-Fixed the eternal fire after destroying a lit campfire with a sledgehammer.
-Fixed Map objects disappearing when a player aims at a stealthing player.
-Fixed bug with item icons in halo text when foraging.
-Fixed a bug with locking/unlocking doors inside buildings.
-Fixed different values between standard and evolved recipes for Soup.
-Fixed an issue where the interaction between the two different separate zombie population sandbox settings was inconsistent between singleplayer and multiplayer sandbox setting interfaces.
-Fixed equipping "Bandana (face)" placing the bandana on the head. 
-Fixed not being able to get a key ring. Some zombies will now have their house or vehicle key in a key ring, and key rings can also sometimes be found in store displays with watches.
-Fixed that it was impossible for a randomized name to be "Pat Bren".
-Fixed adding poisonous berries or mushrooms to an evolved recipe did not make the product poisonous.
-Fixed missing icon for Scrambled Eggs.
-Fixed currently nonfunctional bayonet and gunlight items not being commented out in the distribution files.
-Fixed missing models/textures for Fountain Cups, Recipe Pizza and Recipe Bread.
-Fixed missing "Obsolete" parameter to BakingTrayBread as it's an unused test item without a model.
-Fixed missing checks to prevent buildings with inappropriate randomized dead survivor stories from being alarmed.
-Fixed being able to use the place item option to place infinite items in a floor square.
-Fixed cut and paste error in the unused function HandWeapon.getToHitMod.
-Fixed an exploit where players, especially ones with desensitized, were able to sleep immediately after breaking LOS with zombies.
-Fixed a couple of inconsistencies between the default MP settings and the Apocalypse setting on account of the loot setting changes.
-Fixed CannedMilk not having the parameter CannedFood = TRUE.
-Fixed only pouring 50 units when selecting the option to put 100 units of water into a farming plot.
-Fixed an issue with the vehicle alarm debug tool, BaseVehicle.setAlarmed also needed to set previouslyEntered to false for the vehicle when enabling an alarm.
-Fixed car horns continuing when switching seats while honking.
-Fixed being able to hold down keys while AFKing to grind nimble; now a check is made to ensure that the character has actually moved before awarding XP.
-Fixed error with broken glass script name in distro files.
-Fixed hazmat suit missing blood locations.
-Fixed being able to put uncooked bacon into tacos and burritos.
-Fixed Pink Hair Dye not being in the distribution lists.
-Fixed not being able to put Black Beans into a salad.
-Fixed Strength XP levels causing slower Sheet Rope climbing at certain levels, especially at level 10.
-Fixed bugged interaction with building metal objects and the Propane Torch.
-Fixed not being able to disassemble car wrecks due to a missing Propane Torch, even though it was in inventory. This needs Balance feedback since the usage per Torch was also changed.
-Fixed interaction when pressing shift+e near passenger seat to move to the drivers seat.
-Fixed ISBuryCorpse action validity check.
-Fixed using a firearm to repair another firearm evaporating the ammo, magazine, and attachments of the first weapon. The items will now be placed in the player's inventory.
-Fixed being unable to read in a car when the engine was running.
-Fixed zombies spawning inside buildings when the zombie populations is set to 0.
-Fixed missing world static model for Bag_ShotgunDblSawnoffBag.
-Fixed search window tooltips still appearing on hover when the world map is open.
-Fixed player able to walk away while equipping items to scrap or destroy an object to perform the actions from afar.
-Fixed dismantling floors with the character on top by moving character to an adjacent square where possible.
-Fixed disassembly context menu issue: added highlighting of target object in world and object texture in disassembly tooltips
-Fixed reflective and shooting glasses having reversed icons.
-Fixed some events of ZomboidSoundMP.bank not playing for remote clients. This is to potentially fix sounds cutting out when several players are together.
+[SECTION] CORREÇÕES
+Corrigimos a possibilidade de adicionar xarope de bordo somente em "Receita de Panquecas" e não em "Panquecas Caseiras" ou "Panquecas".
+Corrigido o problema que não permitia mais fazer 2 ou 4 tigelas de Arroz ou Macarrão com uma Panela.
+Corrigido o problema do batom não ser aplicável quando o jogador tinha Base de Maquiagem no inventário
+Corrigido o problema de Maquiagem não poder ser aplicada dentro do carro.
+Correções e alterações nas categorias de itens.
+Corrigido o problema em que destruir uma parede com um Interruptor de Luz não destruía o Interruptor de Luz também.
+Corrigido o problema de fazer 2/4 tigelas a partir de uma Panela que retornava uma Panela Grande.
+Corrigido o problema em que colocar um chapéu em um Moicano reiniciava o cronômetro de crescimento do cabelo.
+Corrigida a impossibilidade de fazer um Molotov com uma Garrafa de Cerveja Vazia.
+Corrigida a construção/desmontagem repetida de alguns objetos de carpintaria, o que às vezes aumentava o número de Tábuas.
+Corrigido o comportamento da parede de saco de Areia/Cascalho quando construída em ângulo.
+Corrigida a parte selecionada de uma vestimenta na interface do usuário "Inspecionar", que estava muito fraca.
+Corrigido camisas e outros itens de vestimenta que estavam sendo removidos automaticamente do mundo.
+Corrigida receita extra desnecessária de Muffin. Uniu as duas receitas de Muffin existentes em uma.
+Corrigida a possibilidade de fazer Massa de Bolo usando ingredientes podres abaixo do nível 7.
+Corrigida a opção sandbox não utilizada de Decomposição de Zumbis que ainda estava listada.
+Corrigida a NullPointerException na variável de animação bThump quando o objeto não está carregado.
+Corrigida a impossibilidade de clicar em portas abertas em uma sala adjacente.
+Corrigimos a casa inicial no desafio "Um Dia De Cão", que às vezes não pegava fogo.
+Corrigido possível erro Lua em MOBarricade.lua quando um sprite de barricada está na borda leste ou sul de um pedaço.
+Corrigidos pequenos problemas na interface do usuário e nas cores do texto do ISZoneDisplay.
+Corrigido o problema dos ícones de busca que rolavam novamente quando um foco de busca era selecionado.
+Corrigida a verificação do ISSearchManager para zoneData válido ao carregar ícones.
+Corrigido o problema que impedia que Jeans/Jaquetas de Couro fossem rasgadas quando estivessem no chão em vez de no inventário do jogador.
+Corrigido a desmontagem de itens favoritos.
+Corrigido o problema de carros acidentados aleatoriamente que não tinham as chaves corretas geradas para eles.
+Corrigida a colisão relacionada à Ratoeira.
+Corrigido o problema de som ao pressionar W e S ao mesmo tempo.
+Problema de som corrigido ao trocar de assento enquanto o controle de bordo estava ativado.
+Corrigida a ferramenta Refill que não atualizava o contêiner visualmente.
+Corrigida a receita com nome incorreto para fazer Armadilhas de Caixa de Madeira.
+Corrigido vários problemas de ladrilhos e cortes.
+Corrigido o problema em que os isqueiros drenavam completamente quando usados ​​com um Molotov.
+[NODOT]<INDENT:40> Quando um isqueiro é equipado, ele não acende mais automaticamente; em vez disso, ele só acende se ativado usando a tecla de atalho da lanterna ou o menu radial, ou usando a opção do menu de contexto do inventário para ativá-los.
+Corrigido erro de receita evoluída em scripts para Limões e Lima.
+Corrigido o problema em que os facões não perdiam a condição quando usados ​​para criar lanças a partir de galhos/tábuas.
+Corrigimos o problema da Garrafa de Cerveja Vazia usando os ícones errados.
+Corrigido o espaço antes das vírgulas nos nomes dos itens de receitas evoluídas.
+Corrigida a receita ausente para Abrir Bebida de Fruta Enlatada.
+Corrigido "Leite Condensado em Lata" para "Leite Evaporado em Lata" porque as pessoas são realmente apaixonadas pelo leite em lata.
+Corrigido o problema do sorvete derretido não apodrecer.
+Corrigidas as chaves de casa que apareciam com uma longa sequência de números no nome de exibição.
+Corrigido a velocidade da corda improvisada.
+Corrigido bug de colisão de água ao colocar Escadas na água.
+Texturas ausentes corrigidas para o modelo de Mochila.
+Corrigido o erro ISInventoryPaneContextMenu.doEvorecipeMenu.
+Corrigido o problema do teclado na tela que retornava asteriscos em vez do texto real ao digitar senhas.
+Corrigido o problema do micro-ondas que não parava o som do Temporizador quando desligado.
+Corrigida a linha de tradução do menu de contexto ausente para "Capacidade de Água do Item".
+Corrigidas as sequências de tradução de itens móveis ausentes para Barras de Carvalho.
+Corrigida a linha de tradução ausente para o tipo de alimento cacau.
+Corrigida dica de uso errada para Fatias de Cebola.
+Corrigido o problema de tortas e bolos poderem ser fatiados quando crus.
+Corrigidos os cones de sorvete congelados que causavam tédio e infelicidade; adicionamos a tag "Melhor Congelado" para esses itens que ainda devem ser saborosos quando congelados.
+Corrigido o problema em que os personagens não mancavam quando eram mordidos na virilha.
+Corrigida a possibilidade de preencher um quadrado acima de sua capacidade usando a interface Colocar Item.
+Corrigido o problema de cozinhar ovos podres produzindo ovos cozidos frescos; agora, se o alimento estiver podre e tiver um valor "substituir quando cozido", ele não será substituído, mas ainda será cozido, ou seja, você obterá um ovo podre cozido quando cozinhar um ovo podre.
+Corrigido o problema do maçarico não ser usado para desmontar objetos.
+Corrigido caminhar e correr não queimavam mais calorias do que ficar parado.
+Corrigido NullPointerException ao lançar uma bomba acima do nível do solo com um controle.
+Corrigido o problema que impedia a coleta de itens que eram largados em um assento removido.
+Corrigido o problema de ficar preso em um assento ao tentar trocar de assento duas vezes em lugares diferentes.
+Corrigida a possibilidade de fazer exercícios durante o sono e enquanto está sentado no carro.
+Corrigido o fogo eterno após destruir uma fogueira acesa com uma marreta.
+Corrigido o problema em que objetos do mapa desapareciam quando um jogador mirava em um jogador furtivo.
+Corrigido bug com ícones de itens em texto de halo ao coletar itens.
+Corrigido um bug com o bloqueio/desbloqueio de portas dentro de edifícios.
+Corrigidos os valores diferentes entre receitas padrão e evoluídas para Sopa.
+Corrigido um problema em que a interação entre as duas configurações diferentes de sandbox de população zumbi era inconsistente entre as interfaces de configuração de sandbox para um ou vários jogadores.
+Corrigido o equipamento "Bandana (rosto)", que colocava a bandana na cabeça.
+Corrigido não ser capaz de obter um chaveiro. Alguns zumbis agora terão suas chaves de casa ou veículo em um chaveiro, e chaveiros também podem ser encontrados em vitrines de lojas com relógios.
+Corrigido o problema em que era impossível um nome aleatório ser "Pat Bren".
+Corrigido o problema em que adicionar frutas ou cogumelos venenosos a uma receita evoluída não tornava o produto venenoso.
+Corrigido o Ícone ausente para Ovos Mexidos.
+Corrigidos os itens de baioneta e lanterna que não estavam funcionando e não estavam comentados nos arquivos de distribuição.
+Corrigidos modelos/texturas ausentes para Copos Descartáveis, Receita de Pizza e Receita de Pão.
+Corrigido o parâmetro "Obsoleto" ausente para Tabuleiro com Pão, pois é um item de teste não utilizado e sem um modelo.
+Corrigidas as verificações ausentes para evitar que edifícios com histórias de sobreviventes mortos aleatórias e inapropriadas fossem alarmados.
+Corrigida a possibilidade de usar a opção de colocar item para colocar itens infinitos em um quadrado no chão.
+Corrigido erro de recortar e colar na função não utilizada HandWeapon.getToHitMod.
+Corrigido um exploit que fazia com que jogadores, especialmente aqueles com dessensibilização, pudessem dormir imediatamente após quebrar a LOS com zumbis.
+Corrigidas algumas inconsistências entre as configurações padrão de Multijogador e a configuração do Apocalipse devido às mudanças nas configurações de saque.
+Corrigido o problema do Leite Enlatado não ter o parâmetro Comida Enlatada = VERDADEIRO.
+Corrigido o problema em que apenas 50 unidades eram despejadas ao selecionar a opção de colocar 100 unidades de água em um lote agrícola.
+Corrigido um problema com a ferramenta de depuração de alarme de veículo, BaseVehicle.setAlarmed também precisava definir previouslyEntered como falso para o veículo ao habilitar um alarme.
+Corrigido o problema das buzinas dos carros continuarem tocando ao trocar de assento enquanto buzinamos.
+Corrigida a possibilidade de manter as teclas pressionadas enquanto AFK fica parado para ficar mais ágil; agora, é feita uma verificação para garantir que o personagem realmente se moveu antes de conceder XP.
+Corrigido erro com nome de script de vidro quebrado em arquivos de distribuição.
+Corrigidos os locais de sangue ausentes no traje de proteção.
+Corrigida a possibilidade de colocar bacon cru em tacos e burritos.
+Corrigimos o problema da Tinta de Cabelo Rosa não estar nas listas de distribuição.
+Corrigido o problema que impedia colocar Feijão Preto em uma salada.
+Corrigidos os níveis de XP de Força que causavam lentidão na escalada da Corda Improvisada em certos níveis, especialmente no nível 10.
+Corrigida interação com bugs ao construir objetos de metal e o Maçarico.
+Corrigida a impossibilidade de desmontar destroços de carros devido à falta de um Maçarico, mesmo que ele estivesse no inventário. Isso precisa de feedback de Balanceamento, já que o uso por Maçarico também foi alterado.
+Corrigida a interação ao pressionar shift+e perto do assento do passageiro para mover para o assento do motorista.
+Corrigida a verificação de validade da ação ISBuryCorpse.
+Corrigido o uso de uma arma de fogo para consertar outra arma de fogo evaporando a munição, o carregador e os acessórios da primeira arma. Os itens agora serão colocados no inventário do jogador.
+Corrigido o problema que impedia a leitura dentro do carro quando o motor estava funcionando.
+Corrigido o surgimento de zumbis dentro de edifícios quando a população de zumbis estava definida como 0.
+Corrigido o modelo estático do mundo ausente para Bag_ShotgunDblSawnoffBag.
+Corrigidas as dicas de uso da janela de pesquisa que ainda apareciam ao passar o mouse quando o mapa estava aberto.
+Corrigido o problema em que o jogador conseguia se afastar enquanto equipava itens para desmantelar ou destruir um objeto para executar as ações de longe.
+Corrigido o problema de desmontar pisos com o personagem em cima, movendo o personagem para um quadrado adjacente sempre que possível.
+Corrigido o problema no menu de contexto de desmontagem: adicionado destaque do objeto alvo no mundo e textura do objeto nas dicas de uso de desmontagem
+Corrigidos os óculos refletivos e de tiro com ícones invertidos.
+Corrigidos alguns eventos de ZomboidSoundMP.bank não tocando para clientes remotos. Isso é para potencialmente consertar sons cortando quando vários jogadores estão juntos.
