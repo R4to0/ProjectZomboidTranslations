@@ -1,6 +1,6 @@
 [VERSION] 41 - Initial Beta Release
 [SECTION]
-[NOTAS] <CENTRE><SIZE:large> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too,however, we anticipate a fairly long public beta while all the various issues presented to us by community testers are spotlit and remedied. <LINE> Some key features, primarily MP, are disabled in the beta build. <LINE> 
+[NODOT] <CENTRE><SIZE:large> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too,however, we anticipate a fairly long public beta while all the various issues presented to us by community testers are spotlit and remedied. <LINE> Some key features, primarily MP, are disabled in the beta build. <LINE> 
 <LEFT> New gameplay styles: Builder, Brawler and Survivor
 More deadly ‘Survivor’ (Survival) gameplay balance – player can be dragged down by horde and feasted upon etc. 
 New survivor abilities: sitting, sneaking, sprinting, jogging, racking, reloading, climbing, fence-jumping, collapsing and much much more. 
