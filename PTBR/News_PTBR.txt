@@ -1,6 +1,6 @@
 [VERSION] 41 - Initial Beta Release
 [SECTION]
-[NODOT] <CENTRE><SIZE:large> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too,however, we anticipate a fairly long public beta while all the various issues presented to us by community testers are spotlit and remedied. <LINE> Some key features, primarily MP, are disabled in the beta build. <LINE> 
+[NOTAS] <CENTRE><SIZE:large> Build 41 is the most fundamental and wide-ranging update that Project Zomboid has ever had. <BR><LINE> We intend it to be a stable foundation for us to build on for many years ahead. For this reason too,however, we anticipate a fairly long public beta while all the various issues presented to us by community testers are spotlit and remedied. <LINE> Some key features, primarily MP, are disabled in the beta build. <LINE> 
 <LEFT> New gameplay styles: Builder, Brawler and Survivor
 More deadly ‘Survivor’ (Survival) gameplay balance – player can be dragged down by horde and feasted upon etc. 
 New survivor abilities: sitting, sneaking, sprinting, jogging, racking, reloading, climbing, fence-jumping, collapsing and much much more. 
@@ -6623,7 +6623,7 @@ Re-exported ALICE packs as some straps were missing.
 
 [SEÇÃO] NOVO
 Adicionamos um prompt para os Termos de Serviço atualizados, pois agora somos um grupo grande e temos que nos adaptar aos outros grupos maiores.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionada opção sandbox para desabilitar Reanimação Falsa de Mortos. Desabilitado Mortos falsos no Multiplayer por padrão.
 Adicionado mais controle sobre o comportamento de falso morto às opções do sandbox; ter zumbis que foram "mortos" tendo a chance de se tornarem falsos mortos é uma opção que está desativada por padrão.
 Adicionada opção de sandbox que permite que a geração de Larva Cadáver seja desabilitada ou limitada ao inventário de cadáveres.
@@ -6632,32 +6632,32 @@ Adicionada opção sandbox para desabilitar a dica/aviso de água contaminada pa
 Adicionada opção de sandbox para habilitar/desabilitar multiplicadores de XP que afetam habilidades passivas, o que é falso por padrão.
 Adicionada opção de sandbox que impede que veículos sobreviventes apareçam.
 Adicionada a opção sandbox "Vida Útil da Lâmpada". Isso não afeta lâmpadas em veículos, apenas em revestimentos de luminárias.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionadas opções "Randomizar" às opções do sandbox Zumbi para Memória, Visão e Audição.
 Adicionadas as configurações de raridade de saque "Incrivelmente Raro" e "Nenhum", bem como uma opção "Super Baixo" para o conteúdo da Bomba de Combustível.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Itens de histórias de mesa/histórias aleatórias/etc ainda aparecerão quando a raridade do saque for definida como nenhuma.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 O item "Peso" foi renomeado para "Sobrecarga" na interface do usuário e no menu de contexto. 
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionada uma opção de acessibilidade que faz com que o personagem do jogador caminhe automaticamente até um contêiner de clique dentro de um raio curto de 3 blocos.
 Adicionada a habilidade de definir cores de destaque personalizadas "Bom" e "Ruim" no menu Opções de Acessibilidade. Isso é aplicado a coisas como características, dicas de uso e contorno de mira.
 Adicionada uma opção para vincular "Caminhar para" a uma tecla em vez de ter que passar pelo menu do Botão Direito do Mouse.
 Adicionado destaque às caixas clicadas para que seja mais fácil saber qual caixa está selecionada.
 Adicionada uma entrada no Menu de Contexto que habilita/desabilita o Beber Automaticamente.
 As peças que estão sendo desmontadas agora serão destacadas na "cor ruim", sendo o vermelho o padrão.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Resoluções maiores que 1440p terão seus níveis de zoom ajustados para permitir um zoom mais próximo, ficando mais alinhado com resoluções mais baixas.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Desabilitados alguns Esconderijos Aleatórios de Sobreviventes para que não ocorressem em situações em que um prédio tem mais de 10 salas ou é um local de surgimento.The limit is 10 for some and 20 for other Randomized Survivor Safehouses.
-[NODOT]<INDENT:40> Isso também significa que a História do Papel Higiênico agora está desabilitada em prédios com mais de 10 cômodos ou que são locais de surgimento, o que provavelmente reduzirá a quantidade de postagens sobre isso no Reddit em 50%.
+[NOTAS]<INDENT:40> Isso também significa que a História do Papel Higiênico agora está desabilitada em prédios com mais de 10 cômodos ou que são locais de surgimento, o que provavelmente reduzirá a quantidade de postagens sobre isso no Reddit em 50%.
 Adicionada uma verificação para evitar que qualquer uma das histórias aleatórias de edifícios queimados ocorra se o edifício for um local de surgimento.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionada a tag "Contém Metal" para itens. Esta tag foi adicionada a itens de comida e água em recipientes de metal, que agora incendeiam micro-ondas quando aquecidos.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Ajustou a IU da mecânica para que tanto a Carga da Bateria quanto a Condição sejam incluídas na entrada da Bateria na lista de peças.
 Modificou a IU da mecânica do veículo para destacar com destaque a % de um tanque cheio de gasolina que ele tem, além da carga da bateria.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionadas mais algumas opções de roupas existentes à criação de personagens.
 Adicionada a capacidade de destruir apenas uma parede ao selecionar paredes do canto.
 As texturas do modelo estático dos baldes do mundo foram substituídas por ícones e texturas de metal, e não de plástico, pois os baldes agora são de metal e não de plástico.
@@ -6668,51 +6668,51 @@ Adicionada uma dica de uso para "Martelos" e "Malho de Madeira" explicando que e
 O modelo de Mochila é aplicado a itens móveis que usam o ícone de Mochila.
 Tornou mais itens alimentares capazes de serem adicionados a tacos e burritos.
 Agora é possível adicionar Pimentão aos Ensopados.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Foi adicionada uma verificação para que ovos cozidos não possam ser usados ​​em receitas inapropriadas e não evoluídas.
 Removida a necessidade de água quente para fazer uma tigela de aveia.
 Alterou o tipo de "Alimento Violeta" para "Não Explícito".
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Lugares com lixo (Itens Movíveis) e Sacos Plásticos agora podem ser usados ​​como isca e combustível para fogueiras.
 Alteradas as receitas de espingardas serradas para usar apenas a serra e não a serra de jardim; uma serra de madeira não seria capaz de cortar o cano de metal de uma espingarda.
 Adicionado o Cutelo à receita de Cebolas Fatiadas. Removido da receita de Abóbora de Halloween.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Alterado o script de cigarros para priorizar o uso de fósforos antes de um isqueiro se ambos estiverem no mesmo inventário.
 Adicionamos uma nova Bolsa de Médico e uma Bolsa Militar.
 Traço "Hemofóbico" renomeado para "Medo de Sangue".
 A taxa de Chance de Geração de Veículos agora pode ser um valor real em vez de apenas um inteiro.
 Adicionada uma verificação para evitar que itens que "pesam" mais de 50 unidades sejam colocados nos assentos dos veículos.
-[NODOT]<INDENT:40> Este é um problema recorrente com bolsas/recipientes que são modificados acima da capacidade, que ficam presos quando colocados nos assentos do veículo quando a bolsa + o conteúdo têm uma sobrecarga de >50.
-[NODOT]<BR> 
+[NOTAS]<INDENT:40> Este é um problema recorrente com bolsas/recipientes que são modificados acima da capacidade, que ficam presos quando colocados nos assentos do veículo quando a bolsa + o conteúdo têm uma sobrecarga de >50.
+[NOTAS]<BR> 
 Alteradas as sequências de tradução para tornar os nomes das garrafas mais consistentes.
 Alterado a IGUI_HouseKey de "Chave da casa" para "Chave" para evitar problemas com chaves não residenciais.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Foi removida a dica de uso com informações numéricas fornecida ao selecionar as opções de contexto de item alimentar: comer tudo/metade/um quarto.
 Comentei as definições de ferramentas em Definições de Receitas de Roupas, pois atualmente elas não são funcionais e não servem para nada além de confundir criadores de mods.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Comentei sobre a Lança de Madeira nas listas de distribuição de armas do esconderijo; esse item é redundante comparado a Lança Artesanal, e também não funciona com receitas de lança. A Lança Artesanal já aparece com armas do esconderijo.
 Substituímos as Bandoleiras na lista de distribuição de armaduras do esconderijo por AmmoStraps_Bullets e AmmoStraps_Shells.
 Foi alterada a sequência de tradução do nome de exibição dos itens vestíveis Bandoleira de Munição para Bandoleira devido à confusão constante com o acessório de arma que também é chamado de Bandoleira de Munição.
 Alterada a linha de tradução do nome de exibição para carregadores de armas de fogo para usar a arma de fogo para a qual é, e não o calibre, como prefixo. Como ter dois carregadores .308, tanto para o MSR788 quanto para o M14, e também é assim que eles são nomeados na vida real.
 Adicionada uma dica de uso aos carregadores de armas de fogo que exibe o tipo de munição que ele aceita.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionados modelos ausentes para Milho Doce, Fatias de Frutas Cristalizadas, Molho Picante, Copos de Fonte, Jujubas, Urtigas, Bolinhos de Camarão, Ovos Pochê, Ovos Mexidos, Milho Embalado, Gengibre em Conserva, Biscoitos de Açúcar, Sushi de Peixe, Receptores de Rádio, Transmissores de Rádio, Ursinhos de Goma, Minhocas de Goma e Kits de Barraca.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionadas verificações para um Script de Veículo nulo para IsoPlayer.getNearVehicle() e IsoZombie.getNearVehicle().
 
 [SECTION]MULTIJOGADOR
 Adicionada a opção de servidor "Derrubada Permitida" para habilitar/desabilitar o PVP de nocaute.
-[NODOT]<INDENT:40> Esta é uma mudança provisória para dar aos servidores uma opção para tornar o combate PVP menos frustrante antes que possamos abordar o combate PVP mais diretamente no futuro.
-[NODOT]<BR> 
+[NOTAS]<INDENT:40> Esta é uma mudança provisória para dar aos servidores uma opção para tornar o combate PVP menos frustrante antes que possamos abordar o combate PVP mais diretamente no futuro.
+[NOTAS]<BR> 
 Adicionado preenchimento automático para apelidos de jogadores ao pressionar TAB ao digitar na caixa de Bate-papo.
 Adicionado o comando RCON "check Mods Need Update" para verificar se há mods que precisam ser atualizados.
 Permitir que outros níveis de permissão não administrativos excluam itens no inventário/contêineres.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Corrigido o comando multijogador "whisper" que corrompia o ambiente Lua devido ao multithreading.
 Corrigida a impossibilidade de reivindicar um esconderijo a menos que esteja no andar térreo.
 Corrigido o problema que não verificava os andares superiores em busca de outros jogadores ou zumbis ao reivindicar um esconderijo.
 Corrigida uma exceção no servidor quando a comida apodrece em um novo item em um recipiente que não está mais no mundo.
-Corrigimos o problema em que uma nova barba por fazer era adicionada aos jogadores remotos após cada mudança de aparência.
+Corrigido o problema em que uma nova barba por fazer era adicionada aos jogadores remotos após cada mudança de aparência.
 Corrigidas as anotações de texto que não apareciam em mapas anotados no modo multijogador.
 Corrigida a sincronização de resistência na ferramenta de saúde do administrador.
 Corrigido um bug que não exibia mods na lista de mods de um servidor no menu ESC.
@@ -6722,46 +6722,46 @@ Corrigido um problema em que o dono do esconderijo sempre reaparecia no esconder
 
 [SECTION]BALANCEAMENTO
 Modificou os valores críticos da M16 e M14 para serem mais consistentes com outros rifles.
-[NODOT]<INDENT:40> Chance de crítico da M16 alterada de 30 para 25.
-[NODOT]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
-[NODOT]<INDENT:60> Adicionado Habilidade de Modificador de Mira Crítico para 12
-[NODOT]<INDENT:40> Chance de crítico da M14 alterada de 0 para 30.
-[NODOT]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
-[NODOT]<INDENT:60>  Habilidade de Modificador de Mira Crítico para 15
+[NOTAS]<INDENT:40> Chance de crítico da M16 alterada de 30 para 25.
+[NOTAS]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
+[NOTAS]<INDENT:60> Adicionado Habilidade de Modificador de Mira Crítico para 12
+[NOTAS]<INDENT:40> Chance de crítico da M14 alterada de 0 para 30.
+[NOTAS]<INDENT:60> Adicionado Multiplicador de Dano Crítico para 10
+[NOTAS]<INDENT:60>  Habilidade de Modificador de Mira Crítico para 15
 Desabilitada a desaceleração acumulativa até o próximo tiro ao disparar a M16 no modo automático. Disparar a M16 no modo automático reduzirá acumulativamente a chance de um crítico a cada tiro adicional. Isso tem a intenção de representar a perda de precisão devido ao recuo.
 Definidas algumas características como mutuamente exclusivas para remover explorações ou combinações ilógicas.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Fazer Ligação Direta em um veículo terá uma chance baixa de causar um alarme de carro. A chance disso diminui ainda mais para níveis mais altos de habilidade em eletrônica.
 Zumbis que avançam contra um veículo parado que antes não havia sido atingido têm a chance de disparar um alarme.
 Removida a verificação indesejada de RNG que fazia com que os alarmes dos veículos disparassem apenas 20% das vezes.
 Corrigido o problema em que os capôs ​​dos carros não conseguiam disparar alarmes de veículos.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Desativado a capacidade de fazer ataques corpo a corpo dentro de um veículo com a janela aberta.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Randomizado o dano de queda que os zumbis recebem. Essa distribuição randomizada será a média do dano anterior antes de ser randomizada; isso terá um impacto menor (hohoho) no dano que os zumbis que caem sofrem, mas um pouco mais deles poderão ser mortos por isso do que antes.
 Tornou menos comuns os ferimentos na virilha causados ​​por zumbis que não rastejam, e que os rastejantes também podem causar ferimentos incomuns na virilha.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Aumentado o rendimento de peças metálicas ao desmanchar veículos destruídos em 33%.
 Adicionado um novo contêiner de procedimento, "Caixa de Propano", às garagens e galpões.
 Aumentamos as taxas de geração de Botijões de Propano nas distribuições.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 A capacidade dos trailers agora é ligeiramente reduzida quando danificados, pois antes não havia sentido em repará-los.
 Alterada a capacidade da Bolsa de Bolas de Boliche de 2 para 8.
 Aumentado o número de usos de Gesso para 10, o mesmo que a Tinta.
 Permitido que sacos plásticos e dinheiro sejam usados ​​como isca
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Ajustada a capacidade dos estojos de pistola e revólver de 7 para 4.
 A Resistência do item bastão resistente foi ajustada para 1 para ser mais consistente com outros itens.
 Ajustou a resistência de extintores de incêndio para 2, para ser consistente com outros itens.
 Redução do peso dos Radiotransmissores.
 A Resistência do item Galho de Árvore foi ajustada para corresponder à de uma lança artesanal, de 1 para 1,7;
-[NODOT]<INDENT:40> A discrepância de resistência foi observada repetidamente, e isso também serve para tornar a resistência do item mais consistente.
+[NOTAS]<INDENT:40> A discrepância de resistência foi observada repetidamente, e isso também serve para tornar a resistência do item mais consistente.
 Ajustada a quantidade de combustível que é gerada nas bombas de combustível em nível Baixo e Muito Baixo.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Atualizado o valor nutricional para Leite Evaporado em Lata. Calorias 472; Carboidratos, Lipídios e Proteínas em 23,6
 Alterado os dias até apodrecer para Bagels de 2 para 6.
 Demos aos itens de script Fritos e Assados um valor de fome padrão de 10. Isso foi relatado anteriormente como um bug quando os jogadores geravam o item em vez de fazê-lo por meio da receita evoluída.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Larvas são um pouco mais venenosas.
 Menos larvas surgem, especialmente na primavera e no outono (larvas não surgem durante o inverno).
 Larvas agora são um item padrão nas listas de remoção de itens do mundo. Adicionado um comentário para as listas de remoção de itens do mundo explicando que Base.Maggots deve permanecer na lista devido a larvas de cadáver.
@@ -6771,9 +6771,9 @@ Proteção adicional para evitar erros ao usar mods que removem larvas completam
 Adicionada uma barra de pesquisa ao painel de trapaças do LootZed.
 Adicionadas distribuições de veículos ao LootZed.
 Melhoria no check-in de inventário no painel Verificar Estatísticas.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Clicar com o botão direito do mouse em uma bomba de combustível no modo de depuração exibirá a quantidade de combustível na bomba no menu de contexto do botão direito.
-[NODOT]<BR> 
+[NOTAS]<BR> 
 Adicionado a função Iniciar Verificação válida para Ação Cronometrada Básica. Permite verificar se uma ação é válida antes que ela seja iniciada.
 Adicionado salvamento de ModData de IsoGameCharacter para IsoDeadBody e de IsoDeadBody para IsoZombie.
 Adicionado o evento "Jogador Recebe Dano".
@@ -6785,29 +6785,29 @@ Adicionada uma opção de alternar no menu de contexto de depuração do veícul
 Alterado a trapaça Mover Rápido no debug. Os jogadores agora podem levitar em diferentes níveis de altura por meio das teclas PageUP/PageDown e se movimentar por meio das teclas de seta nos diferentes níveis de altura.
 Tornou ImageScale, SeatOffsetY e SeatOffsetX globais e não locais em ISVehicleSeatUI.
 As mensagens de console "Tradução ausente", "ignorando tipo de item ItemPicker inválido" e "VEÍCULO COM DISTRIBUIÇÃO DE CONTROLE FALTA" agora aparecerão somente ao usar o modo de depuração.
-[NODOT]<LINE> 
+[NOTAS]<LINE> 
 Problemas corrigidos com o seletor de blocos:
-[NODOT]<INDENT:40> Corrigida a impossibilidade de trancar portas colocadas por meio do seletor de peças.
-[NODOT]<INDENT:40> Corrigidos os problemas com o Tree Tile.
-[NODOT]<INDENT:40> Corrigidas os lugares com eletrônicos (TV, rádio, geradores, etc).
-[NODOT]<INDENT:40> Corrigidos os portões de garagem.
-[NODOT]<INDENT:40> Corrigidos os lugares iluminação pública.
-[NODOT]<INDENT:40> Corrigidos os problemas na barra de pesquisa.
-[NODOT]<INDENT:40> Corrigidos os Interruptores de Luz.
-[NODOT]<INDENT:40> Corrigido o problema de não mostrar todos os blocos.
-[NODOT]<INDENT:40> Corrigidos os objetos da Lareira.
-[NODOT]<INDENT:40> Corrigidos os Poços e Luzes.
-[NODOT]<LINE> 
+[NOTAS]<INDENT:40> Corrigida a impossibilidade de trancar portas colocadas por meio do seletor de peças.
+[NOTAS]<INDENT:40> Corrigidos os problemas com o Tree Tile.
+[NOTAS]<INDENT:40> Corrigidas os lugares com eletrônicos (TV, rádio, geradores, etc).
+[NOTAS]<INDENT:40> Corrigidos os portões de garagem.
+[NOTAS]<INDENT:40> Corrigidos os lugares iluminação pública.
+[NOTAS]<INDENT:40> Corrigidos os problemas na barra de pesquisa.
+[NOTAS]<INDENT:40> Corrigidos os Interruptores de Luz.
+[NOTAS]<INDENT:40> Corrigido o problema de não mostrar todos os blocos.
+[NOTAS]<INDENT:40> Corrigidos os objetos da Lareira.
+[NOTAS]<INDENT:40> Corrigidos os Poços e Luzes.
+[NOTAS]<LINE> 
 Corrigidos personagens no modo deus que ainda mudavam o peso corporal.
 Corrigidas instâncias do Menu de Trapaças que não funcionavam após a morte de um jogador.
 Corrigido o problema de remoção de corpos pelo Gerenciador da Horda que não funcionava no modo um jogador.
 Corrigido o problema de ficar preso em um veículo após tentar desinstalar/instalar uma peça do carro por meio das Trapaças de Mecânica, quando um personagem estava dentro do veículo.
 Corrigido bug no painel de saúde: curar completamente uma parte do corpo agora também remove sua fadiga muscular.
 Pacotes de textura de mod corrigidos sendo carregados antes de Core.TileScale ser definido com base na opção double-sized-textures. Isso resultaria em pacotes de textura 2x sendo carregados em vez de pacotes de textura 1x.
-[NODOT]<LINE> 
+[NOTAS]<LINE> 
 
-[SECTION] CORREÇÕES
-Corrigimos a possibilidade de adicionar xarope de bordo somente em "Receita de Panquecas" e não em "Panquecas Caseiras" ou "Panquecas".
+[SEÇÃO] CORREÇÕES
+Corrigida a possibilidade de adicionar xarope de bordo somente em "Receita de Panquecas" e não em "Panquecas Caseiras" ou "Panquecas".
 Corrigido o problema que não permitia mais fazer 2 ou 4 tigelas de Arroz ou Macarrão com uma Panela.
 Corrigido o problema do batom não ser aplicável quando o jogador tinha Base de Maquiagem no inventário
 Corrigido o problema de Maquiagem não poder ser aplicada dentro do carro.
@@ -6825,7 +6825,7 @@ Corrigida a possibilidade de fazer Massa de Bolo usando ingredientes podres abai
 Corrigida a opção sandbox não utilizada de Decomposição de Zumbis que ainda estava listada.
 Corrigida a NullPointerException na variável de animação bThump quando o objeto não está carregado.
 Corrigida a impossibilidade de clicar em portas abertas em uma sala adjacente.
-Corrigimos a casa inicial no desafio "Um Dia De Cão", que às vezes não pegava fogo.
+Corrigida a casa inicial no desafio "Um Dia De Cão", que às vezes não pegava fogo.
 Corrigido possível erro Lua em MOBarricade.lua quando um sprite de barricada está na borda leste ou sul de um pedaço.
 Corrigidos pequenos problemas na interface do usuário e nas cores do texto do ISZoneDisplay.
 Corrigido o problema dos ícones de busca que rolavam novamente quando um foco de busca era selecionado.
@@ -6840,10 +6840,10 @@ Corrigida a ferramenta Refill que não atualizava o contêiner visualmente.
 Corrigida a receita com nome incorreto para fazer Armadilhas de Caixa de Madeira.
 Corrigido vários problemas de ladrilhos e cortes.
 Corrigido o problema em que os isqueiros drenavam completamente quando usados ​​com um Molotov.
-[NODOT]<INDENT:40> Quando um isqueiro é equipado, ele não acende mais automaticamente; em vez disso, ele só acende se ativado usando a tecla de atalho da lanterna ou o menu radial, ou usando a opção do menu de contexto do inventário para ativá-los.
+[NOTAS]<INDENT:40> Quando um isqueiro é equipado, ele não acende mais automaticamente; em vez disso, ele só acende se ativado usando a tecla de atalho da lanterna ou o menu radial, ou usando a opção do menu de contexto do inventário para ativá-los.
 Corrigido erro de receita evoluída em scripts para Limões e Lima.
 Corrigido o problema em que os facões não perdiam a condição quando usados ​​para criar lanças a partir de galhos/tábuas.
-Corrigimos o problema da Garrafa de Cerveja Vazia usando os ícones errados.
+Corrigido o problema da Garrafa de Cerveja Vazia usando os ícones errados.
 Corrigido o espaço antes das vírgulas nos nomes dos itens de receitas evoluídas.
 Corrigida a receita ausente para Abrir Bebida de Fruta Enlatada.
 Corrigido "Leite Condensado em Lata" para "Leite Evaporado em Lata" porque as pessoas são realmente apaixonadas pelo leite em lata.
@@ -6897,7 +6897,7 @@ Corrigida a possibilidade de manter as teclas pressionadas enquanto AFK fica par
 Corrigido erro com nome de script de vidro quebrado em arquivos de distribuição.
 Corrigidos os locais de sangue ausentes no traje de proteção.
 Corrigida a possibilidade de colocar bacon cru em tacos e burritos.
-Corrigimos o problema da Tinta de Cabelo Rosa não estar nas listas de distribuição.
+Corrigido o problema da Tinta de Cabelo Rosa não estar nas listas de distribuição.
 Corrigido o problema que impedia colocar Feijão Preto em uma salada.
 Corrigidos os níveis de XP de Força que causavam lentidão na escalada da Corda Improvisada em certos níveis, especialmente no nível 10.
 Corrigida interação com bugs ao construir objetos de metal e o Maçarico.
