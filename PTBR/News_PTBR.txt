@@ -6700,7 +6700,7 @@ Adicionados modelos ausentes para Milho Doce, Fatias de Frutas Cristalizadas, Mo
 [NOTAS]<BR> 
 Adicionadas verificações para um Script de Veículo nulo para IsoPlayer.getNearVehicle() e IsoZombie.getNearVehicle().
 
-[SECTION]MULTIJOGADOR
+[SEÇÃO]MULTIJOGADOR
 Adicionada a opção de servidor "Derrubada Permitida" para habilitar/desabilitar o PVP de nocaute.
 [NOTAS]<INDENT:40> Esta é uma mudança provisória para dar aos servidores uma opção para tornar o combate PVP menos frustrante antes que possamos abordar o combate PVP mais diretamente no futuro.
 [NOTAS]<BR> 
